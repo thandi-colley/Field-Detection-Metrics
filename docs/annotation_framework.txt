@@ -1,0 +1,68 @@
+SECURITY EVENT
+  (radar detection)
+
+  /PRIMARY CLASS
+  - INTRUSION EVENT
+    (cv detection)
+
+    /MAJOR CLASS
+    - TRUE POSITIVE (CV)
+      (bounding box contains a person)
+
+      /INTERMEDIARY CLASS
+      - IN-BED DETECTION
+        (person is intruding into truck bed)
+
+        /MINOR CLASS
+        - [BODY_PART] INTRUSION FROM [POSITION]
+
+      - OUT-OF-BED DETECTION
+        (person not intruding into truck bed)
+
+        - INTERACTING WITH VEHICLE
+        - WITHIN REACH DISTANCE
+        - OUTSIDE REACH DISTANCE
+
+    - FALSE POSITIVE (CV)
+      (bounding box does not contain a person)
+
+      - GHOST
+        (person is not intruding into truck bed)
+
+        - NON-HUMAN OBJECT
+        - EXTRAPOLATED PERSON
+        - WINDSCREEN SMUDGE
+        - LOW LIGHT
+
+      - HAPPY ACCIDENT
+        (person is intruding into truck bed)
+
+        - VISIBLE
+        - NON-VISIBLE
+
+  - LEARNING EVENT
+    (NO CV DETECTION)
+
+    - TRUE NEGATIVE
+      (no person visibly intruding into zone)
+
+      - EMPTY
+        (no person in image)
+      
+      - OUT-OF-BED PRESENCE
+        (person in image, but not in truck bed)
+
+        - INTERACTING WITH VEHICLE
+        - WITHIN REACH DISTANCE
+        - OUTSIDE REACH DISTANCE
+
+      - NON-VISIBLE INTRUSION
+        (person obstructed)
+
+        - BY TONNEAU COVER
+        - BY BED CONTENTS
+
+    - FALSE NEGATIVE
+      (person visible but not detected)
+
+      - MISSED DETECTION
