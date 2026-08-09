@@ -90,6 +90,15 @@ def main():
     parser.add_argument("--sample-size", type=int, default=1000, help="Target sample size (default: 1000)")
     parser.add_argument("--dataset", default="prod_intrusion_event_datalake_anonymized",
                         help="FiftyOne dataset name")
+    parser.add_argument("--event-type", choices=["INTRUSION", "LEARNING"], default="INTRUSION",
+                        help="Event type to sample (default: INTRUSION)")
+    parser.add_argument(
+        "--exclude-devices",
+        nargs="+",
+        default=[],
+        metavar="DEVICE_ID",
+        help="One or more canopy_device_id values to exclude from sampling.",
+    )
     args = parser.parse_args()
 
     last_day_of_month = calendar.monthrange(args.year, args.month)[1]
@@ -110,15 +119,23 @@ def main():
     include_devices = get_devices_from_redshift()
     print(f"Found {len(include_devices)} eligible devices")
 
+    exclude_devices = set(args.exclude_devices)
+    if exclude_devices:
+        include_devices -= exclude_devices
+        print(f"Excluded {len(exclude_devices)} device(s): {sorted(exclude_devices)}")
+        print(f"{len(include_devices)} devices remaining after exclusions")
+
     # --- Events from FiftyOne ---
     print(f"Loading dataset '{args.dataset}'...")
     dataset = fo.load_dataset(args.dataset)
+
+    event_type = args.event_type
 
     IEs = dataset.match(
         (F("capture_time") >= start_time) &
         (F("capture_time") < end_time) &
         (F("canopy_device_id").is_in(include_devices)) &
-        (F("event_type") == "INTRUSION")
+        (F("event_type") == event_type)
     )
 
     IE_devices = IEs.values("canopy_device_id")
@@ -128,11 +145,11 @@ def main():
 
     total_events_population = len(IE_events)
     num_devices_population = len(set(IE_devices))
-    print(f"Found {total_events_population} intrusion events from {num_devices_population} devices "
+    print(f"Found {total_events_population} {event_type.lower()} events from {num_devices_population} devices "
           f"({start_time.date()} – {dt.date(args.year, args.month, last_day)})")
 
     if total_events_population == 0:
-        print("No events found for this period. Exiting.")
+        print(f"No {event_type.lower()} events found for this period. Exiting.")
         return
 
     target_total = args.sample_size
@@ -188,21 +205,23 @@ def main():
     final_sample = pd.concat([forced_df, proportional_df]).drop_duplicates(subset="event_id").reset_index(drop=True)
 
     print(final_sample[["event_id", "device_id", "timestamp", "time_of_day"]].head())
-    print(f"Sampled {len(final_sample)} INTRUSION events from {final_sample['device_id'].nunique()} devices.")
+    print(f"Sampled {len(final_sample)} {event_type} events from {final_sample['device_id'].nunique()} devices.")
 
     # --- Save sample JSON with metadata ---
     OUTPUT_SAMPLES_DIR.mkdir(parents=True, exist_ok=True)
-    output_file = OUTPUT_SAMPLES_DIR / f"{month_label}_intrusion_sample.json"
+    output_file = OUTPUT_SAMPLES_DIR / f"{month_label}_{event_type.lower()}_sample.json"
     output_data = {
         "event_id": {"$in": sorted(final_sample["event_id"].tolist())},
         "metadata": {
             "month": month_label,
+            "event_type": event_type,
             "start_date": str(start_time.date()),
             "end_date": str(dt.date(args.year, args.month, last_day)),
             "total_events_population": total_events_population,
             "num_devices_population": num_devices_population,
             "sample_size": len(final_sample),
             "dataset": args.dataset,
+            "excluded_devices": sorted(exclude_devices) if exclude_devices else [],
         },
     }
     with open(output_file, "w") as f:
@@ -211,7 +230,7 @@ def main():
 
     # --- Visualization: Before vs After Sampling ---
     fig, axes = plt.subplots(2, 3, figsize=(15, 10))
-    fig.suptitle(f"Distribution Before vs After Sampling ({month_label})", fontsize=14, fontweight='bold')
+    fig.suptitle(f"Distribution Before vs After Sampling ({month_label} – {event_type})", fontsize=14, fontweight='bold')
 
     time_order = ["Night", "Morning", "Afternoon", "Evening"]
 

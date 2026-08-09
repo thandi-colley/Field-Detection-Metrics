@@ -66,3 +66,7 @@ SECURITY EVENT
       (person visible but not detected)
 
       - MISSED DETECTION
+
+        - SMALL OVERLAP
+        – LOW LIGHT
+        – OTHER

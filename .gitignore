@@ -6,6 +6,8 @@ __pycache__/
 *.py[cod]
 MCP.code-workspace
 archive/
+.cursor/
+test_image_url.html
 
 # Generated sampling outputs
 *_weighted_sample.json

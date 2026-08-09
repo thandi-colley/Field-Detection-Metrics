@@ -27,6 +27,7 @@
     .major-false-negative, .intermediary-missed-detection { background: #fbe9e7; color: #bf360c; }
     .major-discard, .intermediary-discard { background: #e2e3e5; color: #383d41; }
     .major-unknown, .intermediary-unknown { background: #eeeeee; color: #333; }
+    .intermediary-in-bed-detection { background: #bddec4; color: #0e8029; }
     .intermediary-out-of-bed-detection { background: #ede7f6; color: #4527a0; }
     .intermediary-happy-accident { background: #fff3cd; color: #856404; }
     .intermediary-ghost { background: #fff1c7; color: #f57f17; }
@@ -38,6 +39,7 @@
         position: relative;
         margin-top: 6px;
         user-select: none;
+        width: 50%;
     }
 
     .dropdown-btn {
@@ -72,7 +74,8 @@
         box-shadow: 0 8px 16px rgba(0,0,0,0.15);
         border-radius: 0 0 4px 4px;
         z-index: 100;
-        margin-top: 2px;
+        margin-top: 0;
+        padding-top: 2px;
         width: 100%;
     }
 
@@ -86,7 +89,53 @@
         background-color: #f0f0f0;
     }
 
-    .dropdown.show .dropdown-content {
+    .dropdown-content .dropdown-item {
+        padding: 6px 10px;
+        cursor: pointer;
+    }
+
+    .dropdown-content .dropdown-item:hover {
+        background-color: #f0f0f0;
+    }
+
+    .env-btn-group {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin-top: 4px;
+    }
+
+    .env-btn {
+        padding: 5px 10px;
+        font-size: 13px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background: #f5f5f5;
+        cursor: pointer;
+        white-space: nowrap;
+    }
+
+    .env-btn:hover {
+        border-color: #888;
+        background: #e8e8e8;
+    }
+
+    .env-btn.selected {
+        background: #0078d4;
+        color: white;
+        border-color: #0078d4;
+    }
+
+    .env-row-label {
+        font-size: 11px;
+        font-weight: normal;
+        color: #666;
+        margin-top: 6px;
+        margin-bottom: 2px;
+        display: block;
+    }
+
+    .dropdown:hover .dropdown-content {
         display: block;
     }
     </style>
@@ -96,7 +145,7 @@
 
 <h2>Event Classification</h2>
 
-<textarea id="eventIdsInput" rows="6" style="width:100%;" placeholder='{"event_id": {"$in": ["uuid1", "uuid2", ...]}}'></textarea>
+<textarea id="eventIdsInput" rows="3" style="width:100%;" placeholder='{"event_id": {"$in": ["uuid1", "uuid2", ...]}}'></textarea>
 <br />
 <button id="loadEventsBtn" style="margin-top:10px;">Load Events</button>
 
@@ -109,10 +158,10 @@
   </select>
 </div>
 
-<div id="inferenceDisplay" class="hidden" style="margin-top: 10px; font-weight: bold;">
-  <div><span id="eventIdDisplay"></span></div>
-  <div>Major Class: <span id="majorClass">–</span></div>
-  <div>Intermediary Class: <span id="intermediaryClass">–</span></div>
+<div id="inferenceDisplay" class="hidden" style="margin-top: 10px; font-weight: bold; display: flex; align-items: center; gap: 16px; flex-wrap: wrap;">
+  <span id="eventIdDisplay"></span>
+  <span>Major: <span id="majorClass">–</span></span>
+  <span>Intermediary: <span id="intermediaryClass">–</span></span>
 </div>
 
 <div id="formContainer" style="margin-top: 20px;"></div>
@@ -188,21 +237,39 @@ const conditionalDropdowns = {
     'fp_cause': [ 'non-human object', 'windscreen: raindrops', 'windscreen: soap', 
     'low light', 'shadow/reflection', 'extrapolated person', 'pet / animal'
   ]
-}
+},
+  'major==false negative': {
+    'fn_cause': ['small overlap', 'low light', 'TDL threshold not met', 'other']
+  }
 };
 
 const requiredDropdowns = {
   environment: [
     'outside, car park', 'outside, residential', 'outside, industrial', 'outside, street parking', 'outside, rural',
-    'inside, car park', 'inside, industrial', 'inside, residential'
+    'inside, car park', 'inside, residential', 'inside, industrial',
+    'unknown, low light'
   ]
 };
 
 const optionalDropdowns = {
+  // Ordered by frequency of selection across the last 3 LEARNING CSVs
+  // (2026_06_07, 2026_05_05, 2025_06_30) as of 2026-07-01. Unused options
+  // are appended alphabetically at the end.
   non_person_movement: [
-    'tree in wind', 'tarp in wind', 'flag in wind', 'soft tonneau cover in wind', 'signpost in wind',
-    'car driveby', 'motorcycle / bicycle driveby', 'garage door opening / closing', 'raining',
-    'thunderstorm', 'pet / animal', 'streaming water (car wash)', 'streaming water (drainpipe)', 'moving bed contents'
+    'tree in wind',
+    'car driveby',
+    'raining',
+    'thunderstorm',
+    'flag in wind',
+    'soft tonneau cover in wind',
+    'garage door opening / closing',
+    'tarp in wind',
+    'moving bed contents',
+    'pet / animal',
+    'streaming water (car wash)',
+    'signpost in wind',
+    'motorcycle / bicycle driveby',
+    'streaming water (drainpipe)'
   ]
 };
 
@@ -212,7 +279,7 @@ const discardCriteria = [
 ];
 
 // Utility: Create a multi-checkbox dropdown like your example inside the form
-function makeMultiCheckboxDropdown(id, label, options, selectedValues = []) {
+function makeMultiCheckboxDropdown(id, label, options, selectedValues = [], isAddable = false) {
   const container = document.createElement('div');
   container.style.marginTop = '12px';
 
@@ -228,17 +295,6 @@ function makeMultiCheckboxDropdown(id, label, options, selectedValues = []) {
   btn.tabIndex = 0;
   updateButtonText();
 
-  btn.addEventListener('click', (e) => {
-    e.stopPropagation();
-    dropdown.classList.toggle('show');
-  });
-
-  // Close dropdown if click outside
-  document.addEventListener('click', () => {
-    dropdown.classList.remove('show');
-  });
-
-  // Prevent clicks inside dropdown-content from closing it
   const dropdownContent = document.createElement('div');
   dropdownContent.className = 'dropdown-content';
 
@@ -265,6 +321,70 @@ function makeMultiCheckboxDropdown(id, label, options, selectedValues = []) {
   dropdown.appendChild(btn);
   dropdown.appendChild(dropdownContent);
   container.appendChild(dropdown);
+
+  if (isAddable) {
+    const addBtn = document.createElement('button');
+    addBtn.className = 'small-plus';
+    addBtn.textContent = '+';
+    addBtn.type = 'button';
+    addBtn.onclick = () => {
+      if (inlineInput.style.display === 'inline') {
+        inlineInput.style.display = 'none';
+        return;
+      }
+      inlineInput.value = '';
+      inlineInput.style.display = 'inline';
+      inlineInput.focus();
+    };
+
+    const inlineInput = document.createElement('input');
+    inlineInput.type = 'text';
+    inlineInput.placeholder = 'New option…';
+    inlineInput.style.display = 'none';
+    inlineInput.style.fontSize = '13px';
+    inlineInput.style.padding = '3px 6px';
+    inlineInput.style.marginLeft = '4px';
+    inlineInput.style.width = '160px';
+
+    function commitNewOption() {
+      const custom = inlineInput.value.trim();
+      inlineInput.style.display = 'none';
+      if (custom && !options.includes(custom)) {
+        options.push(custom);
+        const labelEl = document.createElement('label');
+        const checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.value = custom;
+        checkbox.checked = true;
+        checkbox.addEventListener('change', () => {
+          const checkedVals = Array.from(dropdownContent.querySelectorAll('input[type=checkbox]:checked'))
+            .map(cb => cb.value);
+          eventData[eventIds[currentIndex]][id] = checkedVals;
+          updateButtonText();
+          saveToLocalStorage();
+        });
+        labelEl.appendChild(checkbox);
+        labelEl.appendChild(document.createTextNode(' ' + custom));
+        dropdownContent.appendChild(labelEl);
+        const vals = eventData[eventIds[currentIndex]][id] || [];
+        vals.push(custom);
+        eventData[eventIds[currentIndex]][id] = vals;
+        updateButtonText();
+        saveToLocalStorage();
+      }
+    }
+
+    inlineInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') { e.preventDefault(); commitNewOption(); }
+      if (e.key === 'Escape') { inlineInput.style.display = 'none'; }
+    });
+    const row = document.createElement('div');
+    row.className = 'inline';
+    row.appendChild(dropdown);
+    row.appendChild(addBtn);
+    row.appendChild(inlineInput);
+    container.appendChild(row);
+  }
 
   function updateButtonText() {
     const vals = eventData[eventIds[currentIndex]][id] || [];
@@ -293,11 +413,13 @@ function inferClasses(eventType, pii, pvz, pi, pib) {
     if (pvz && pi && pib) return { major: 'true positive', intermediary: 'in-bed detection' };
     if (pvz && !pi && pib) return { major: 'true positive', intermediary: 'out-of-bed detection' };
     if (pvz && pi && !pib) return { major: 'false positive', intermediary: 'happy accident' };
+    if (pvz && !pi && !pib) return { major: 'false positive', intermediary: 'ghost' };
     if (!pvz && pi && !pib) return { major: 'false positive', intermediary: 'happy accident' };
     if (!pvz && !pi && !pib) return { major: 'false positive', intermediary: 'ghost' };
   } else if (eventType === 'LEARNING') {
     if (!pii) return { major: 'true negative', intermediary: 'empty' };
     if (pvz && pi) return { major: 'false negative', intermediary: 'missed detection' };
+    if (pvz && !pi) return { major: 'false negative', intermediary: 'out-of-bed presence' };
     if (!pvz && pi) return { major: 'true negative', intermediary: 'non-visible intrusion' };
     if (!pvz && !pi) return { major: 'true negative', intermediary: 'out-of-bed presence' };
   }
@@ -362,6 +484,16 @@ function validateRequiredFields() {
     requiredFields.push('fp_cause');
   }
 
+  // FN Cause is required whenever a LEARNING event is inferred as false negative
+  // (either "missed detection" when person_intruding=true, or "out-of-bed presence"
+  // when person_intruding=false but the person is visible in the zone).
+  if (
+    eventType === 'LEARNING' &&
+    d.person_in_image && d.person_visible_in_zone
+  ) {
+    requiredFields.push('fn_cause');
+  }
+
   // Check if any required field is empty or undefined
   return requiredFields.every(f => d[f] !== undefined && d[f] !== '');
 }
@@ -385,12 +517,14 @@ function exportCsv() {
     'discard_criteria',
     'environment',
     'non_person_movement',
+    'out_of_snapshot_activity',
     'body_position',
     'interaction_type',
     'body_part_in_bed',
     'intruding_from',
     'person_obstructed_by',
     'fp_cause',
+    'fn_cause',
     'major_class',
     'intermediary_class'
   ];
@@ -399,13 +533,10 @@ function exportCsv() {
 
   for (const id of eventIds) {
     const d = eventData[id] || {};
-    const inferred = inferClasses(
-      type,
-      d.person_in_image,
-      d.person_visible_in_zone,
-      d.person_intruding,
-      d.person_in_bbox
-    );
+    const hasDiscard = d.discard_criteria && d.discard_criteria !== '';
+    const inferred = hasDiscard
+      ? { major: 'discard', intermediary: 'discard' }
+      : inferClasses(type, d.person_in_image, d.person_visible_in_zone, d.person_intruding, d.person_in_bbox);
 
     const row = [
       id,
@@ -417,12 +548,14 @@ function exportCsv() {
       d.discard_criteria ?? '',
       d.environment ?? '',
       Array.isArray(d.non_person_movement) ? d.non_person_movement.join('; ') : (d.non_person_movement || ''),
+      d.out_of_snapshot_activity ?? '',
       d.body_position ?? '',
       d.interaction_type ?? '',
       d.body_part_in_bed ?? '',
       d.intruding_from ?? '',
       d.person_obstructed_by ?? '',
       d.fp_cause ?? '',
+      d.fn_cause ?? '',
       inferred.major,
       inferred.intermediary
     ];
@@ -440,7 +573,72 @@ function exportCsv() {
   URL.revokeObjectURL(url);
 }
 
-function makeDropdown(id, label, options, required = false, disabled = false, isAddable = true, multiple = false) {
+function makeEnvironmentButtons() {
+  // Shared subtypes come first (in the same order across rows); outside-only
+  // subtypes and the "unknown, low light" option follow in the outside row.
+  const outside = [
+    'outside, car park', 'outside, residential', 'outside, industrial',
+    'outside, street parking', 'outside, rural',
+    'unknown, low light'
+  ];
+  const inside = [
+    'inside, car park', 'inside, residential', 'inside, industrial'
+  ];
+
+  const current = eventData[eventIds[currentIndex]]?.environment || '';
+
+  const container = document.createElement('div');
+  container.style.marginTop = '12px';
+
+  const lbl = document.createElement('label');
+  lbl.textContent = 'Environment *';
+  container.appendChild(lbl);
+
+  function makeRow(options) {
+    const row = document.createElement('div');
+    row.className = 'env-btn-group';
+    options.forEach(opt => {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'env-btn' + (opt === current ? ' selected' : '');
+      btn.textContent = opt.replace(/^(outside|inside|unknown), /, '');
+      btn.title = opt;
+      btn.onclick = () => {
+        eventData[eventIds[currentIndex]].environment = opt;
+        saveToLocalStorage();
+        renderForm();
+      };
+      row.appendChild(btn);
+    });
+    return row;
+  }
+
+  const outsideLabel = document.createElement('span');
+  outsideLabel.className = 'env-row-label';
+  outsideLabel.textContent = 'Outside';
+  container.appendChild(outsideLabel);
+  container.appendChild(makeRow(outside));
+
+  const insideLabel = document.createElement('span');
+  insideLabel.className = 'env-row-label';
+  insideLabel.textContent = 'Inside';
+  container.appendChild(insideLabel);
+  container.appendChild(makeRow(inside));
+
+  return container;
+}
+
+function clearNonDiscardFields() {
+  const d = eventData[eventIds[currentIndex]];
+  for (const key in d) {
+    if (key === 'discard_criteria') continue;
+    if (Array.isArray(d[key])) d[key] = [];
+    else if (typeof d[key] === 'boolean') d[key] = false;
+    else d[key] = '';
+  }
+}
+
+function makeDropdown(id, label, options, required = false, disabled = false, isAddable = false, multiple = false) {
   const div = document.createElement('div');
   const lbl = document.createElement('label');
   lbl.textContent = `${label}${required ? ' *' : ''}`;
@@ -462,52 +660,59 @@ function makeDropdown(id, label, options, required = false, disabled = false, is
       id,
       label,
       optionList,
-      Array.isArray(currentVal) ? currentVal : []
+      Array.isArray(currentVal) ? currentVal : [],
+      isAddable
     );
   }
 
   const wrapper = document.createElement('div');
   wrapper.className = 'inline';
 
-  const select = document.createElement('select');
-  select.id = id;
-  select.disabled = disabled;
-  select.innerHTML = `<option value="">-- Select --</option>` + optionList.map(o => `<option>${o}</option>`).join('');
-  select.value = currentVal || '';
-  select.onchange = e => {
-    eventData[eventIds[currentIndex]][id] = e.target.value;
-    saveToLocalStorage();
-    renderForm();
-  };
+  const dropdown = document.createElement('div');
+  dropdown.className = 'dropdown' + (disabled ? ' disabled' : '');
 
-  const row = document.createElement('div');
-    row.className = 'inline';
+  const btn = document.createElement('div');
+  btn.className = 'dropdown-btn';
+  btn.textContent = currentVal || '-- Select --';
 
-    row.appendChild(select);
+  const dropdownContent = document.createElement('div');
+  dropdownContent.className = 'dropdown-content';
 
-    if (isAddable) {
+  [['', '-- Select --'], ...optionList.map(o => [o, o])].forEach(([val, text]) => {
+    const item = document.createElement('div');
+    item.className = 'dropdown-item' + (val === currentVal ? ' selected' : '');
+    item.textContent = text;
+    item.addEventListener('click', () => {
+      if (disabled) return;
+      eventData[eventIds[currentIndex]][id] = val;
+      if (id === 'discard_criteria' && val) {
+        clearNonDiscardFields();
+      }
+      saveToLocalStorage();
+      renderForm();
+    });
+    dropdownContent.appendChild(item);
+  });
+
+  dropdown.appendChild(btn);
+  dropdown.appendChild(dropdownContent);
+  wrapper.appendChild(dropdown);
+
+  if (isAddable && !disabled) {
     const addBtn = document.createElement('button');
     addBtn.className = 'small-plus';
     addBtn.textContent = '+';
     addBtn.type = 'button';
     addBtn.onclick = () => {
-        const custom = prompt(`Add new option for ${label}:`);
-        if (custom) {
-        optionList.push(custom);
-        const opt = document.createElement('option');
-        opt.textContent = custom;
-        opt.value = custom;
-        select.appendChild(opt);
-        select.value = custom;
+      const custom = prompt(`Add new option for ${label}:`);
+      if (custom) {
         eventData[eventIds[currentIndex]][id] = custom;
         saveToLocalStorage();
         renderForm();
-        }
+      }
     };
-    row.appendChild(addBtn);
-    }
-
-    wrapper.appendChild(row);
+    wrapper.appendChild(addBtn);
+  }
 
   div.appendChild(wrapper);
   return div;
@@ -540,7 +745,7 @@ function renderForm() {
   const d = eventData[id];
   const type = document.getElementById('globalEventTypeSelect').value;
 
-  if (d.person_in_image === undefined) {
+  if (type && d.person_in_image === undefined) {
     const defaultBool = (type === 'INTRUSION');
     d.person_in_image = defaultBool;
     d.person_visible_in_zone = defaultBool;
@@ -552,15 +757,13 @@ function renderForm() {
   const container = document.getElementById('formContainer');
   container.innerHTML = '';
 
-  addDiscardListener();
-
   const pi = d.person_in_image;
   const pvz = d.person_visible_in_zone;
   const piBool = d.person_intruding;
   const pib = d.person_in_bbox;
 
-  // Environment required dropdown
-  container.appendChild(makeDropdown('environment', 'Environment', requiredDropdowns.environment, true));
+  // Environment — always-visible button rows
+  container.appendChild(makeEnvironmentButtons());
 
   // Person in Image Checkbox
   container.appendChild(makeCheckbox('person_in_image', 'Person in image'));
@@ -593,7 +796,16 @@ function renderForm() {
     container.appendChild(makeDropdown('fp_cause', 'FP Cause', conditionalDropdowns['person_in_bbox==false']['fp_cause'], true));
   }
 
-  // Non-Person Movement multi-checkbox dropdown inside the form now:
+  if (type === 'LEARNING' && pi && pvz) {
+    container.appendChild(makeDropdown('fn_cause', 'FN Cause', conditionalDropdowns['major==false negative']['fn_cause'], true));
+  }
+
+  // Out-of-Snapshot Activity — LEARNING events only
+  if (type === 'LEARNING') {
+    container.appendChild(makeDropdown('out_of_snapshot_activity', 'Out-of-Snapshot Activity', ['walk-by', 'person in cabin', 'undetected interaction']));
+  }
+
+  // Non-Person Movement multi-checkbox dropdown
   container.appendChild(makeDropdown('non_person_movement', 'Non-Person Movement', optionalDropdowns.non_person_movement, false, false, true, true));
 
   // Discard criteria dropdown
@@ -604,18 +816,6 @@ function renderForm() {
   const nextBtn = document.getElementById('nextEventBtn');
   nextBtn.disabled = !validateRequiredFields();
 
-}
-
-function addDiscardListener() {
-  const discard = document.getElementById('discard_criteria');
-  if (discard) {
-    discard.onchange = e => {
-      eventData[eventIds[currentIndex]].discard_criteria = e.target.value;
-      saveToLocalStorage();
-      updateInferredDisplay();
-      renderForm();
-    };
-  }
 }
 
 document.getElementById('loadEventsBtn').onclick = () => {
@@ -634,6 +834,19 @@ document.getElementById('loadEventsBtn').onclick = () => {
 };
 
 document.getElementById('globalEventTypeSelect').onchange = e => {
+  const newType = e.target.value;
+  if (newType) {
+    // Reset boolean defaults for any event not yet classified
+    for (const id of eventIds) {
+      const d = eventData[id] || {};
+      if (!d.environment && !d.discard_criteria) {
+        delete d.person_in_image;
+        delete d.person_visible_in_zone;
+        delete d.person_intruding;
+        delete d.person_in_bbox;
+      }
+    }
+  }
   renderForm();
   updateInferredDisplay();
 };
@@ -716,6 +929,7 @@ document.addEventListener('keydown', (e) => {
     }
   } else if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
     e.preventDefault();
+    if (!validateRequiredFields()) return;
     if (currentIndex < eventIds.length - 1) {
       currentIndex++;
       saveToLocalStorage();
@@ -730,6 +944,7 @@ document.addEventListener('keydown', (e) => {
     updateInferredDisplay();
   } else if (e.key === 'End') {
     e.preventDefault();
+    if (!validateRequiredFields()) return;
     currentIndex = eventIds.length - 1;
     saveToLocalStorage();
     renderForm();

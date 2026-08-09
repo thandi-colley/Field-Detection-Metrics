@@ -1,0 +1,1001 @@
+event_id,serial_number,event_type,period,discard_criteria,environment,non_person_movement,out_of_snapshot_activity,body_position,interaction_type,body_part_in_bed,intruding_from,person_obstructed_by,fp_cause,fp_cause_group,fn_cause,major_class,intermediary_class
+00be05a5-90fc-47f1-a5d6-f703967bde95,2509DSHPUN002631,INTRUSION,202607,,"outside, car park",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+00beb8ec-fa1a-4e70-b7b6-2bd925fccca1,2509DSHPUN007776,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+00cccf17-2a83-43c3-ba37-bf90d8340089,2509DSHPUN007424,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+00f3be97-83a3-458a-b3cb-c9d4ecb1289f,2509DSHPUN007342,INTRUSION,202607,,"outside, rural",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+0106c8e3-7c79-478d-b3ae-34df97921e8e,2509DSHPUN007515,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+010ade44-7182-4066-8549-1df7e04c3693,2509DSHPUN002620,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+019e8e33-7877-4e56-855d-f55b568d166f,2509DSHPUN003356,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+01cc9479-de8d-4bec-b748-d642720e2879,2509DSHPUN004971,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+01d7f2e1-4e24-4549-a382-ad7a0549184e,2509DSHPUN007495,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+02030f18-7897-4af9-a4c6-0e88df14230a,2509DSHPUN007332,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+026e607f-37ae-47a6-80bd-376b2d484ee4,2509DSHPUN007236,INTRUSION,202607,,"outside, residential",,,,,fingertips,over bed wall,,,,,true positive,in-bed detection
+03365bd7-f915-477d-84a6-e638104b1b97,2509DSHPUN002837,INTRUSION,202607,,"unknown, low light",,,,,whole body,already inside,,,,,true positive,in-bed detection
+03a8e549-64ba-455a-83fc-9c2e4f42117b,2509DSHPUN002631,INTRUSION,202607,,"outside, industrial",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+0428dc23-d2a1-497a-b148-fa3d405c3b1c,2509DSHPUN007694,INTRUSION,202607,,"outside, car park",,,,,whole body,open tailgate,,,,,true positive,in-bed detection
+04907621-daff-41ad-869e-a94d1aa62426,2509DSHPUN006923,INTRUSION,202607,,"inside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+04bff0a1-27e4-4d50-8c5e-3a5ee4935807,2509DSHPUN004720,INTRUSION,202607,,"inside, residential",,,,,whole body,already inside,,,,,true positive,in-bed detection
+04c39f68-9b08-4d98-bba7-8e86218f4699,2509DSHPUN007244,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+04c75710-ca5b-4bce-821b-5a89581b1193,2509DSHPUN002832,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+05076b47-430b-4ad1-8185-957b355e235c,2509DSHPUN007233,INTRUSION,202607,,"outside, residential",,,,,fingertips,over bed wall,,,,,true positive,in-bed detection
+0565e824-1f66-4c33-8d50-d9a2fc190597,2509DSHPUN007673,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+05c5584b-f3be-45c2-8f39-b2ba469eb5f4,2509DSHPUN004971,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+05f82bf8-3334-46f2-95f4-85bc978fa618,2509DSHPUN007674,INTRUSION,202607,open sliding window,,,,,,,,,,,,discard,discard
+062ef363-f60e-4c75-a921-979a6ec43aba,2509DSHPUN007703,INTRUSION,202607,,"outside, car park",,,,,whole body,already inside,,,,,true positive,in-bed detection
+069c708a-ecdb-4367-8314-34ed4c5e775e,2509DSHPUN007188,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with overhanging object,,,,,,,true positive,out-of-bed detection
+06f91b07-e1da-4239-8b3f-553f0bcde21a,2509DSHPUN003593,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+080b20e7-975b-4f04-8b0e-b5e628c08b25,2509DSHPUN002868,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+080f683a-388a-4cb9-a7e5-3693ecc0599c,2512DSHPUN000684,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,non-human object,object,,false positive,ghost
+08730516-2c9b-41f3-80d0-a3c67259a4d7,2509DSHPUN004701,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+09344780-136c-4e20-afbc-e484a838b140,2509DSHPUN007300,INTRUSION,202607,,"outside, residential",,,,,,,,non-human object,object,,false positive,ghost
+0959a3af-e578-4147-ab0c-364eae6ec05c,2509DSHPUN007538,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+09f27c69-19b0-40ca-b6b3-8a59dc6f7990,2509DSHPUN004163,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+0a26b993-8d93-4826-90ed-d2d1dcad660c,2509DSHPUN002811,INTRUSION,202607,,"outside, rural",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+0a45eb4b-11a7-4c97-afcc-27c9805e3a7d,2509DSHPUN002631,INTRUSION,202607,,"outside, street parking",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+0a5fca7f-c0b5-4642-bf3b-8a24811ca538,2509DSHPUN002849,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+0a91f6ee-38f1-4a0f-a1d0-4105a7a91034,2509DSHPUN007364,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+0ae91fd6-1fa0-4b39-a6b3-fed6c5b2b915,2512DSHPUN000114,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+0bf3fc05-2d55-4bfe-b7df-7ca9d790a965,2509DSHPUN003356,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+0bf4d212-119e-430c-96da-5a5ba28840b2,2509DSHPUN004180,INTRUSION,202607,,"unknown, low light",,,outside reach distance,,,,,extrapolated person,person nearby,,false positive,ghost
+0c40f807-476b-4817-bd6a-d7f7ca48aa34,2509DSHPUN002837,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+0ca49f84-73df-414d-ad4b-483995a11ee4,2509DSHPUN002631,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+0cf5ce5a-61f0-4649-97a3-8eecdad84d8b,2509DSHPUN004146,INTRUSION,202607,,"outside, residential",,,,,whole body,already inside,,,,,true positive,in-bed detection
+0cf7904f-1542-4082-9483-03aa284490c0,2509DSHPUN004586,INTRUSION,202607,,"outside, residential",,,,,whole body,open tailgate,,,,,true positive,in-bed detection
+0cfba982-cdce-495a-88dc-091e7f1ec1d3,2509DSHPUN004870,INTRUSION,202607,,"outside, residential",,,,,fingertips,over bed wall,,,,,true positive,in-bed detection
+0d42eed1-1617-4fef-942c-c6822d9ba90e,2509DSHPUN007776,INTRUSION,202607,,"outside, car park",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+0da47219-928b-4eff-bf8e-bf741506787a,2509DSHPUN002822,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+0dc78639-9960-4727-acd7-e23e97e58b6f,2509DSHPUN002832,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+0de6d180-cc09-4faa-aec1-a0063433773a,2509DSHPUN007153,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+0e4a94b3-02f2-4ccb-b40f-aca4861c5a20,2509DSHPUN003356,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+0e52dfaa-1b9f-4e3d-84fc-cd3c74c40581,2509DSHPUN004157,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+0e8b4689-9c49-4cd5-aff2-776953ddcecf,2509DSHPUN007424,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+0e915c2b-fa03-49ac-9854-cdb94a86b5cc,2509DSHPUN007495,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+0eb1b8e1-3907-4259-8c7e-2c03fdc439e0,2509DSHPUN007234,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,extrapolated person,person nearby,,false positive,ghost
+0ecb37c6-14a4-4701-b9ea-2b7dab250fb9,2509DSHPUN002811,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+0ee7c66d-e5c1-42a5-bd32-1af8f1b78c73,2509DSHPUN004739,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+0f6291ca-1abb-41df-bcbd-99fca387bfe0,2509DSHPUN007424,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+0fea5ea7-2679-498c-ba59-a870cb29b853,2509DSHPUN004732,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+0ffde47c-023e-491c-a697-7d93b8a128d6,2509DSHPUN002868,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with overhanging object,,,,,,,true positive,out-of-bed detection
+1002431b-81c9-44d6-83d4-0fcecec000b2,2509DSHPUN007304,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+103b34ba-4ac5-4c6c-beef-27291e5a8383,2509DSHPUN002832,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+10849e5f-5877-432a-8326-5fe2ecc6ce2a,2509DSHPUN003546,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+10de6872-3022-48f7-b9b8-889d1c689269,2509DSHPUN002795,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+1109cc55-dd1d-4f9c-92d1-8e503eaa3399,2509DSHPUN007712,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+114c8f84-698e-43e5-adec-3f4bf6c17508,2509DSHPUN007236,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+114e3d65-fb39-4cd9-97a6-274ca2925b88,2509DSHPUN007776,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+1193ec4c-086d-4e17-95cd-e1cffe0d7877,2509DSHPUN002637,INTRUSION,202607,,"inside, industrial",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+11941ecf-5dce-457f-9c15-bc0872e9062e,2509DSHPUN004793,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+11f840bc-38e1-49c0-ac74-73095eb0792d,2509DSHPUN002867,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+1223b71d-a0d9-41a7-8592-ddd0b0a12079,2509DSHPUN004733,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+12756475-95f4-48b5-8948-c5d9d737a192,2509DSHPUN007703,INTRUSION,202607,,"outside, industrial",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+127ee333-2506-4c35-b36f-05e277a77e3b,2509DSHPUN002874,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+12cc243e-8384-4dfb-b9d3-cf1e3f536777,2509DSHPUN004146,INTRUSION,202607,,"outside, car park",,,,,whole body,open tailgate,,,,,true positive,in-bed detection
+13b832f4-7648-4773-9603-35cdf8040c49,2509DSHPUN007538,INTRUSION,202607,,"inside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+13ffeac4-a869-41a2-97fc-8ea4963ebc84,2509DSHPUN002795,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+1436f909-103c-4591-85ce-e60fda6ed7fa,2509DSHPUN007311,INTRUSION,202607,,"outside, street parking",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+14412fac-7df5-4544-9b08-c3c9b416d387,2509DSHPUN007365,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+149172bc-4ce3-461e-950f-d1db45adf63c,2509DSHPUN007505,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+1491dd62-e20a-4d3b-bd07-5a3e5644f218,2509DSHPUN007331,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+14ebd187-f9dd-45f8-961b-e1a6fe7cf33c,2509DSHPUN004180,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+152271cc-54c8-4819-9075-44d29e3a79db,2512DSHPUN000127,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+1571b726-2ae8-489a-a0bc-35ed7babfe93,2509DSHPUN002867,INTRUSION,202607,,"outside, street parking",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+15847fa0-5d1f-4be6-8f03-8a4aaba1da83,2509DSHPUN004541,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+15bd3bff-5b20-4339-8005-094290f5a3a0,2509DSHPUN007424,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+163649e2-30f4-4956-aa77-7fa5de088da7,2509DSHPUN002873,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+1655e4be-065c-4782-a14b-b0a23005fb69,2509DSHPUN007201,INTRUSION,202607,open sliding window,,,,,,,,,,,,discard,discard
+16a84129-386e-49ea-8620-8e3e329c21d9,2509DSHPUN002792,INTRUSION,202607,open sliding window,,,,,,,,,,,,discard,discard
+16ae085b-6826-466e-91b2-a783912d07e8,2509DSHPUN002867,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+16c7f5f2-86fd-42be-9dbb-a800895ed080,2509DSHPUN002873,INTRUSION,202607,,"outside, car park",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+16d234d7-b856-498f-9c32-59efa4da8bff,2509DSHPUN004918,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+16f4ad35-78d5-4822-be21-33d9333ea294,2509DSHPUN004666,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+170f5faf-4b66-4f43-9362-42025ee25d4b,2509DSHPUN002795,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+173430dd-36f4-4ca3-8f06-9e72d767d4d1,2509DSHPUN007342,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+1741bd82-896d-424c-a491-6864d5570c21,2509DSHPUN004180,INTRUSION,202607,,"unknown, low light",,,,,hand / arm,open tailgate,,shadow / reflection,person nearby,,false positive,happy accident
+17b57608-db67-4c33-8b50-63dfcd9a5aa2,2512DSHPUN000684,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+17db67da-fc01-449c-93f1-9637c9c839d4,2509DSHPUN002837,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+1862158b-f5f8-4160-931d-b7fc92d69daf,2509DSHPUN002832,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+19025d05-9acc-4962-b06c-f835ff4076fc,2509DSHPUN002571,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+190332a2-da8a-43c7-9420-bad081c96efa,2509DSHPUN007560,INTRUSION,202607,,"outside, car park",,,,,whole body,open tailgate,,,,,true positive,in-bed detection
+197c4c33-db61-45ed-9707-fb6b4d2e0e3c,2509DSHPUN002837,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+19af1b17-4fb8-4b0b-8a6d-881dec7a257b,2509DSHPUN002631,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+1a69f344-b220-4fbb-a18b-ea606d0f45a3,2509DSHPUN004699,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,extrapolated person,person nearby,,false positive,ghost
+1a9734af-4036-408a-a265-cd2eb4c3282f,2509DSHPUN007244,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+1ab25317-cee0-43ce-9218-c1a99da8ef54,2509DSHPUN004157,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+1abb725b-94e5-49a3-809b-18e36913f495,2509DSHPUN002837,INTRUSION,202607,,"outside, residential",,,,,whole body,already inside,,,,,true positive,in-bed detection
+1af828d9-de3e-439f-94fc-56d8694050b9,2509DSHPUN003356,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+1b01ca56-6278-402b-957b-4de97a38ccec,2509DSHPUN007560,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+1b196228-023e-4de4-a74d-22ed19a3efcc,2509DSHPUN007650,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+1b4cbe85-a7c5-4ae9-ae81-a4b2a406c162,2512DSHPUN000247,INTRUSION,202607,,"inside, industrial",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+1b9f1555-99aa-4351-a14c-b9355f472751,2509DSHPUN002638,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+1c211e09-d952-4993-987d-9b81fc120c5b,2509DSHPUN002631,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+1c4b1751-af52-4b8b-b0a2-ff3b1e87ee8c,2509DSHPUN007331,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+1ca52a9a-5aea-43de-bc33-c605125d94bb,2509DSHPUN002885,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+1d7620fb-e0cb-4a87-8b5a-02cb28b37d57,2509DSHPUN007505,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+1d83bbcd-7816-4ebe-aba9-f9a3e7f27a89,2509DSHPUN002837,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+1dd13d21-5dd7-4b7f-a8eb-ceb2db0c580f,2509DSHPUN007234,INTRUSION,202607,,"outside, industrial",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+1e1aae57-b6f1-4191-9b21-520348186543,2509DSHPUN002873,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+1e2ce459-0dd3-4d22-ad49-5d12d37b0582,2509DSHPUN004668,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+1e3553b0-7753-4fab-ab84-138061f03fc5,2509DSHPUN004684,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+1e84c5ea-aef4-49a1-8d37-2650b58d8ab3,2509DSHPUN002873,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+1e9c99ad-88f4-44f8-941c-3c1c684a2454,2509DSHPUN007673,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+1eb45d55-66f6-4361-a4ee-8b7cf5685a36,2509DSHPUN002631,INTRUSION,202607,,"inside, industrial",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+1ebd026a-71ce-41c1-89e0-8c46b335ba27,2509DSHPUN007424,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+1eebcaf2-5aed-454b-b556-c0731454e81a,2509DSHPUN007244,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+1f0339d6-1f44-4501-8645-25c1e4087092,2509DSHPUN007703,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+1f413615-9c11-41f8-b05f-1f101c93d52a,2509DSHPUN004011,INTRUSION,202607,,"outside, street parking",,,within reach distance,,,,,extrapolated person,person nearby,,false positive,ghost
+1fafe9ca-72ec-419f-bd70-cc3e76b58edf,2509DSHPUN002805,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+205dc6c7-fc3b-41a9-8d5c-fda4fa70aa3f,2509DSHPUN002837,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+20dac59e-2892-4f55-9da8-5fcd025cead5,2509DSHPUN004776,INTRUSION,202607,,"inside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+2110d673-3534-42e3-954e-afe1fc7a98b9,2509DSHPUN004521,INTRUSION,202607,,"outside, residential",,,,,whole body,open tailgate,,,,,true positive,in-bed detection
+21987042-9cdf-400d-90d5-c29d99b7044b,2509DSHPUN007695,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+21c58dba-6116-4018-b7b2-55761c2a2a42,2509DSHPUN007153,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+221b953e-ed53-4d46-914b-782eec510005,2509DSHPUN002867,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+22337fca-b40b-48ff-9578-12c17e4c5191,2509DSHPUN004166,INTRUSION,202607,obstructed (partial),,,,,,,,,,,,discard,discard
+223dfc50-759d-439f-be64-995a0b8a9525,2509DSHPUN002477,INTRUSION,202607,,"inside, industrial",,,,,whole body,already inside,,,,,true positive,in-bed detection
+2263e95f-c511-40d8-bdc7-11b6a8c251d7,2509DSHPUN007200,INTRUSION,202607,,"inside, industrial",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+22dfbd96-0760-482e-82b1-fba0bf5b080d,2509DSHPUN002891,INTRUSION,202607,,"outside, residential",,,,,leg / foot,already inside,,,,,true positive,in-bed detection
+243aefd0-8251-4416-8819-9fc59f207273,2509DSHPUN002631,INTRUSION,202607,,"outside, car park",,,,,whole body,already inside,,,,,true positive,in-bed detection
+2484ca10-aa2d-464c-8476-112d18c1c5f5,2509DSHPUN002795,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+24b74fbe-d1fd-44de-ac2d-9f49ee5844f4,2509DSHPUN002780,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+24e40ada-b154-4867-b3db-087f20b044e3,2509DSHPUN007560,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+24e856af-10aa-4301-9c16-e8384e4a41f2,2509DSHPUN004515,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+2520c3ed-890a-431e-9a54-6156d028bad8,2509DSHPUN004662,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+25f913f3-a865-4426-922a-60a2e142945d,2509DSHPUN007515,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+2682b74c-6a7f-4f4d-bfa4-d15529d2c6a6,2509DSHPUN007236,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+2717ce34-bcc4-469a-9786-8f54e344c84a,2509DSHPUN007342,INTRUSION,202607,,"outside, residential",,,,,whole body,already inside,,,,,true positive,in-bed detection
+271f67ad-3f5b-4f4f-ae08-6c175809f8e5,2509DSHPUN007515,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+2781346c-1853-4272-b2f7-0abce5d8efb8,2509DSHPUN007712,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+27901b0b-1d7c-473a-9ded-fa10ec8702ae,2509DSHPUN007325,INTRUSION,202607,open sliding window,,,,,,,,,,,,discard,discard
+27cf8a62-884c-4bd1-bc77-cb5befe3df40,2509DSHPUN004668,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+282b25eb-9788-4bcb-973e-abd39676a12b,2509DSHPUN007424,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+28671fe7-dfa0-4ce1-aa38-4725084067cb,2509DSHPUN002631,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+28857b85-6a6d-4dcb-a0c0-f0ea4203748a,2509DSHPUN002832,INTRUSION,202607,,"outside, residential",,,,,whole body,already inside,,,,,true positive,in-bed detection
+28bf9785-ca0e-4b23-bf9f-bb9fcf9bd19a,2509DSHPUN007424,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+290fa8d3-8072-49b4-a26f-4a03b082f582,2509DSHPUN002631,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+295dcf3f-92c3-40b9-b35e-0f6650106658,2509DSHPUN002792,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+29d9ef09-19b2-4526-93f0-1f65e5557733,2509DSHPUN002620,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+2a1272e7-a228-4dad-bf6f-a519bba1d0bb,2509DSHPUN004659,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+2a20915a-dab7-4a88-9292-d0bf7092d7af,2509DSHPUN007424,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+2a67b8ff-0c4c-4fe1-875d-7249a3ffc5d5,2509DSHPUN004180,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+2a833f6d-e8dc-48e8-bfa3-2aebc72f776e,2509DSHPUN002571,INTRUSION,202607,,"inside, industrial",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+2a833fd6-f36c-4b63-8885-d5d859868731,2509DSHPUN007455,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+2a9fe5e8-6eb7-4b91-968a-2e282059843f,2509DSHPUN002631,INTRUSION,202607,,"inside, industrial",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+2aba5170-f169-4ff9-9c7b-6d9f0122e710,2509DSHPUN007740,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+2b1346dc-aa8f-4146-bdd0-f5f02a8e1db9,2509DSHPUN004011,INTRUSION,202607,,"outside, street parking",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+2b48980d-aab3-46e9-96ab-f98c64ce0efd,2509DSHPUN007488,INTRUSION,202607,,"outside, residential",,,,,whole body,already inside,,,,,true positive,in-bed detection
+2b4e30cd-7311-4189-b673-a5a297aa3797,2512DSHPUN000127,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+2b5d9ab9-228c-44bb-bb13-91d569dbde63,2509DSHPUN004971,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+2c4b44c8-f042-4a2a-b7dd-0d287291adb1,2509DSHPUN003356,INTRUSION,202607,,"outside, street parking",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+2c5294a4-a675-460b-9d28-415b5faac697,2509DSHPUN002868,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+2cbbcde6-fd88-4116-a9e6-9fb5a770e777,2509DSHPUN002832,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+2cffafe8-f521-43a2-b428-2ed8ad73bf88,2509DSHPUN007514,INTRUSION,202607,,"outside, rural",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+2dee4de6-24dc-40f7-8c00-196a17f3d3c0,2509DSHPUN004776,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+2e2fd5df-4d39-4604-9bb1-c06abcb92110,2509DSHPUN007236,INTRUSION,202607,,"outside, street parking",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+2e4adb4d-b2bd-4543-8094-17998fae0276,2509DSHPUN002631,INTRUSION,202607,,"inside, industrial",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+2e7f2fad-a193-4689-8829-d2082a6d318d,2509DSHPUN004870,INTRUSION,202607,,"outside, residential",,,,,whole body,already inside,,,,,true positive,in-bed detection
+2ebe1a4f-0c44-4657-b222-3e7bc8629fdf,2509DSHPUN002822,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+2ee2868b-0d8f-4e8d-9798-3d3aee3bd8c6,2509DSHPUN007515,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+2f006e60-e968-4b2f-bf2d-18b49762bf7c,2509DSHPUN007210,INTRUSION,202607,,"outside, industrial",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+2f0aaca4-e3fb-4cb6-b47a-40e0485e9011,2509DSHPUN002832,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+2f44728e-0d29-4716-869d-78f2ce092ed4,2509DSHPUN002832,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+2f529127-4e81-4470-adb2-6e9ca26f31ce,2509DSHPUN002867,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+2fd89369-51ae-47d8-8fc3-24486a251423,2509DSHPUN002631,INTRUSION,202607,,"unknown, low light",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+30a1742d-1aac-4681-8b77-45322287c982,2509DSHPUN007311,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+30e2c411-9a6a-406a-b60d-81f7635e035d,2509DSHPUN007332,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+30ef0aee-9d28-418d-a9f1-2be43633b47c,2509DSHPUN007342,INTRUSION,202607,,"outside, rural",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+3115f469-e51c-4745-a9c8-94da264753c2,2509DSHPUN002832,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+31182a8b-c3fc-4033-b260-c044924151c1,2509DSHPUN002935,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+3130a82a-92eb-467a-9eb2-37387dc71168,2509DSHPUN004546,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+315eebb2-6b24-498d-902d-464820dfd9f8,2509DSHPUN004668,INTRUSION,202607,,"outside, rural",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+31a38593-92e1-440c-bf8f-d04912a72efa,2509DSHPUN007262,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+31f3407b-f695-4829-88bc-4bd2157646e7,2509DSHPUN004971,INTRUSION,202607,,"outside, residential",,,,,fingertips,over bed wall,,,,,true positive,in-bed detection
+3255cc16-9902-4e68-8a0a-dba207efe5a7,2512DSHPUN000720,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+32ef5bc2-c701-4860-bb27-40442e5d7ff6,2509DSHPUN007208,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+33167a8b-4ce7-4980-a597-11a86451e666,2509DSHPUN007311,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+33669bc7-73d6-4d32-a4de-0528276f46b4,2509DSHPUN007208,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+337f0b8e-3dfb-4cd5-afbf-5f36fa121d4b,2509DSHPUN007365,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+338a7f26-f01f-4e02-95bf-60221dc114cb,2509DSHPUN007208,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+340a74f9-2069-4a5d-8a3e-c08a25544927,2512DSHPUN000714,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+3458c910-0b09-4dd8-8c25-800a25610092,2509DSHPUN007311,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,extrapolated person,person nearby,,false positive,ghost
+34658fa8-affa-4077-a0ae-66cc18c99acc,2509DSHPUN003546,INTRUSION,202607,,"outside, car park",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+34a04acc-cdd2-4814-aab4-79535df89410,2509DSHPUN004971,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+34a102f4-be44-4a83-9cfb-6a8b18445d56,2509DSHPUN004541,INTRUSION,202607,,"inside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+34c71c85-8625-4d99-a856-4663883cca72,2509DSHPUN007204,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+34d3b728-3e5a-46b4-b535-47e7b37bd696,2509DSHPUN003356,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+34e680ce-a6ec-4a93-ada8-06d268e394c1,2509DSHPUN002571,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+350ea75c-2dbe-4573-87dd-371887742c8c,2512DSHPUN000738,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+356f3a85-e049-466e-9608-36524c0a1443,2509DSHPUN002792,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+358cff85-85d2-4860-8e74-1bc2ea8e042e,2509DSHPUN007674,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+368661c0-6456-42ed-9343-9d244397ed0c,2509DSHPUN002837,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+3707ba86-dae4-427f-8f45-bf196a9c702c,2509DSHPUN002868,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+370825b7-478b-438c-9922-5b0209474b89,2509DSHPUN007740,INTRUSION,202607,,"inside, car park",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+374aac13-d6b7-4468-bab2-a067f8436678,2509DSHPUN007537,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+37dbccdd-3993-4959-bb29-2be02982c9cb,2509DSHPUN002867,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+38365dde-e13e-4cc4-b4d0-f7ff993067ef,2509DSHPUN004067,INTRUSION,202607,,"outside, residential",,,,,whole body,open tailgate,,,,,true positive,in-bed detection
+3876d8be-98aa-494d-be7e-873f1e937387,2509DSHPUN007367,INTRUSION,202607,,"inside, residential",,,,,fingertips,over bed wall,,,,,true positive,in-bed detection
+38a47cd9-7e7a-4564-9b32-804465826f27,2509DSHPUN007311,INTRUSION,202607,,"outside, industrial",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+393b1ff8-3476-42a8-aebb-aa2c780db9e5,2509DSHPUN007703,INTRUSION,202607,,"outside, car park",,,,,whole body,already inside,,,,,true positive,in-bed detection
+3951a179-e7d6-49dd-8915-187ed1a0fc05,2512DSHPUN000127,INTRUSION,202607,,"outside, street parking",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+397a8e28-d0fb-4623-9030-4d8f0340f631,2512DSHPUN000720,INTRUSION,202607,open sliding window,,,,,,,,,,,,discard,discard
+39c6ac73-b16c-4284-a9ea-0f1f3677230f,2509DSHPUN002886,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+39df0ed9-3b96-44f1-8221-51c64373aa23,2509DSHPUN002886,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+39ff6042-3586-4a54-ad6c-9818823bb77f,2509DSHPUN007750,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+3a9b48ca-c67e-4a7d-a152-118b69c9ede2,2509DSHPUN002850,INTRUSION,202607,,"outside, residential",,,,,whole body,already inside,,,,,true positive,in-bed detection
+3abbeb2b-ac2a-4767-b7d0-aefc74e580a0,2509DSHPUN002830,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+3ad27f4b-8cab-4749-bf91-9079ebcbec8e,2509DSHPUN002795,INTRUSION,202607,open sliding window,,,,,,,,,,,,discard,discard
+3af252ce-4e0a-4eda-a0f1-388e5b347a11,2509DSHPUN002631,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+3b6d4643-fd2e-4374-8e02-fb6865d63f84,2509DSHPUN004719,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+3c5943a3-ebc3-4e72-89ec-df3d5d14f808,2509DSHPUN007153,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+3cd51806-1fc4-446a-b479-27a3881de13b,2509DSHPUN003356,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+3d1f0b92-4a3d-44cd-98c6-35b1da37b89d,2509DSHPUN002813,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+3d2db824-54c7-4f64-86d1-86cc6620e8ae,2509DSHPUN003584,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+3d97df33-1928-4fc3-a67d-a2536d5007f1,2509DSHPUN002830,INTRUSION,202607,,"outside, industrial",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+3df488f2-c43d-48a4-9892-5396a465b095,2509DSHPUN002873,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+3e068bab-8d48-4f53-b0cc-427655a54002,2509DSHPUN007531,INTRUSION,202607,,"outside, car park",,,,,,,,windscreen: raindrops,windscreen smudge,,false positive,ghost
+3e27a844-59da-4a4b-b06a-bc2290c57a0e,2509DSHPUN002783,INTRUSION,202607,,"inside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+3e68e534-fccd-4734-8419-fa314e3a8632,2509DSHPUN002891,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+3f796918-4f4e-4c8a-8e6c-fc93d8acf0ff,2509DSHPUN007373,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+3f7abb63-4595-4f03-876e-21ccab39cbf7,2509DSHPUN007236,INTRUSION,202607,,"unknown, low light",,,within reach distance,,,,,low light,light issues,,false positive,ghost
+3f9cac69-f14a-4615-8ad4-6c4b83b115e0,2509DSHPUN002631,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+4022c403-d1ee-47d5-94c2-a154e47b163b,2509DSHPUN002837,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+404e60f7-2f51-4335-8a55-b794499b4ec1,2509DSHPUN007664,INTRUSION,202607,,"inside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+4050b494-88c8-4aa4-a27b-c2f72c6a134f,2509DSHPUN007201,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+406f87c7-e2c0-4bac-9f1c-49f83cd742aa,2509DSHPUN002839,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+40d6a713-7cf4-489b-9ba1-f1cbe5fbc2a7,2509DSHPUN004146,INTRUSION,202607,,"outside, car park",,,,,whole body,already inside,,,,,true positive,in-bed detection
+40d8a673-bbb9-4f5b-8ebf-d8342260d180,2509DSHPUN007514,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+4112d949-028e-44d3-8d4d-8ad67c19590f,2509DSHPUN002886,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+41b58a68-f50a-40c4-91cc-559f9f8c541e,2509DSHPUN007424,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+41ba8505-dfb2-4fa7-8681-c6474573f460,2509DSHPUN002811,INTRUSION,202607,,"outside, rural",,,,,whole body,already inside,,,,,true positive,in-bed detection
+41c67235-f399-40b5-b77e-37f6e7f9b51d,2509DSHPUN007520,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+425cbc81-69a1-4b20-851d-95aa2bcb94b0,2509DSHPUN003355,INTRUSION,202607,,"outside, industrial",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+42ea0bae-0c5a-442b-b580-21fa243dd7d4,2509DSHPUN004668,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+436ecdab-0032-4a4d-8097-44e867af8c22,2509DSHPUN002780,INTRUSION,202607,extreme low light,,,,,,,,,,,,discard,discard
+43842703-2464-4008-af4e-76bfb8707a50,2509DSHPUN007583,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with overhanging object,,,,,,,true positive,out-of-bed detection
+43b75f2b-d268-4cf5-9c96-030d340ca8df,2509DSHPUN007540,INTRUSION,202607,,"outside, residential",,,,,,,,low light,light issues,,false positive,ghost
+43ba7c12-1c62-467f-aa5e-7b04d396f4ea,2509DSHPUN004146,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+44157ec4-1b66-44c4-ad0b-bfbfa4b2120b,2509DSHPUN007244,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+446fb70f-8100-46a8-84f5-a2c59ffd3f17,2509DSHPUN007712,INTRUSION,202607,,"outside, street parking",,,,,whole body,open tailgate,,,,,true positive,in-bed detection
+44a82850-011a-4854-97cd-a60b16c30dc8,2509DSHPUN002465,INTRUSION,202607,,"outside, car park",,,,,whole body,already inside,,,,,true positive,in-bed detection
+45370010-1744-4997-bb4d-a72aa0051d17,2509DSHPUN007320,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+4565904c-8250-42b0-99c3-76f17a99a6af,2509DSHPUN002886,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+463b66f3-4049-461b-84b9-a20b3235543d,2509DSHPUN007234,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+467ee444-00ba-4108-b096-54429099c00f,2509DSHPUN002631,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+468c5dc0-20c1-4770-8469-ca249abe546a,2509DSHPUN007559,INTRUSION,202607,,"outside, industrial",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+469d9c02-0175-4f3a-8921-b3409bbb3700,2509DSHPUN002762,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+46e233bc-39ea-4318-bdd9-486603d7b684,2509DSHPUN007342,INTRUSION,202607,,"outside, rural",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+471bcdaa-d1ab-4ba4-b88d-8c8d6a9f31b1,2509DSHPUN007703,INTRUSION,202607,,"outside, car park",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+472bda8d-60c5-42a7-a919-4c017fb7f8c4,2509DSHPUN007157,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,extrapolated person,person nearby,,false positive,ghost
+47905a92-fa01-4667-95a3-5aba21e2fc1c,2509DSHPUN002631,INTRUSION,202607,,"outside, car park",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+47db2f94-78fc-49b4-9eb5-bcc049798628,2509DSHPUN004662,INTRUSION,202607,,"inside, car park",,,,,whole body,already inside,,,,,true positive,in-bed detection
+481273ed-80f2-4b23-adaf-2994d827c2b1,2509DSHPUN002795,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+481dcac9-d3e4-42e8-a7de-6e0d298a3136,2509DSHPUN002885,INTRUSION,202607,,"outside, car park",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+485f886c-2bd6-4c26-8844-bef09be273e7,2509DSHPUN002571,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+487a884c-62ec-48e2-803e-f53fe471b28e,2509DSHPUN007424,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+48b59af3-7957-46be-9c93-93a989721156,2512DSHPUN000738,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+48d7b62d-2257-4297-9b13-827c4fc6ec89,2509DSHPUN007776,INTRUSION,202607,,"outside, industrial",,,interacting with vehicle,interaction with overhanging object,,,,,,,true positive,out-of-bed detection
+48ef1b09-dbd1-4249-980b-02bf624c0c60,2509DSHPUN002830,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+4918c0d4-57c6-4db8-a99d-30167bbf1389,2509DSHPUN002822,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+494568d7-ab1a-4f5f-9700-1bcb1f7fa80c,2509DSHPUN002725,INTRUSION,202607,,"outside, street parking",,,,,fingertips,over bed wall,,,,,true positive,in-bed detection
+4953a2a6-de3e-4ef2-8969-2a6f7b728871,2512DSHPUN000714,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with overhanging object,,,,extrapolated person,person nearby,,false positive,ghost
+49563ae0-f79c-403e-b4ce-32e22de9294d,2509DSHPUN002811,INTRUSION,202607,open sliding window,,,,,,,,,,,,discard,discard
+496bf889-eeb0-43c8-88dc-a7045a00318f,2509DSHPUN002832,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+497c522f-52f0-4972-a976-96a2fb9a89f0,2509DSHPUN007236,INTRUSION,202607,,"outside, residential",,,,,whole body,already inside,,,,,true positive,in-bed detection
+49c68345-c9d5-4d3c-b2bd-cdba82cde45f,2509DSHPUN003356,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+49dc425c-3e1a-4151-91b6-9f87e45ab9c0,2509DSHPUN003356,INTRUSION,202607,,"outside, car park",,,,,whole body,already inside,,,,,true positive,in-bed detection
+49f13ffb-6cc9-4b5e-9e96-c71799b52216,2509DSHPUN007673,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+4a1e2819-0a8d-49a4-baae-7473786861f8,2509DSHPUN002631,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with overhanging object,,,,extrapolated person,person nearby,,false positive,ghost
+4a9e02b6-a9eb-4d97-8eaf-e6de49cb79f9,2509DSHPUN002791,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+4b3b0a96-a816-4a64-a877-67591e1489a0,2509DSHPUN007488,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+4b7bae96-535b-48e3-b0e0-2d066831c943,2509DSHPUN004732,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+4bd40e52-69ec-41a1-9e5b-e53dca5b9230,2509DSHPUN002867,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+4be80f2f-ed63-4e76-9268-8cf7cbb6e995,2512DSHPUN000127,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+4cfb7e26-261c-4bde-922c-59890ee4aaea,2509DSHPUN002571,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+4e1d993b-8b73-41da-800a-9b78fd194660,2509DSHPUN002837,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+4e65f6ef-b0c3-4b0b-9a1b-be53eccdd0f5,2509DSHPUN007559,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+4e708f09-6aef-483c-879a-91e54bb0f33a,2512DSHPUN000714,INTRUSION,202607,,"outside, rural",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+4ecde86f-2225-4e6c-a702-c02ed7827439,2509DSHPUN007342,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+4f23f243-422c-4194-89b9-37e5ab54de26,2509DSHPUN002873,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+4f350d99-2e00-4e81-9e68-9fe626536eda,2512DSHPUN000127,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+4f7eea66-d1c0-4640-b86d-d0bceb6cb8df,2509DSHPUN007260,INTRUSION,202607,,"outside, car park",,,,,,,,non-human object,object,,false positive,ghost
+4f8e57ea-d92a-499a-ad1e-d44564ab6838,2509DSHPUN007703,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+5019316b-4811-443d-8686-30d35c57328e,2509DSHPUN007201,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+50cad5f2-223d-40ed-8694-aedd4b08a51c,2509DSHPUN007515,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+50d53358-f81f-4716-85b7-13f478e010f6,2509DSHPUN007157,INTRUSION,202607,,"outside, rural",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+5170a9b8-9128-4d76-9644-b650dd47ec45,2509DSHPUN002631,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+517b8613-ef1f-4877-8237-d341a11b2d8b,2509DSHPUN007740,INTRUSION,202607,,"inside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+520ccb91-172a-4ad8-bbda-f6324897bb78,2509DSHPUN007227,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+5242eb7d-78b7-4134-91dc-ff1f21fd41e2,2512DSHPUN000174,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+524ef51e-167f-4453-ab29-3bc8be0f587e,2509DSHPUN004180,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+5258dcce-3dc5-4351-a6b2-88d892725c09,2509DSHPUN007557,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+527fd840-d325-42a5-872c-5f63626449cb,2509DSHPUN007342,INTRUSION,202607,,"outside, rural",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+52f61d71-576d-45a2-b0dd-b5250a37c298,2509DSHPUN007703,INTRUSION,202607,,"inside, industrial",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+5313dfff-0a06-436a-8761-bff528e164c5,2509DSHPUN004732,INTRUSION,202607,,"outside, car park",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+536be664-d133-494b-aac8-16aeb375461c,2509DSHPUN004971,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+53a66b63-8676-426e-90a7-97b7ec34c22c,2509DSHPUN002873,INTRUSION,202607,,"outside, car park",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+53d8e4e5-f8e3-4912-8703-ca9a8c172c6f,2509DSHPUN002791,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+5440c4a2-f992-4e77-a150-065cc0a57730,2509DSHPUN002867,INTRUSION,202607,,"outside, industrial",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+5455e8e0-5a8d-4fe4-bdf8-3920b56f869d,2509DSHPUN002780,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+545ead62-4c81-43f7-aca8-3499831187e6,2509DSHPUN007538,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+54ca90cb-a7d1-4387-abd2-eaa6f6a075b9,2509DSHPUN004971,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+54cefb8f-b7a9-4f46-9c1c-79558febe615,2509DSHPUN002725,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+54efe42c-463a-4fdf-b897-d69703e93aef,2509DSHPUN004146,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+550d7f29-e5e8-4301-9868-01555a308c84,2509DSHPUN002867,INTRUSION,202607,,"outside, car park",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+551db3f3-5367-4008-9a75-01010c59d9be,2509DSHPUN002867,INTRUSION,202607,,"outside, street parking",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+55982689-f50c-49cc-8da7-a94163b984b7,2509DSHPUN002791,INTRUSION,202607,,"outside, residential",,,,,whole body,open tailgate,,,,,true positive,in-bed detection
+55aefdcc-c45b-4c7f-a2d4-9b11c64f8c9d,2509DSHPUN007673,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+55b77c6d-acdd-4137-af4e-1281b87cb131,2509DSHPUN007233,INTRUSION,202607,,"outside, street parking",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+56382755-a6e5-48ec-b212-51db6e18274e,2509DSHPUN002867,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+566e2a63-5431-4788-a315-d9875674ed38,2509DSHPUN007311,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+57040894-01d7-4a61-ae42-3eb27264ab72,2509DSHPUN002867,INTRUSION,202607,,"outside, car park",,,,,fingertips,over bed wall,,,,,true positive,in-bed detection
+57176a9a-cbcc-41a0-9d80-6c5f5518b825,2509DSHPUN002780,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+577f87eb-2a2b-4f57-a042-4241abc2595f,2509DSHPUN004968,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+579aadc6-d413-4d7c-bf82-e6cf525d4af8,2509DSHPUN004146,INTRUSION,202607,,"outside, car park",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+57e6f39d-6e60-444a-b47f-71eb7355efe6,2509DSHPUN002873,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+58912e40-ed97-4607-8d0f-0b597ba4af40,2509DSHPUN007538,INTRUSION,202607,,"inside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+58a1410c-1b94-4524-8911-9d71fcf8da4f,2509DSHPUN007559,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+58e6e759-2e6e-45b2-9407-4dac1a9d9af5,2509DSHPUN007562,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+5901c977-ae5f-4d1f-9219-a6342d1e7ef2,2509DSHPUN002571,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+591ec833-1998-48d9-8730-06aa29f47691,2509DSHPUN007712,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+591fd226-8ac7-4db8-9bda-25537ae1ac6b,2509DSHPUN007424,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+5971bd32-61f0-4977-84ac-3dc205f4fd3b,2509DSHPUN007424,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+598178c2-44e9-4437-af48-3677bf09409d,2509DSHPUN007339,INTRUSION,202607,,"outside, residential",,,,,whole body,open tailgate,,,,,true positive,in-bed detection
+59870191-13dd-48e4-b5ab-e338358e55fc,2509DSHPUN002805,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+59a25a95-86e6-43e8-9b9e-880fcacc1880,2509DSHPUN004732,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+5a13fb59-6b10-4dcb-ba54-7667c7b0d696,2509DSHPUN004480,INTRUSION,202607,,"outside, residential",,,,,,,,windscreen: raindrops,windscreen smudge,,false positive,ghost
+5a269135-3f35-4d2d-928a-a8d6e40819af,2509DSHPUN002465,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+5a271e44-074e-423a-9c8f-60511c61ae45,2509DSHPUN007342,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+5ac81467-95a3-4012-bcc5-531bcd962984,2509DSHPUN007424,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+5ac8fba2-5d94-46f8-8658-195b4cd2ae10,2509DSHPUN007236,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+5af6da90-cfdf-4397-89d7-a9e18b7bc13b,2509DSHPUN007678,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+5b4f7edb-3053-41ef-a618-0e3d3c7c57ff,2509DSHPUN007222,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+5b5849db-f638-4b78-9f27-c14a347fb809,2509DSHPUN002628,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+5bd7345d-cf65-4d3f-a875-3c12460dad70,2509DSHPUN004776,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+5c7fbc27-7502-4055-b1df-372605804941,2509DSHPUN007236,INTRUSION,202607,,"unknown, low light",,,,,whole body,open tailgate,,,,,true positive,in-bed detection
+5cadc584-70f8-421e-b3b2-2d1dcf9619e6,2509DSHPUN003356,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+5d4573c5-208b-4a0b-9c22-e129b4e8dde3,2509DSHPUN004541,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+5daefd7a-3386-4cb6-a6e8-3f578b240302,2509DSHPUN004146,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+5e3dc433-4533-4c87-a22c-4eebbce2ba72,2512DSHPUN000127,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+5e59b3f9-a6ac-4fb4-baf1-430a49626398,2509DSHPUN007712,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+5e829ec8-55dc-4e84-93f7-63e66a156bca,2509DSHPUN007201,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+5f89cd21-7b4a-4083-996c-886cb2fdf704,2512DSHPUN000735,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+5f8e1df7-250f-47f9-b914-2a28dbebda29,2509DSHPUN007342,INTRUSION,202607,,"outside, rural",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+5f9a4de4-12bc-45f7-8420-687a5bb0c9bc,2509DSHPUN007557,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+5feef936-45e6-4fc5-9529-0ae9ea26cf31,2509DSHPUN002685,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+604c7252-298e-44b3-9ca8-b4da4ef4a1d5,2509DSHPUN004668,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+60c37db2-a04f-4f82-86b5-4f9dc04e99ca,2509DSHPUN003356,INTRUSION,202607,,"outside, street parking",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+60cbf90a-d642-4197-bef7-28b095719219,2509DSHPUN002571,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+60e986b3-e1eb-468d-8c70-e6c90ef1688c,2509DSHPUN002874,INTRUSION,202607,obstructed (partial),,,,,,,,,,,,discard,discard
+6149c7ef-d14e-4cd8-8d3e-437fecaa32ab,2509DSHPUN002571,INTRUSION,202607,,"outside, industrial",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+6171f7f4-bef0-45ee-8153-cac35350e9a4,2509DSHPUN004586,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+61744d56-e521-47f0-a7af-d6d7d0184806,2509DSHPUN002873,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+617b93e6-2471-4e78-b383-d471704bbdbc,2509DSHPUN004657,INTRUSION,202607,,"outside, street parking",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+6184831c-a5bf-4279-aa3a-91cad205970a,2509DSHPUN002795,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+61962379-77c9-4ba7-87a6-d9913af4d582,2509DSHPUN007311,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+6198ae19-6ff8-418b-a11a-073f2ad470b8,2509DSHPUN002832,INTRUSION,202607,,"outside, residential",,,,,whole body,already inside,,,,,true positive,in-bed detection
+620c8214-7871-4436-b586-23c846a5b95c,2509DSHPUN002837,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+6282b821-07cb-416c-9194-faa051d5527c,2509DSHPUN007342,INTRUSION,202607,,"outside, rural",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+633ccbd8-9c53-4425-b634-d6d860d4f722,2509DSHPUN004872,INTRUSION,202607,,"inside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+634b5b51-56d2-463c-ba05-9bcc0d5ea237,2509DSHPUN004684,INTRUSION,202607,,"outside, car park",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+634df8ca-f3a4-4551-b39b-6f6a017d6c0d,2509DSHPUN002635,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+6367be3a-abfc-4e4c-a26f-07b7de0922b8,2512DSHPUN000127,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+63b3fb2d-8654-485b-bb03-457ae283af7c,2509DSHPUN004720,INTRUSION,202607,,"inside, residential",,,,,whole body,already inside,,,,,true positive,in-bed detection
+63cfdca2-d47e-4996-8083-4a2aba8c4b84,2509DSHPUN007339,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+63d3c430-6d76-458e-95b2-a9aaf7802c7c,2509DSHPUN002837,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+63f51e23-51c6-4695-bd13-181461b7b175,2509DSHPUN007505,INTRUSION,202607,,"unknown, low light",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+6449271f-2337-4676-93f3-f6d73cd0e2cb,2509DSHPUN007311,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+644ee05f-130b-4ad8-9ace-923d408b77d9,2509DSHPUN002465,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+6485627b-3fe4-4d4d-822d-8146472816bd,2509DSHPUN002837,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+64bce2ef-08be-4667-aa7a-9ed84dc86c77,2509DSHPUN007311,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+6541c86b-e0c2-4188-a78e-e78a13603b59,2509DSHPUN004724,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+6543a4c9-ffeb-468a-b304-5b693297dccc,2509DSHPUN002631,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+6567a1ee-3b8e-4c13-8867-58f46b3a60d0,2509DSHPUN007740,INTRUSION,202607,,"inside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+656c16c5-ecd4-4def-820b-86fa12188e04,2509DSHPUN007750,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+6573f917-b190-4d75-b01d-257819311547,2509DSHPUN007311,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+65ce9323-64a1-4116-b36a-ecaa6d817c0c,2509DSHPUN007304,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+65d1a450-7ed5-4378-bc28-b73e0476c764,2509DSHPUN007515,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+6607a48a-6896-45ba-beb2-c8cd5a386977,2509DSHPUN002795,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+66252b40-55f2-464a-aae4-e0dfe724309e,2509DSHPUN007776,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+66389909-a8ac-4e4b-b8c2-099879ac68f2,2509DSHPUN007684,INTRUSION,202607,,"unknown, low light",,,,,,,,windscreen: raindrops,windscreen smudge,,false positive,ghost
+6654a008-5ea1-45c9-acd3-f281b0e03949,2509DSHPUN002468,INTRUSION,202607,,"outside, car park",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+669cb809-3396-4ff5-9664-bcdddc11817f,2509DSHPUN007703,INTRUSION,202607,,"outside, car park",,,,,whole body,already inside,,,,,true positive,in-bed detection
+66a37f70-2060-4e48-a1b3-6a932fbeeb92,2509DSHPUN007776,INTRUSION,202607,,"outside, residential",,,,,whole body,already inside,,,,,true positive,in-bed detection
+66cc02bf-dd9f-489f-b220-bddb8bac516b,2509DSHPUN002631,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+66f2a7e6-52f4-4221-a44e-509c05125487,2509DSHPUN004546,INTRUSION,202607,,"outside, car park",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+66fc3d3a-fbca-4009-832d-aea307aedf49,2509DSHPUN004011,INTRUSION,202607,,"outside, industrial",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+673b651c-56e0-4535-8eb3-de4bdd460d78,2509DSHPUN004872,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+674589a5-c2d5-437e-bc3a-885ec8725937,2509DSHPUN002832,INTRUSION,202607,,"outside, car park",,,,,,,,non-human object,object,,false positive,ghost
+674783c3-9868-475a-acf2-dce2632fe8dc,2509DSHPUN002832,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+6762b83a-8354-4f43-9132-611013f3710e,2509DSHPUN003356,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+680030b6-c6be-4435-97ac-3eb6cb1fc50c,2509DSHPUN004872,INTRUSION,202607,,"inside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+680064a6-25c7-4b1e-bedf-4e0935add44d,2509DSHPUN004972,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+68fdb49e-d67b-4800-96e9-17a4f7095e32,2509DSHPUN007776,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+6916ac0f-adec-4fd8-a149-9ca189506637,2509DSHPUN007231,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with overhanging object,,,,extrapolated person,person nearby,,false positive,ghost
+692de45c-0560-4607-8e47-c9c38238b3e6,2509DSHPUN003356,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+69c8214d-7c18-4104-b183-061a38ddba35,2509DSHPUN007488,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+6a010f43-440a-4e19-84b6-c2c976316a5c,2509DSHPUN002631,INTRUSION,202607,,"inside, industrial",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+6a75b6d7-6483-4dd9-a1a9-c82e470baf2f,2512DSHPUN000127,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+6a889d7c-5113-4c36-8001-e422158d02bd,2509DSHPUN002685,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+6af72251-61dd-41cf-ba66-cbc355535751,2509DSHPUN007503,INTRUSION,202607,,"inside, industrial",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+6b52c0fe-721b-4b85-9ad4-115515d7f021,2509DSHPUN003356,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+6b8738dd-6079-432b-8da5-b486cc7ca08c,2509DSHPUN002631,INTRUSION,202607,,"outside, car park",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+6bd09f0a-678d-4f5e-ac1c-9c95da1c5257,2509DSHPUN007227,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+6c8e2a63-2a4c-4efb-bc3b-17ebb1b09e23,2509DSHPUN007153,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+6cb627bc-eed7-4dc1-a0ea-607eec7a86c5,2509DSHPUN002950,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+6d213dc7-3af9-4785-9052-fe90477223b4,2509DSHPUN007227,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+6d74f1b6-25b4-4692-8c3c-b65af198c294,2509DSHPUN003356,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+6d76666c-e6d4-43fb-b571-3882245b15e1,2509DSHPUN007147,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+6d7ee0b0-7e89-40a6-b4df-5ae6c67b2b3e,2509DSHPUN004732,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+6e915eb9-0d52-450b-8b6d-fa461b5356a9,2509DSHPUN007557,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+6f61e343-75d0-43ad-960e-c53ec2577321,2509DSHPUN007342,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+6fe1be7c-0094-4474-bc23-01ff6788250c,2509DSHPUN007244,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+6fee69d0-edaa-4fe0-a236-e85887a0dde3,2509DSHPUN004668,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+70256b9b-4d4a-44ba-8e77-0abb8b0a50b3,2509DSHPUN007311,INTRUSION,202607,,"outside, car park",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+70606af8-9f34-467d-adcd-1ae9e1fe4cc6,2509DSHPUN007455,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+70772a50-1b6c-4f2f-ac10-74925ece819e,2509DSHPUN004668,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+7113854a-0694-4ae7-819f-81aae4d39915,2509DSHPUN004156,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,extrapolated person,person nearby,,false positive,ghost
+713157a5-3df4-49e7-96eb-26207182ec37,2509DSHPUN004776,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+713a1d14-339a-40e3-aa57-45b46a7bd195,2509DSHPUN007342,INTRUSION,202607,,"outside, industrial",,,,,leg / foot,already inside,,,,,true positive,in-bed detection
+71537571-33d1-4ed4-8e1d-f2bc04e31b5f,2509DSHPUN007514,INTRUSION,202607,,"outside, rural",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+716830bc-a012-418b-bfb4-dcf228635230,2509DSHPUN002850,INTRUSION,202607,,"outside, residential",,,,,leg / foot,already inside,,,,,true positive,in-bed detection
+71bc93d2-3b1c-4f87-9f9d-c7f36a2e0fb8,2509DSHPUN007740,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+71f82113-5828-4ae1-a057-ec20d9f3f813,2509DSHPUN007373,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+725bd417-3149-43bc-ad0a-0e2db45d4fdb,2509DSHPUN003546,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+72d1094a-1391-4002-baf0-a2535b8b7a94,2509DSHPUN002837,INTRUSION,202607,,"outside, residential",,,,,whole body,already inside,,,,,true positive,in-bed detection
+73005a89-1de6-4313-b027-09f2f49c9635,2509DSHPUN007488,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+7340348c-cb55-48bd-b214-b7bd13707411,2509DSHPUN007731,INTRUSION,202607,,"outside, car park",,,,,fingertips,over bed wall,,,,,true positive,in-bed detection
+73dc2458-df21-4e47-a421-6611f1dca040,2509DSHPUN007244,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+742916ef-6382-420c-ae03-66d6a7d6c41d,2509DSHPUN002867,INTRUSION,202607,,"outside, industrial",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+74540b91-8db2-4641-85bb-ba3d1dc2bdeb,2509DSHPUN002637,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+74758018-6f99-4545-9457-f6fce016f35f,2509DSHPUN002837,INTRUSION,202607,,"unknown, low light",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+74aa65cb-485c-4804-8825-00917c0c93a6,2509DSHPUN007244,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+74d456bb-955c-4b38-a8b9-76fa82fa64f1,2509DSHPUN002631,INTRUSION,202607,,"outside, car park",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+753fe6b2-0933-4958-a65c-e612d2dc9c64,2509DSHPUN002571,INTRUSION,202607,,"outside, industrial",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+7545e1dd-4c3a-47b1-86dc-d42e8bd5af8c,2509DSHPUN002832,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+7662147b-f7fc-4386-bbed-a7a8a248c601,2509DSHPUN002832,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+76d8deea-428d-4a79-b08f-adcc415ef58a,2509DSHPUN002811,INTRUSION,202607,,"outside, rural",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+773a6fd8-4195-4148-b1e7-516b6f8f103c,2512DSHPUN000127,INTRUSION,202607,,"outside, residential",,,,,leg / foot,over bed wall,,,,,true positive,in-bed detection
+77559c4e-2466-4eab-bd3e-3a3047819e34,2509DSHPUN007341,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+7784888f-2693-4a9d-bdde-aaa88ef8eeac,2509DSHPUN007703,INTRUSION,202607,,"outside, car park",streaming water (car wash),,,,whole body,already inside,,,,,true positive,in-bed detection
+77a2c866-2d39-4f15-a656-0af851988f32,2509DSHPUN007227,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+77a55526-93e3-4d4e-8603-20eb2ddbf0e9,2509DSHPUN002867,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,hand / arm on bed wall,,,,,,,true positive,out-of-bed detection
+77c5f41d-0c69-4235-a6f8-3445604749fc,2509DSHPUN007302,INTRUSION,202607,,"inside, residential",,,,,fingertips,over bed wall,,,,,true positive,in-bed detection
+78698f46-8860-4e7d-b12d-1a74e2a76adb,2509DSHPUN003907,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+78a81c0b-fbc3-4fde-9f66-f1ffadf09944,2509DSHPUN007488,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+78dcde6b-f211-4566-aa64-38739c77a1a2,2509DSHPUN004720,INTRUSION,202607,,"inside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+78f3cee3-65d6-4997-b1fc-5075397546ca,2509DSHPUN004733,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+78fb39ec-6966-4ac9-af85-5f09bb37a870,2509DSHPUN007712,INTRUSION,202607,,"outside, street parking",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+7911ff49-9183-4a35-8f56-2efe6b8a111e,2509DSHPUN007237,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+7917712d-0beb-43ff-b49f-e69bc99c1a94,2509DSHPUN002631,INTRUSION,202607,,"inside, industrial",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+79682a86-1d0a-4281-b08b-789e7d0d1e2f,2509DSHPUN002811,INTRUSION,202607,open sliding window,,,,,,,,,,,,discard,discard
+79f69e44-4d2d-4ec5-82b0-f44f5d373fde,2509DSHPUN002891,INTRUSION,202607,,"outside, residential",,,,,whole body,already inside,,,,,true positive,in-bed detection
+7a3e4044-b60f-4992-8b96-6d7c56b1ac1f,2509DSHPUN007538,INTRUSION,202607,,"inside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+7baa4131-42e2-4a13-b701-363cbd21c4de,2509DSHPUN002631,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+7bee9213-75d2-493e-93db-ff53c35f7bd7,2509DSHPUN007424,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+7c1267ef-d656-418f-844b-cbc1cf362bb9,2509DSHPUN006923,INTRUSION,202607,,"outside, residential",,,,,whole body,already inside,,,,,true positive,in-bed detection
+7c1839f1-31c8-408a-ac1e-4b5475462386,2509DSHPUN007361,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+7c24e6d3-dad7-415a-b46f-2c12717de5f0,2509DSHPUN002839,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+7c7a10ec-07d4-4d1f-a4f2-1deaeb6f0ac7,2509DSHPUN004146,INTRUSION,202607,,"outside, residential",,,,,whole body,open tailgate,,,,,true positive,in-bed detection
+7c8f364b-c58a-45e3-bfac-3b2524272ec4,2509DSHPUN002631,INTRUSION,202607,,"outside, car park",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+7c92e5e0-4a6b-45f2-a0d5-f7243a6d6033,2509DSHPUN002465,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+7c932b01-0f4f-4a25-b1c4-916ebff7b802,2509DSHPUN007646,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+7c96660a-01b4-4c0a-9641-5f7493dc18fa,2509DSHPUN004586,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+7ca5b7fc-de85-40e6-9434-2bcdd2f32410,2509DSHPUN007776,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+7d26b1c4-eaea-4b53-8c9d-594ccbcd2274,2509DSHPUN004146,INTRUSION,202607,,"outside, car park",,,,,leg / foot,over bed wall,,,,,true positive,in-bed detection
+7d7bb118-3df2-4f14-8228-7c6b7f482596,2509DSHPUN007311,INTRUSION,202607,,"outside, industrial",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+7dc1f8cc-21ff-48b5-b9cf-7f50e84850dd,2509DSHPUN004870,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+7de89d37-5054-4b36-a90b-e0462943a97b,2509DSHPUN007514,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+7e5fb7e6-1800-4a97-9d14-d4d6bff578af,2509DSHPUN007237,INTRUSION,202607,,"outside, street parking",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+7e7d62f1-5edf-42c3-9ab0-aa9a2c6c43bb,2509DSHPUN007776,INTRUSION,202607,,"outside, residential",,,,,whole body,already inside,,,,,true positive,in-bed detection
+7eb6bb8a-e657-4f2a-b78c-ee02f3c460a6,2509DSHPUN004971,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+7ebc67ec-6baf-4827-b896-1c0d7ae52275,2509DSHPUN002725,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+7ecba8e6-9446-4be3-86da-b48ef4eb87a7,2509DSHPUN004515,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+7ef57bea-16eb-454f-893e-81397abe2d55,2509DSHPUN007342,INTRUSION,202607,,"outside, residential",,,,,whole body,already inside,,,,,true positive,in-bed detection
+7effe2c0-6104-4d88-bda5-74b87c79f793,2509DSHPUN002477,INTRUSION,202607,,"outside, residential",,,,,whole body,already inside,,,,,true positive,in-bed detection
+809cad9b-a28f-4f2a-bac6-01b9954f1ad2,2509DSHPUN007557,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+810701f0-b25c-4f1c-aa2b-d7e2e089f386,2509DSHPUN003356,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+812261d0-7602-4f30-885d-4bcd7cab95d9,2509DSHPUN004166,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+816df0fe-4c82-4af6-88d4-bf39c4fa37b3,2509DSHPUN004972,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+817e3070-1c68-4d32-808e-a21e66d73900,2509DSHPUN007234,INTRUSION,202607,,"outside, industrial",,,interacting with vehicle,lean against bed wall,,,,extrapolated person,person nearby,,false positive,ghost
+8193640f-4032-4601-b757-105cb1d0e11a,2509DSHPUN007707,INTRUSION,202607,,"inside, car park",,,,,,,,non-human object,object,,false positive,ghost
+81e93e68-1b77-40d2-b2b8-f1aa9e91540f,2509DSHPUN007222,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+8274b083-b73e-4c65-9814-a85dcbbbd076,2509DSHPUN007633,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+8290d5e0-5e29-4304-b5b2-4c2b01ee360c,2509DSHPUN002631,INTRUSION,202607,,"inside, industrial",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+82b77eb3-ab43-4f8c-8adf-59ab40057e81,2509DSHPUN004971,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+82c73ae3-955a-4d93-8f49-239894abd142,2509DSHPUN002837,INTRUSION,202607,,"outside, industrial",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+82dba90d-a90c-4515-992b-d89e29fa2aca,2509DSHPUN007664,INTRUSION,202607,,"inside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+83340c36-583c-4ee9-a312-2e72f2fe62ea,2509DSHPUN002631,INTRUSION,202607,,"unknown, low light",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+835e0b09-d4f4-4d77-8bbc-29fd84fb431f,2509DSHPUN007212,INTRUSION,202607,,"outside, car park",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+838115cd-3272-4114-92c5-83605e22238f,2509DSHPUN002631,INTRUSION,202607,,"inside, industrial",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+8381e817-c20d-457c-9259-f795c7c4537f,2509DSHPUN004870,INTRUSION,202607,,"outside, car park",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+83d1b5e1-8bc4-4bfd-9e11-8ccd493a2626,2509DSHPUN002868,INTRUSION,202607,,"outside, car park",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+844a7137-95f8-40b7-b06d-03ff5af3a5ba,2512DSHPUN000714,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+84c24169-984e-49c5-a325-e4dc18bb6477,2509DSHPUN004751,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+855a490c-115e-4b6c-9fe9-e01492047d9b,2512DSHPUN000710,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+855ad0ca-a9fd-433e-acda-83a68e386dbd,2509DSHPUN002822,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+85aeaf2c-c10d-4076-ae31-922f455ff103,2509DSHPUN007740,INTRUSION,202607,,"inside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+85be7a02-d4d2-4618-b112-15298064970a,2509DSHPUN007176,INTRUSION,202607,,"outside, residential",,,,,,,,windscreen: raindrops,windscreen smudge,,false positive,ghost
+85f4041c-c9d5-4282-9556-dd224699a24c,2509DSHPUN002631,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+86254029-f306-4a43-a35e-9ae114ca189b,2509DSHPUN007424,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+86789df7-9b47-4f2f-9c6f-983318e1ee5a,2509DSHPUN007505,INTRUSION,202607,,"unknown, low light",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+86e06296-0492-486e-8949-47ca8bdac8cc,2509DSHPUN007236,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+87807255-fff8-43ac-9add-8f3ee16af6b3,2509DSHPUN004586,INTRUSION,202607,,"outside, residential",,,,,fingertips,over bed wall,,,,,true positive,in-bed detection
+878c2da9-595c-41f8-a872-c991c25db0c5,2509DSHPUN004747,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with overhanging object,,,,extrapolated person,person nearby,,false positive,ghost
+8794e5f2-ea1f-4d3d-a7eb-fea6cfb1fe4d,2509DSHPUN002867,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+87cc7c65-65b4-44c7-b3a7-c7b66b6a5565,2509DSHPUN002837,INTRUSION,202607,,"outside, residential",,,,,whole body,already inside,,,,,true positive,in-bed detection
+88056001-f814-4c93-89b4-acc4ea8c751e,2509DSHPUN007424,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+884cee03-58e7-477c-a4f6-1d4c6b6ecf9d,2509DSHPUN007424,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+88a47922-3888-4850-b23b-d4bd2c337b09,2512DSHPUN000738,INTRUSION,202607,open sliding window,,,,,,,,,,,,discard,discard
+8900a763-a695-4da3-a838-17f60ed4bc28,2509DSHPUN002837,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+89c1e18a-6d16-4f7d-8704-5c6e282435a6,2509DSHPUN002631,INTRUSION,202607,,"outside, car park",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+8a0e0e54-b9b6-47cc-85ff-9aaae08749de,2512DSHPUN000714,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+8a4f84e9-af20-49df-ac68-9bd7b17fdb57,2509DSHPUN002868,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+8aa244d8-ac56-4b70-b2e7-64bfe57054f4,2509DSHPUN004157,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with overhanging object,,,,,,,true positive,out-of-bed detection
+8aa5295e-3f26-4781-aa6f-60497c55ea30,2509DSHPUN004668,INTRUSION,202607,,"outside, street parking",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+8ac5352b-f195-42ff-bb84-976719625e44,2509DSHPUN002867,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+8b428188-3948-43ed-89ab-49f8fbaa8580,2509DSHPUN004157,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+8b4f2676-8bf9-41c9-a9eb-c1e1d0919f8f,2509DSHPUN007192,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+8b94343d-1428-49d2-b02c-c23976d0e834,2509DSHPUN002641,INTRUSION,202607,obstructed (full),,,,,,,,,,,,discard,discard
+8bbe00a2-9fc2-458e-954f-5c9ff0cfc86b,2509DSHPUN004732,INTRUSION,202607,,"outside, car park",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+8bc01e0e-7e31-4cf6-adfb-b4ed8315ff6f,2509DSHPUN007266,INTRUSION,202607,,"outside, car park",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+8c754257-fb3a-41a1-8184-5723bab40f72,2509DSHPUN002867,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+8cbd2f27-81b6-4353-b5fb-82bb9835b04f,2509DSHPUN007342,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+8d214690-2854-43b5-a234-e8866c9968c7,2509DSHPUN002631,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+8d46c7d9-8858-4a47-8670-eebb770dc6f6,2509DSHPUN007201,INTRUSION,202607,open sliding window,,,,,,,,,,,,discard,discard
+8d597bf3-9012-4a9c-91d7-0dd8cd85cf1f,2509DSHPUN007233,INTRUSION,202607,,"outside, residential",,,,,leg / foot,over bed wall,,,,,true positive,in-bed detection
+8df4decc-d482-4ecc-923c-4f65612ca8d7,2509DSHPUN007212,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+8e8ddfbd-4435-4fef-98de-12d65533900d,2509DSHPUN007227,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+8e9376d0-617d-468a-a58e-d83f91c4b973,2509DSHPUN007302,INTRUSION,202607,open sliding window,,,,,,,,,,,,discard,discard
+8f63cd11-0538-4d5c-b584-99389f406034,2509DSHPUN002837,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+8ff717ab-93d4-42d8-bf08-33a97f574118,2509DSHPUN004180,INTRUSION,202607,,"unknown, low light",,,outside reach distance,,,,,extrapolated person,person nearby,,false positive,ghost
+90529e9d-c2c5-4420-8222-6bb06db4d6de,2512DSHPUN000735,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+9079da21-7335-4365-af95-474fddb12386,2509DSHPUN002822,INTRUSION,202607,,"outside, car park",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+908d249f-8f6f-43c1-814d-81e94a003c8e,2512DSHPUN000259,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+90ec27f0-a24e-4ba5-a675-41633147a1bf,2509DSHPUN004586,INTRUSION,202607,,"outside, car park",,,,,leg / foot,open tailgate,,,,,true positive,in-bed detection
+90f77f18-ea9f-46b9-8890-3ae1a6dc3824,2509DSHPUN007424,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+9127cb4a-d81d-4083-aeb9-b51d5057b762,2509DSHPUN002631,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+9187125d-caee-4b16-832e-276b4bdabccc,2509DSHPUN002822,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+91e2598f-5f9a-44ef-b5ba-35d9a34bbcc7,2509DSHPUN002832,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+92610a9f-b104-49f5-860d-fa28b253c135,2509DSHPUN002762,INTRUSION,202607,,"outside, street parking",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+9289866b-2103-46d6-ab35-822be6dc68ae,2509DSHPUN002631,INTRUSION,202607,,"inside, industrial",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+92f36979-7ea1-4ebf-b9a4-8fbda7483e28,2509DSHPUN004157,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+933013d6-505c-41bc-969e-7a5d68a19aa2,2509DSHPUN004776,INTRUSION,202607,,"outside, car park",,,,,fingertips,over bed wall,,,,,true positive,in-bed detection
+939c1fe8-9f2f-463d-b6c0-997952371c64,2509DSHPUN002772,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+93a5f072-1bba-4518-8a83-1f26a675f7f4,2509DSHPUN002770,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+94095fb1-ee34-48a2-99dc-1fcec771f117,2509DSHPUN007311,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with overhanging object,,,,,,,true positive,out-of-bed detection
+94371ae2-d62f-4f45-acef-33ecf796d77a,2509DSHPUN002791,INTRUSION,202607,,"outside, residential",,,,,fingertips,over bed wall,,,,,true positive,in-bed detection
+944065ce-f260-4ad0-82af-e3d8e4851ce9,2509DSHPUN002885,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+945ac124-f4c1-4a7a-8c29-6390a8a8c6c7,2509DSHPUN002868,INTRUSION,202607,,"outside, residential",,,,,,,,non-human object,object,,false positive,ghost
+946a0745-4d36-41e4-bbc0-061db66e2815,2509DSHPUN004157,INTRUSION,202607,,"unknown, low light",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+94a0f231-6706-4ebf-9aa4-cc49eb1a3db3,2509DSHPUN007674,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+94e9502e-d7fb-4579-ac94-25c782b15fd5,2509DSHPUN004918,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with overhanging object,,,,extrapolated person,person nearby,,false positive,ghost
+9505f302-adbf-4559-9a24-c85ea7640e44,2509DSHPUN002873,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+950a9559-5f16-47f3-8e7b-3807968c28a4,2509DSHPUN007200,INTRUSION,202607,,"outside, industrial",,,,,,,,non-human object,object,,false positive,ghost
+95282eb7-aa99-4d8e-aecf-8dbbb5af25c3,2509DSHPUN007740,INTRUSION,202607,open sliding window,,,,,,,,,,,,discard,discard
+955abdd7-80a1-482e-914e-58a1c70ad982,2509DSHPUN007342,INTRUSION,202607,,"outside, rural",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+9589d1f4-eb9a-4368-8833-77218778e199,2509DSHPUN002571,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+95f1c9e9-8c49-4c09-ba95-ec241820b7fe,2509DSHPUN007740,INTRUSION,202607,open sliding window,,,,,,,,,,,,discard,discard
+960af6d0-e7a6-4f71-9356-b3c127d09044,2509DSHPUN007424,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+961b1ac7-3903-4bc5-9e7c-fe1cf723c4fc,2509DSHPUN002868,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+9639d7f5-ac85-4754-9f26-13ebe61cf6a7,2509DSHPUN002867,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+963dcf21-3294-4343-b023-e2c389b06f18,2509DSHPUN007311,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+966b3985-a1be-4e51-9d51-1344db47a2af,2509DSHPUN007776,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+969a9d55-28ba-4d6c-b9c9-196055cd0596,2509DSHPUN004733,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+96f2dba3-7489-4aa5-a5f2-87ce4ecfbc83,2509DSHPUN002620,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+974a31a4-ed30-4bfd-b1c3-1e3fade7ffc5,2509DSHPUN002813,INTRUSION,202607,,"outside, car park",,,,,fingertips,over bed wall,,,,,true positive,in-bed detection
+9772d08c-8123-4875-bb0f-0ef8261aafe0,2509DSHPUN002873,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+978365e6-61b6-4dce-9b36-16c758f715f8,2509DSHPUN007210,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+978e168a-2f72-40c6-82c7-42ab776609df,2509DSHPUN007515,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+97900607-9ab0-4f96-9dc0-5efc2dadb9e8,2509DSHPUN002822,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+97b3cb23-3471-46ee-86ae-a23a80d29413,2509DSHPUN002795,INTRUSION,202607,open sliding window,,,,,,,,,,,,discard,discard
+97b9b120-8f06-47a8-b027-3e3529496452,2509DSHPUN007424,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+97d8e5b6-f3c4-47e2-9f5c-61fb1672f5dc,2509DSHPUN007424,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+984ab3bd-e7b8-412d-b54f-099ce865b3ae,2509DSHPUN007331,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+98af5bc3-7316-429d-a805-a254b13f74bb,2509DSHPUN007671,INTRUSION,202607,,"inside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+98b686cd-17a6-4f43-bc61-73ff13adb38c,2509DSHPUN007740,INTRUSION,202607,open sliding window,,,,,,,,,,,,discard,discard
+98c15d67-ea52-44c2-bd48-d6c924f4e9f8,2509DSHPUN002641,INTRUSION,202607,obstructed (partial),,,,,,,,,,,,discard,discard
+98ed635d-4af7-4253-a439-cc7ca8d2480f,2509DSHPUN007424,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+99e6ebee-7b18-4b62-a616-eaa071a61e93,2509DSHPUN004971,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+99ef04d7-f6a3-4837-8963-fbe8a66942b3,2512DSHPUN000247,INTRUSION,202607,,"outside, car park",,,,,hand / arm,open tailgate,tonneau cover,shadow / reflection,person nearby,,false positive,happy accident
+99f1dab9-51a2-428c-b8c8-9983bc8567cc,2509DSHPUN002867,INTRUSION,202607,,"inside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+9a6a4433-c77c-4c0f-b42b-15a63ccb3a3c,2509DSHPUN003356,INTRUSION,202607,,"outside, car park",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+9a7f9f01-6fad-4909-b934-f9fbc7edbd93,2509DSHPUN007424,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+9a98d0f0-e088-4e6d-9648-7d88420f41b9,2509DSHPUN002770,INTRUSION,202607,,"outside, car park",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+9acd29ce-15f9-45b3-95ce-cfe768110930,2509DSHPUN002837,INTRUSION,202607,,"outside, residential",,,,,whole body,open tailgate,,,,,true positive,in-bed detection
+9adf231f-89c4-4e50-b5e9-6e64a8b31cca,2509DSHPUN004776,INTRUSION,202607,,"inside, residential",,,,,whole body,already inside,,,,,true positive,in-bed detection
+9b042cc3-4f77-497f-8e24-0dfcf19ba49a,2509DSHPUN007216,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+9b1ac52c-8e01-4ac9-ac6f-3a8894d8c9fc,2509DSHPUN002822,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+9b5a4bd2-db78-4cbb-8365-8d2460466ec4,2509DSHPUN002795,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+9b67cc93-a82c-4e94-9a46-9407399f6e7d,2509DSHPUN002571,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+9b704ced-9963-4cce-b228-b81a643a8d82,2509DSHPUN007712,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+9ba7d04d-f1e0-4d70-a142-80dadabe9920,2509DSHPUN002771,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,extrapolated person,person nearby,,false positive,ghost
+9bf7dec2-ac55-42d4-812a-f9281ba7db17,2509DSHPUN004903,INTRUSION,202607,,"outside, car park",,,,,whole body,already inside,,,,,true positive,in-bed detection
+9c22d9e1-7403-4930-adfe-72960b3d83ac,2509DSHPUN007756,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+9c319c39-e07e-4f4b-a789-082687cef214,2509DSHPUN006923,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+9c3bf0df-c767-4105-b2a9-53956f8407c2,2509DSHPUN002431,INTRUSION,202607,,"outside, residential",,,,,leg / foot,over bed wall,,,,,true positive,in-bed detection
+9cce576b-4b39-4944-913a-fdad17146473,2509DSHPUN002868,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+9ce1d1ed-cc9b-4ae8-94b4-6f0a6232c4dd,2509DSHPUN002885,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+9ce65e74-e83d-4d0b-bad5-07cc7cf5613c,2509DSHPUN004662,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+9d1fd9fd-af27-4cf0-9f23-a26bb6d1a2a3,2509DSHPUN002811,INTRUSION,202607,open sliding window,,,,,,,,,,,,discard,discard
+9d5ddd6e-f7fd-4b23-bc74-7bb1f930b1a6,2509DSHPUN004661,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+9d80ee9c-bab7-4d2e-a453-d7fdacb8a451,2509DSHPUN004668,INTRUSION,202607,,"outside, residential",,,,,whole body,already inside,,,,,true positive,in-bed detection
+9d9decb0-e131-42e6-bd64-b4b3ca89245d,2509DSHPUN002867,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+9e8ea4a4-067e-4012-b14a-7f52793549d2,2509DSHPUN007601,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+9eb14c4d-843b-43b4-8c28-dc3a3084581e,2509DSHPUN002631,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+9f7b1509-3d5a-4073-b32c-9d589471fdf1,2509DSHPUN002465,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+a0357a01-fcba-44b7-a323-57fc34ab47e6,2512DSHPUN000735,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+a03f1efc-db71-4344-9131-57b492ec3a32,2509DSHPUN002770,INTRUSION,202607,,"outside, residential",,,,,whole body,open tailgate,,,,,true positive,in-bed detection
+a07137e0-855b-4fed-8e53-3c6a442751bf,2509DSHPUN003372,INTRUSION,202607,,"outside, car park",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+a081a2dc-cbe0-42e2-ba6b-b503a9367aae,2509DSHPUN007244,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+a0b13dc1-6841-4674-9704-7427f4b3352d,2509DSHPUN007674,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+a0dec7d7-96f9-4ad1-8af0-77ad7b00d644,2509DSHPUN002631,INTRUSION,202607,,"inside, industrial",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+a104172b-ebe1-4716-86d6-7beabf8bed68,2512DSHPUN000738,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+a12c77a9-1512-4948-bab6-c277bb4ba6c1,2509DSHPUN007546,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+a2a437a5-5093-4479-9e58-3c3012b11c78,2509DSHPUN007342,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+a2ed1b40-89f9-418d-8a08-1577c1dd45a9,2509DSHPUN007311,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+a2edd242-8941-48b4-be47-13c531322c1f,2509DSHPUN007424,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+a36a6b6e-0865-43da-bdbf-d9364dd2973e,2509DSHPUN007557,INTRUSION,202607,,"outside, car park",,,,,leg / foot,already inside,,,,,true positive,in-bed detection
+a37f4f32-b691-4159-8eab-01d571c05ee3,2509DSHPUN007233,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+a404838d-ab02-4d24-90ac-43725ef602ef,2509DSHPUN007342,INTRUSION,202607,,"outside, residential",,,,,leg / foot,open tailgate,,,,,true positive,in-bed detection
+a4368b24-892d-4fa9-a9b1-a1e89427ee78,2509DSHPUN007675,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+a49492bb-113d-4469-9a73-7282cc1ef8f8,2509DSHPUN002870,INTRUSION,202607,,"outside, car park",,,,,whole body,already inside,,,,,true positive,in-bed detection
+a4e18e34-d904-4aef-8f5c-368825e68df3,2509DSHPUN002832,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+a5246322-126d-40c3-9014-32ff27184626,2509DSHPUN007694,INTRUSION,202607,,"outside, car park",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+a5a18cb4-5699-44a2-ada1-9e49f9539b0a,2509DSHPUN007236,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,low light,light issues,,false positive,ghost
+a5b607fa-6056-4170-953b-137e10edcf84,2509DSHPUN002873,INTRUSION,202607,,"outside, street parking",,,,,leg / foot,already inside,,,,,true positive,in-bed detection
+a655f35d-538e-49ad-8c6c-68a75ad03161,2509DSHPUN007560,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+a6888452-1557-4a5d-ad16-4633d0221481,2512DSHPUN000738,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+a699fad9-56c9-4cc7-a57d-2e9be187e831,2509DSHPUN002465,INTRUSION,202607,,"outside, car park",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+a706a3b3-46be-46ef-bccb-16c1f4003e9d,2509DSHPUN007712,INTRUSION,202607,,"outside, residential",,,,,whole body,open tailgate,,,,,true positive,in-bed detection
+a751a246-e3ec-48bf-be77-7e28e1be3e78,2509DSHPUN004732,INTRUSION,202607,,"outside, residential",,,,,fingertips,over bed wall,,,,,true positive,in-bed detection
+a7c715d2-87db-4dee-81f9-6b49f90b67ea,2509DSHPUN002891,INTRUSION,202607,,"outside, residential",,,,,leg / foot,open tailgate,,,,,true positive,in-bed detection
+a825bcff-d337-4038-aed5-a9c76d5484d6,2509DSHPUN004751,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+a8b6899e-a46f-43b0-98de-81bf2aaceb26,2509DSHPUN003372,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+a8c5cb37-1859-4cb7-a405-baa11dca887c,2509DSHPUN002832,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+aa11d206-f5cb-450e-a204-c25e74e14afb,2509DSHPUN002827,INTRUSION,202607,,"inside, industrial",,,,,leg / foot,open tailgate,,,,,true positive,in-bed detection
+ac0214b2-a24f-4d35-8a81-4844fe77bd38,2509DSHPUN002837,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+acb7f7f4-c289-4383-ba76-c2623850da43,2509DSHPUN007514,INTRUSION,202607,,"outside, rural",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+acf103c1-f485-4f27-b5d6-dcd68d87e704,2509DSHPUN002873,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+acf23372-d17a-4c98-b2df-7717b2250df5,2509DSHPUN002631,INTRUSION,202607,,"outside, industrial",,,,,whole body,already inside,,,,,true positive,in-bed detection
+ad1cf7f6-0a37-4d1e-97be-c4929c2ebd23,2509DSHPUN004146,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+ad41d396-9495-44ed-bb65-421ce8cdf556,2509DSHPUN002571,INTRUSION,202607,,"outside, car park",,,,,fingertips,over bed wall,,,,,true positive,in-bed detection
+ad62a53c-4c06-458e-ba22-5d7404d62c99,2509DSHPUN007227,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+ad73717f-5487-4e00-b667-3b5d160af114,2509DSHPUN007424,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+ae1e9070-4e95-426b-acec-5d32457e9ce0,2509DSHPUN002867,INTRUSION,202607,,"outside, car park",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+ae31fb34-9357-4db1-95a7-dc670854ddeb,2509DSHPUN002571,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+ae480c69-a584-4674-9b88-4c9056a2a53e,2509DSHPUN004668,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+ae542b22-00e3-430c-a620-602bac239631,2509DSHPUN002837,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+ae54a5a3-2e94-46b4-86bd-0d61eb271d2a,2509DSHPUN007560,INTRUSION,202607,,"outside, rural",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+ae59852c-1133-46d1-8626-c8993ef126b3,2509DSHPUN004751,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+aeaac636-3a00-43c4-a049-41de5b84c107,2509DSHPUN007712,INTRUSION,202607,,"outside, residential",,,,,whole body,over bed wall,,,,,true positive,in-bed detection
+afa7dab4-d5f3-4a5e-9b6b-810142d71741,2509DSHPUN002685,INTRUSION,202607,,"outside, rural",,,,,whole body,open tailgate,,,,,true positive,in-bed detection
+afb4fba9-39bc-4a66-ad97-7015992dd7cd,2512DSHPUN000714,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+afe30af6-8d32-459c-8c27-9b2770d01e20,2509DSHPUN007424,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+b00a4aa9-265d-4698-a94e-19bee4fde8df,2509DSHPUN003356,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+b0320fa8-30d5-450e-bee5-77134ca4d197,2509DSHPUN007208,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+b05660e0-9ec7-4af7-9c4c-9e55c6ad7fb1,2509DSHPUN007212,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+b05af7e2-bbbc-43b2-b6fc-746260b3ce6f,2509DSHPUN002631,INTRUSION,202607,,"inside, industrial",,,,,whole body,already inside,,,,,true positive,in-bed detection
+b064c118-33aa-4281-aca9-4fb87e59d054,2509DSHPUN007207,INTRUSION,202607,,"inside, industrial",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+b1e15e16-73f9-46cc-bfde-ee7736b34e9c,2509DSHPUN004855,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+b1fd85be-d1e9-4e53-9f9d-3e904268cc8b,2509DSHPUN007560,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+b29e06ff-c65f-41e1-91d3-4353e621db36,2509DSHPUN007234,INTRUSION,202607,,"outside, car park",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+b2ae286a-5f52-4675-874e-1222c0f3e8ac,2509DSHPUN002792,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+b2fcda5a-32f1-4909-b815-e33c02f13b4e,2509DSHPUN002832,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+b39b4a76-7d7b-4c9c-9563-9f9a49d0ba8b,2509DSHPUN007339,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+b3a49bd2-fce1-47cc-bdb1-96442f85c2b8,2509DSHPUN004724,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+b3baefd4-9784-4cc1-bc2b-6f21cbd0a9ff,2509DSHPUN007677,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+b3f039b8-f649-46a3-8dbc-1cba687b5154,2509DSHPUN002811,INTRUSION,202607,open sliding window,,,,,,,,,,,,discard,discard
+b403dc2e-5077-482d-b76e-d8be7db4d861,2509DSHPUN007262,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+b40b4785-0fa4-4bab-9d11-70353df8c090,2509DSHPUN007331,INTRUSION,202607,,"outside, car park",,,,,whole body,open tailgate,,,,,true positive,in-bed detection
+b43037bb-2b3a-4d1a-8a9f-c0b9d40460c6,2509DSHPUN002868,INTRUSION,202607,,"outside, street parking",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+b442d558-0e6e-40ae-9d92-a140beb41673,2509DSHPUN002837,INTRUSION,202607,,"unknown, low light",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+b447cc34-d3cc-4535-98c0-80cc966f7390,2509DSHPUN002885,INTRUSION,202607,,"outside, car park",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+b47e25b7-3395-4e99-9734-9677592cb46b,2509DSHPUN002631,INTRUSION,202607,,"inside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+b4831c38-5801-4cfb-a8fb-82f284c4cb79,2512DSHPUN000127,INTRUSION,202607,,"outside, car park",,,,,fingertips,over bed wall,,,,,true positive,in-bed detection
+b505618b-f024-4dcf-a132-dddc17f468cd,2509DSHPUN002832,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+b52a33a9-7398-4a1a-9986-1bc4772f2aea,2509DSHPUN007559,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+b53f346b-dcfd-4f02-b9bf-3871dfd2fe13,2509DSHPUN002811,INTRUSION,202607,open sliding window,,,,,,,,,,,,discard,discard
+b5497431-5e07-43f7-b46e-579586d4a4bc,2509DSHPUN007342,INTRUSION,202607,,"outside, industrial",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+b5e835a4-d8a9-469b-86db-7517e4a80716,2509DSHPUN007188,INTRUSION,202607,,"outside, residential",,,,,leg / foot,over bed wall,,,,,true positive,in-bed detection
+b674f546-b56a-40ae-a234-8daf14ac2f61,2509DSHPUN004661,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+b67e3d78-3440-43ab-b012-539146d8dff7,2509DSHPUN007522,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+b6bf2a44-6d3c-444e-a038-bbf007eff7d5,2509DSHPUN002795,INTRUSION,202607,open sliding window,,,,,,,,,,,,discard,discard
+b6ecef5a-b71f-4e9f-acff-52bad5f636d2,2509DSHPUN002885,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+b7949095-2aac-49b1-a421-07918d5b3ac1,2509DSHPUN004776,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+b7d9d221-d64b-47f7-b18c-a966f7831296,2509DSHPUN007770,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+b82d9058-6818-40fc-9199-d8a58f448190,2509DSHPUN004752,INTRUSION,202607,,"outside, car park",,,,,whole body,open tailgate,,,,,true positive,in-bed detection
+b860bfb3-83e0-4a12-b582-6733f78825a8,2512DSHPUN000127,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+b8b544af-f3d2-445a-a6f6-aff2bcae2b74,2509DSHPUN004971,INTRUSION,202607,,"outside, car park",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+b96a15bf-7c99-4320-a022-ecb7727e29bf,2509DSHPUN002791,INTRUSION,202607,,"inside, industrial",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+b98c9f0a-c2e7-4045-b25f-2d59a10eabd8,2509DSHPUN002830,INTRUSION,202607,,"outside, industrial",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+b9c7331b-a26d-41a0-8832-b2027574c487,2509DSHPUN002867,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+ba101e25-dc07-4e09-9389-bb7a4aaa43af,2509DSHPUN002867,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+ba1a2027-d2bc-4129-8aaa-795a8b2320fc,2509DSHPUN002641,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+ba2ceb28-87e9-4188-9436-9df552c281e3,2509DSHPUN007674,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+ba38d799-f981-4c4e-865b-b9de280e4fe2,2509DSHPUN007776,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+ba8e54c4-9e5d-447d-92c4-542cd2eec19b,2509DSHPUN002631,INTRUSION,202607,,"outside, car park",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+ba94c7bb-5bbe-4e27-bdd8-7f83cf164827,2509DSHPUN002873,INTRUSION,202607,,"outside, car park",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+ba9d3ebf-e93d-4e0a-8acf-5f324351b553,2509DSHPUN007495,INTRUSION,202607,,"unknown, low light",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+ba9e19b6-f5f6-4770-8b1b-85e6c84b8604,2509DSHPUN007776,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+baa08f37-4870-4618-9b5c-f48078e9b70a,2512DSHPUN000735,INTRUSION,202607,,"outside, street parking",,,within reach distance,,,,,extrapolated person,person nearby,,false positive,ghost
+baa81dea-04df-4d61-9a6b-ec4e7baa68f1,2509DSHPUN007311,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+babcd9be-5d79-4ff7-9941-7da81aff7945,2509DSHPUN007260,INTRUSION,202607,,"outside, street parking",,,outside reach distance,,,,,non-human object,object,,false positive,ghost
+bac29102-a2f4-41e8-a5e3-f5aa89132fe3,2509DSHPUN004747,INTRUSION,202607,,"outside, residential",,,,,,,,windscreen: raindrops,windscreen smudge,,false positive,ghost
+bacb7bfc-f587-44dd-bebf-cf11c5307332,2509DSHPUN002867,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+bb0145fa-4d1b-49b2-a170-b2447ca71ad5,2512DSHPUN000738,INTRUSION,202607,open sliding window,,,,,,,,,,,,discard,discard
+bb300b22-b97b-404f-982b-e63012a426d8,2509DSHPUN003356,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+bb65ee62-b918-441a-bf35-9f6b12ab2c09,2509DSHPUN004166,INTRUSION,202607,,"outside, car park",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+bbdb90fc-57d2-4af6-ac7c-bd4120526e16,2509DSHPUN007514,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+bbecc73d-0b41-4e84-aafb-803d9dd30966,2509DSHPUN004668,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+bbedcada-e0b1-4ae7-b96f-83549912cc25,2509DSHPUN007204,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+bbf39b0a-e6a2-40c9-95cc-b133afaa0c0e,2509DSHPUN004971,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+bc10381e-8417-4029-bef5-d14116524a01,2509DSHPUN007342,INTRUSION,202607,,"outside, rural",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+bc1c10b6-a0ce-4864-8c49-ecdf177cc8ed,2509DSHPUN007557,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+bc60542f-5f2c-4897-b6aa-2350c5a47432,2509DSHPUN007227,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+bc64a615-eaab-4710-a626-6c4a6ea63aef,2509DSHPUN007506,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+bc6e8504-8b7b-49db-a9cf-67274e11d13f,2509DSHPUN007227,INTRUSION,202607,,"outside, car park",,,,,fingertips,over bed wall,,,,,true positive,in-bed detection
+bd145d76-1178-42a5-8d16-2070f4abfbb3,2509DSHPUN002935,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+bd1940e8-908e-43cf-9394-c0c3a3724e32,2509DSHPUN004146,INTRUSION,202607,,"outside, car park",,,,,whole body,already inside,,,,,true positive,in-bed detection
+bd7e3d22-7c09-42e4-bb2c-b713bc07eb31,2509DSHPUN007534,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+bd9e789e-2e19-4e65-8ab5-d02b6726e1b3,2509DSHPUN004733,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+be1ef358-c86c-4157-9ac3-986c7310c0f8,2509DSHPUN004515,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+be26d743-7a7f-431f-8d77-7c2ed9861999,2509DSHPUN007712,INTRUSION,202607,,"outside, street parking",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+be36c9b4-d525-4c41-b965-8e2fda3958ef,2509DSHPUN004146,INTRUSION,202607,,"outside, car park",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+bed167cf-2b4f-4689-88f0-ee216503be0e,2512DSHPUN000738,INTRUSION,202607,,"outside, residential",,,,,whole body,open tailgate,,,,,true positive,in-bed detection
+beecbfe0-8530-4886-ab11-1f1932430107,2509DSHPUN002873,INTRUSION,202607,,"outside, car park",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+bf568f5b-a84c-4d3e-9824-e72403860562,2509DSHPUN002571,INTRUSION,202607,,"inside, industrial",,,,,whole body,already inside,,,,,true positive,in-bed detection
+bfae9197-f6c7-493e-a71a-7ab1669fb5f4,2509DSHPUN004968,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+c16ad263-cb40-4f1f-88d7-3984e490d7e8,2509DSHPUN002873,INTRUSION,202607,,"outside, street parking",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+c193c76c-d9a0-4b97-a34f-71d0beebd8f9,2509DSHPUN002571,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with overhanging object,,,,,,,true positive,out-of-bed detection
+c1a03071-9310-436e-9558-55befcdf2334,2509DSHPUN007538,INTRUSION,202607,,"inside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+c1b7bc8c-c254-44c5-acdc-6bac37e96adc,2509DSHPUN007455,INTRUSION,202607,,"outside, car park",,,outside reach distance,,,,,non-human object,object,,false positive,ghost
+c1c04809-660c-4ead-a678-e269ab184a8d,2509DSHPUN002571,INTRUSION,202607,,"outside, industrial",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+c1faeee5-219c-4c14-ab16-fe48f29517cd,2509DSHPUN002850,INTRUSION,202607,,"outside, residential",,,,,whole body,already inside,,,,,true positive,in-bed detection
+c28bd263-215c-4e54-9801-cc9915fd03e6,2512DSHPUN000735,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+c2d881d3-615a-4458-a65c-d71ea2625daa,2509DSHPUN004668,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+c2e4e257-f785-49e7-965a-a11872222c1c,2509DSHPUN002950,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+c3b988f4-f802-48c6-ae7a-b87bc16d1d11,2509DSHPUN004750,INTRUSION,202607,,"outside, residential",,,,,,,,pet / animal,object,,false positive,ghost
+c3d99333-e885-45f4-819f-ea72ed2caf81,2509DSHPUN007302,INTRUSION,202607,open sliding window,,,,,,,,,,,,discard,discard
+c3e9fc2a-cf30-4f63-8712-9ffa1d5213c0,2509DSHPUN002620,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+c564b0f2-5093-4d3b-a1f4-043f036ec381,2509DSHPUN002724,INTRUSION,202607,,"outside, residential",,,,,,,,pet / animal,object,,false positive,ghost
+c609b35f-7c61-4921-9a9c-27efbe2d6149,2509DSHPUN007188,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+c68031c8-46e7-4e80-92f1-d724c33401f2,2509DSHPUN004732,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+c6c9eac5-9eb8-494c-b5fe-90b88c35b8ff,2509DSHPUN002873,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,non-human object,object,,false positive,ghost
+c745bb58-0e7d-4bf5-838b-72ecee073b7e,2509DSHPUN007559,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+c7d3373b-b92d-471c-8339-75012ddff450,2509DSHPUN002795,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+c7e7c7ea-1426-48a5-89b4-1fc287b0a757,2509DSHPUN007703,INTRUSION,202607,,"inside, industrial",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+c813fc6d-154e-45f6-92bc-e8f69313e424,2509DSHPUN007227,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+c8388fd5-3969-4ccd-b232-d6af3013efca,2509DSHPUN007226,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+c83e204a-2d39-454b-b1bc-663cad4cd7d6,2509DSHPUN004661,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+c84561a7-1cc6-464a-80e0-cdd1cafe7ea4,2509DSHPUN002804,INTRUSION,202607,,"outside, industrial",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+c8a30bf6-b8e3-4b37-8067-edfc111aa101,2509DSHPUN007342,INTRUSION,202607,,"outside, rural",,,,,leg / foot,over bed wall,,,,,true positive,in-bed detection
+c8a4e206-603d-4298-bc2f-4bd8b03775bb,2509DSHPUN004166,INTRUSION,202607,,"inside, residential",,,outside reach distance,,,,,extrapolated person,person nearby,,false positive,ghost
+c8f7b084-014b-4de0-ae72-a3f9b2ae5c9b,2509DSHPUN007342,INTRUSION,202607,,"outside, industrial",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+c930f502-f271-409b-917b-81e2f946acca,2512DSHPUN000127,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+c9734936-162b-492f-a9c8-6efa5e4cae38,2509DSHPUN002571,INTRUSION,202607,,"outside, industrial",,,outside reach distance,,,,,extrapolated person,person nearby,,false positive,ghost
+c98f1c0a-1769-4b5e-960c-7e38473580a7,2509DSHPUN007488,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+ca653d1e-2faf-45fe-b2ad-e21c86d3409b,2509DSHPUN004157,INTRUSION,202607,,"outside, residential",,,,,whole body,already inside,,,,,true positive,in-bed detection
+ca7d0d43-d557-44bc-823a-59c4a8282fff,2509DSHPUN007227,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+ca7dbf5c-8ae9-41ee-863d-226973661573,2509DSHPUN002791,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+ca937d9c-4632-4b4b-a2b2-c1469ff0f15f,2509DSHPUN002868,INTRUSION,202607,,"outside, industrial",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+caf0c530-e1ec-4672-9c68-db09a6d9d10a,2509DSHPUN007339,INTRUSION,202607,,"outside, car park",,,,,fingertips,over bed wall,,,,,true positive,in-bed detection
+cb15fc8e-33ad-40f3-ad20-d6e8289f5074,2509DSHPUN007234,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+cb48d967-9ce8-4d69-8f78-c921797e8321,2509DSHPUN007331,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+cb49be82-02ec-4f24-921c-77fe1b68f179,2509DSHPUN007208,INTRUSION,202607,,"inside, residential",,,,,leg / foot,over bed wall,,,,,true positive,in-bed detection
+cbba24c5-ae28-4316-8eeb-ebe6389de28b,2509DSHPUN002822,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+cc2ce398-64d7-47f8-939d-c99a2630b3d1,2509DSHPUN002631,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+cc372c5a-f81a-444d-8f3d-1f0c425e936f,2509DSHPUN007208,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+cc4487ed-9c75-4dc1-b220-5d73738e3cde,2509DSHPUN004720,INTRUSION,202607,,"outside, rural",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+cc6267f4-d133-448c-86de-a2835eff0428,2509DSHPUN002792,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+cc989f06-324e-4d3c-99cb-fa6255b0f4d9,2509DSHPUN002795,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+cca8e342-164f-45dd-ae3a-785214dc66e6,2509DSHPUN007515,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+ccbd5094-b6eb-4e90-90c3-e320c9180c54,2509DSHPUN004668,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+cd4d7522-479f-489b-ac24-fb39b47a7999,2509DSHPUN004732,INTRUSION,202607,,"outside, car park",,,,,,,,non-human object,object,,false positive,ghost
+cd7bacfe-2ec7-4028-ae78-3091389e1751,2509DSHPUN002798,INTRUSION,202607,open sliding window,,,,,,,,,,,,discard,discard
+cd9c7eb4-fc1f-41e1-981b-3b09b354d535,2509DSHPUN002795,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+cdbcf772-11a2-42c6-9a52-f7c5c544cb63,2509DSHPUN002811,INTRUSION,202607,open sliding window,,,,,,,,,,,,discard,discard
+cdf75b3c-754f-4134-8c1d-ff9234c4f2b8,2509DSHPUN002631,INTRUSION,202607,,"outside, car park",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+ce2ed52d-1d91-43e1-bc06-2cb664e837f4,2509DSHPUN007236,INTRUSION,202607,,"outside, residential",,,,,whole body,already inside,bed contents,extrapolated person,person nearby,,false positive,happy accident
+ce66fad6-0028-4e04-a364-3a19b92b208a,2509DSHPUN007364,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+ce6cf319-8f7e-43cb-b763-827be533de38,2509DSHPUN007332,INTRUSION,202607,,"outside, rural",,,,,whole body,open tailgate,,,,,true positive,in-bed detection
+cec346a7-15a3-41b3-81b2-bbf72e3cf27a,2509DSHPUN004146,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+cedf90ef-9ad0-493b-b652-e43c84ccc012,2509DSHPUN002867,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+cf22e455-2d9e-44f9-99b8-4642d31cd4cd,2509DSHPUN004732,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+cf44322c-926b-4831-a106-45f794a7380c,2509DSHPUN002780,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+cfb112a1-7d93-4477-a102-2d241a0ad839,2509DSHPUN007188,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with overhanging object,,,,,,,true positive,out-of-bed detection
+cffab779-1865-42c9-b712-fe7ad28dc81e,2509DSHPUN007424,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+d0212cdc-0a49-4c8c-8521-a085b2369b29,2509DSHPUN007703,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+d0f58c0f-9dab-4d55-8695-419b02e4ff0c,2509DSHPUN007694,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+d18a96b1-855c-4b3d-acbf-8a870d3c4f8a,2509DSHPUN007424,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+d1a4de28-6192-49a6-81b3-e4cb97909463,2509DSHPUN004541,INTRUSION,202607,,"outside, residential",,,,,fingertips,over bed wall,,,,,true positive,in-bed detection
+d1a692d1-48c8-438a-8aec-869ea7b98ca5,2509DSHPUN007503,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+d220a422-3a65-4781-b63b-c27c04e701b2,2509DSHPUN002832,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+d224b33d-67c8-481b-b035-43bed468eed9,2509DSHPUN002628,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+d2d1cff7-2e49-4916-ad03-faefb01a3a0f,2509DSHPUN007712,INTRUSION,202607,,"outside, industrial",,,,,leg / foot,open tailgate,,,,,true positive,in-bed detection
+d2e0754e-deb2-48c7-9dfa-23d1180f1053,2509DSHPUN002631,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+d3303b11-1a86-426c-9682-acd55a3898ef,2509DSHPUN007208,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+d392f336-8264-48e8-b662-a37cd3758e55,2509DSHPUN002868,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+d3930949-2e61-4023-887e-0feb12687b3e,2509DSHPUN007694,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+d3c23ebe-7cbe-4b82-9106-b3d545ab4fcc,2509DSHPUN007776,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+d3c9e56f-1f79-4143-9b09-202b49b20321,2509DSHPUN002811,INTRUSION,202607,open sliding window,,,,,,,,,,,,discard,discard
+d436891c-f03b-40c5-8688-c8a0df292492,2509DSHPUN002837,INTRUSION,202607,,"unknown, low light",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+d4840da8-1f35-4da2-99f3-e4c01cca72c3,2509DSHPUN002724,INTRUSION,202607,,"unknown, low light",,,,,,,,pet / animal,object,,false positive,ghost
+d5e09793-7714-4a83-b52a-1a32aec0e3c0,2509DSHPUN007424,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+d6588b4f-25dd-4091-91e1-10b2b4e8ba0e,2509DSHPUN003356,INTRUSION,202607,,"outside, car park",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+d66fecdd-e3ce-4fc2-b29c-c796648c450c,2509DSHPUN002631,INTRUSION,202607,,"outside, car park",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+d690a421-7b66-4cb0-be73-1579734f5c1d,2509DSHPUN007342,INTRUSION,202607,,"outside, rural",,,,,whole body,already inside,,,,,true positive,in-bed detection
+d705e2ab-8d02-4c98-8004-220e8a006360,2509DSHPUN002631,INTRUSION,202607,,"outside, industrial",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+d71e4b89-73f7-471b-87d1-3f1e73e7d15c,2512DSHPUN000127,INTRUSION,202607,,"outside, car park",,,,,whole body,already inside,,,,,true positive,in-bed detection
+d7e782ab-4e90-4873-b9fb-32e1a92e58c7,2509DSHPUN003907,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+d80a421e-3668-4f7d-8967-81ef516c0475,2509DSHPUN002839,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+d86c1653-58ee-43bb-8e9c-f21e0f001139,2509DSHPUN004661,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+d92b51ce-e94c-488e-9bfa-819e5d0641b9,2509DSHPUN002811,INTRUSION,202607,obstructed (partial),,,,,,,,,,,,discard,discard
+d9f8a2d0-ea74-4f6e-895d-3054c1e8a109,2509DSHPUN004971,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+da26d3e9-6ead-468c-9631-7f93284a767d,2509DSHPUN004872,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+da5a1780-3325-4184-a414-908745fb5c13,2509DSHPUN002885,INTRUSION,202607,,"outside, car park",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+da5c470d-bb56-4f1b-a571-d96ec422654d,2509DSHPUN007342,INTRUSION,202607,,"outside, industrial",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+da78f1c1-7b15-47a8-87af-447f454914ae,2509DSHPUN007776,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+da86ac64-55c2-4f38-89de-23114022435b,2509DSHPUN007514,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+dade632c-4469-44e0-9e0f-8bfc72e23201,2509DSHPUN004157,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+daf38f4d-c3c1-4983-88e6-61e15aa7d69f,2509DSHPUN004166,INTRUSION,202607,,"outside, car park",,,,,whole body,already inside,,,,,true positive,in-bed detection
+db0b489f-9431-4230-847a-d110521cf35c,2509DSHPUN007776,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+db0e3d24-4438-42d1-91ad-6b5c1b9faa38,2512DSHPUN000127,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+db55cf0c-3530-4058-b189-9c9fcf99413d,2509DSHPUN004666,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+db723d84-de59-49a0-98ba-e9d39f40402f,2509DSHPUN002798,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+db7b2ca5-e9e8-48df-82e5-8a6dfad56d8b,2509DSHPUN004521,INTRUSION,202607,,"outside, car park",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+dbb26fc3-7f7d-4cb3-aa97-6300eb272d22,2509DSHPUN002837,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+dbbda834-ca69-41ec-aebc-b8057d3ae260,2509DSHPUN002832,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+dbd89d8a-c237-4253-9165-8c9b36df4743,2509DSHPUN002876,INTRUSION,202607,,"inside, residential",,,within reach distance,,,,,extrapolated person,person nearby,,false positive,ghost
+dc671326-119b-4419-b7b1-7e9a4a3f8c99,2509DSHPUN004971,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+dc956cf5-c7ef-4da8-b655-e256eb3e62bc,2509DSHPUN007515,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+dccffabd-233e-4f24-a2e9-fe4d31b1ab5a,2509DSHPUN007514,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+dce58bb2-9367-44cf-a2f7-2dd9a3e83d49,2509DSHPUN002869,INTRUSION,202607,,"outside, residential",,,,,whole body,open tailgate,,,,,true positive,in-bed detection
+dd615f9e-d4ac-434e-b531-7c54a0533600,2509DSHPUN002837,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+dda1b0f6-ba52-4abf-9a93-e3f1ef86de18,2509DSHPUN002571,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+ddcd8b52-4776-430e-a4a2-dd436e32aabc,2509DSHPUN007233,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+de1e3572-c680-4a9e-95b3-1a38b690ffa5,2509DSHPUN002811,INTRUSION,202607,open sliding window,,,,,,,,,,,,discard,discard
+de2e092b-feef-457d-a60d-cd6c6068dbbd,2509DSHPUN007174,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+de9adfec-1aa7-42d4-90e7-f02f5d9bad96,2509DSHPUN004157,INTRUSION,202607,,"outside, car park",,,,,whole body,already inside,,,,,true positive,in-bed detection
+dea24dea-ebad-4d71-b1fc-c95fed40d1aa,2509DSHPUN004586,INTRUSION,202607,,"outside, residential",,,,,whole body,already inside,,,,,true positive,in-bed detection
+deb4185e-10ba-48f5-8715-5ce339d99c15,2509DSHPUN002631,INTRUSION,202607,,"inside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+dee9a5d2-7d0a-435a-92bf-92696d6ebd3a,2509DSHPUN003356,INTRUSION,202607,,"outside, car park",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+df588565-ecc8-44b6-9bd5-7bde8d13b711,2509DSHPUN007227,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+dfb27e65-7173-4498-9761-852d52451fba,2509DSHPUN007646,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+e04297fd-fe70-437e-b192-d9cefc1c9f12,2509DSHPUN007538,INTRUSION,202607,,"inside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+e059f372-eac8-4f0a-a63c-0d040c544c34,2509DSHPUN007331,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+e0926c6b-f782-4739-95cd-4ca148657c03,2509DSHPUN007455,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,non-human object,object,,false positive,happy accident
+e14728df-9af9-4281-8711-a89cb0a041f9,2509DSHPUN002792,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+e1bcfd47-b84b-4b30-8561-fbda65871d0a,2509DSHPUN007424,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+e1cd69c0-5446-417a-8b10-56cc44f9c119,2512DSHPUN000032,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+e1cf4438-6c42-4e7b-bdd1-c108e861915f,2509DSHPUN007364,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+e1e95e87-0c86-4e09-bd2c-a219b94c891c,2509DSHPUN002631,INTRUSION,202607,,"inside, industrial",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+e1f31c76-73dd-4e95-949c-de7c93a2a1ab,2509DSHPUN002620,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+e20ad05d-2187-4a01-bb49-a8f15f30e1cf,2509DSHPUN002465,INTRUSION,202607,,"outside, car park",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+e22a1de1-963d-490b-b306-f3dc634e392a,2509DSHPUN007216,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+e24b7ba6-08e2-4e52-a981-d247dcef69fe,2509DSHPUN004011,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+e2508fcd-7442-45ff-a5f1-0b5f975e241e,2509DSHPUN002867,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+e2566537-6b9b-4441-bd29-6c4f5f8559a5,2509DSHPUN007227,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+e347c51d-1fc2-4122-b591-efd925712784,2509DSHPUN002837,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+e35bee91-4464-4bea-816a-6510bff1a61b,2509DSHPUN004586,INTRUSION,202607,,"outside, car park",,,,,leg / foot,already inside,,,,,true positive,in-bed detection
+e3968861-d138-47b6-bd5f-503987b16ad1,2509DSHPUN007694,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+e3e1d80c-93e9-4eb0-b15a-6421c892bb3a,2509DSHPUN007505,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+e3eb9574-dd77-4417-a19c-6bafb20b1d63,2509DSHPUN002886,INTRUSION,202607,,"outside, rural",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+e3fbe6d8-f9b7-4f51-8c9d-d429fe5124bc,2509DSHPUN002780,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+e4662201-4c4f-4363-8901-31678b537a33,2509DSHPUN002868,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+e4683adc-6416-4525-a8eb-7bdcfe271bee,2509DSHPUN002868,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+e499c0d5-b748-46e6-bf53-f944056b5316,2509DSHPUN004699,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,extrapolated person,person nearby,,false positive,ghost
+e4bb0733-9965-4f0b-8354-175bff0b6325,2512DSHPUN000271,INTRUSION,202607,,"inside, industrial",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+e4d39e3e-90ed-4a0a-b54f-c9f125b01599,2509DSHPUN002571,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+e4e7a222-702f-4faa-bafa-f8185d829233,2509DSHPUN007673,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+e4e89289-9079-46b1-b113-8a178d33694b,2509DSHPUN006972,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+e4fcd5e1-781d-4d4c-955a-6e0319aa3977,2509DSHPUN007740,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+e535fabb-5aff-42f1-9a08-d549e51a1fc5,2509DSHPUN007424,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+e56b6c07-8126-4f6a-a9d6-b906169f2cd6,2509DSHPUN004586,INTRUSION,202607,,"outside, car park",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+e581f8d7-f569-4bb0-a33c-484e3636f2ae,2509DSHPUN007365,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+e6149453-13a0-4092-bf89-87fb0418200b,2509DSHPUN007200,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+e662c72e-e510-4bb3-bcbf-5d6eb9003e9a,2509DSHPUN007234,INTRUSION,202607,,"outside, car park",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+e6745436-ba00-4e74-a700-6d7146154588,2509DSHPUN002867,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+e6f048b7-88be-4231-943d-27191dff043a,2509DSHPUN007260,INTRUSION,202607,,"outside, street parking",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+e6fe4f9c-560f-4689-9b4a-67144df60015,2509DSHPUN007503,INTRUSION,202607,,"inside, industrial",,,,,whole body,already inside,,,,,true positive,in-bed detection
+e7bb984f-684a-46e3-a56f-1553ea8d8102,2509DSHPUN007522,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+e7c64629-af76-424d-ad77-ffce8afc69c8,2509DSHPUN002868,INTRUSION,202607,,"outside, car park",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+e7faf8ba-9abd-420a-8923-966461a434f3,2509DSHPUN002891,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+e85bf120-3a1a-4c5e-9d6d-700a4f521c81,2509DSHPUN007675,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+e8c4f6c7-89e0-4731-93f5-9836bf34a557,2509DSHPUN004998,INTRUSION,202607,,"outside, car park",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+e8cd8b93-e9b7-4977-8000-2411ffd2b1f4,2509DSHPUN002631,INTRUSION,202607,,"inside, industrial",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+e91454bf-0b23-495a-a3ad-73a0e5ff52fc,2509DSHPUN002631,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+e91e247c-d423-4134-b2e1-5811b2b09d15,2509DSHPUN007236,INTRUSION,202607,,"outside, car park",,,,,,,,non-human object,object,,false positive,ghost
+e92b9301-7ae3-47a3-8357-2c13ee0ba22e,2509DSHPUN006923,INTRUSION,202607,,"outside, residential",,,,,whole body,already inside,,,,,true positive,in-bed detection
+e95bac8e-be4a-4bdf-a1bb-5cd8bf8e3bab,2509DSHPUN007227,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+e9880bbd-ae14-4823-a377-99de12ece8bb,2509DSHPUN004776,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,hand / arm on bed wall,,,,,,,true positive,out-of-bed detection
+e9eacbe2-1db5-46ec-8398-febf2f5cc7dd,2509DSHPUN007216,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+ea6e53cf-ce6a-458a-8ee3-85ff99f6b619,2509DSHPUN004732,INTRUSION,202607,,"outside, car park",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+eaa193dd-e521-448c-b54e-f5deeb1c4e7f,2509DSHPUN004732,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+eb0a53de-5ffd-4fd7-8233-6bd8261783b2,2512DSHPUN000127,INTRUSION,202607,,"outside, car park",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+eb5315ea-0b4b-40c9-9cec-52c530765b56,2509DSHPUN004751,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+eb7e40bf-d4da-401d-a065-9bf4149752a0,2509DSHPUN007424,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+eb9c021b-7b4b-45eb-b13c-3e24fb923a10,2509DSHPUN002837,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+ebbcbaf8-5ccf-4e0b-94ad-067725b8aff9,2509DSHPUN007364,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+ebeb8064-6200-4f43-82fe-957438825599,2509DSHPUN004541,INTRUSION,202607,,"inside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+ebeeb35f-60ba-492a-80ba-1d9e0c6f99a5,2509DSHPUN004180,INTRUSION,202607,,"outside, residential",,,,,whole body,open tailgate,,,,,true positive,in-bed detection
+ec049280-6a74-4ef9-9689-120784df1231,2509DSHPUN007342,INTRUSION,202607,,"outside, industrial",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+ec7c4d96-2305-4044-bbbc-984513bef79a,2509DSHPUN002431,INTRUSION,202607,,"outside, car park",,,,,leg / foot,over bed wall,,,,,true positive,in-bed detection
+ed6c31c3-191a-46a1-9025-f4e5ea2fe1cd,2509DSHPUN007704,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+ed7b2791-3b62-45c9-a575-5811b2733d8b,2509DSHPUN003907,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,bed contents,extrapolated person,person nearby,,false positive,happy accident
+ed8f25b4-2c01-42bc-862d-e76202a0ec12,2509DSHPUN004661,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+edfe9717-4e3b-4a54-a9f7-7ff48405e7d5,2509DSHPUN007514,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+ee1c9991-2398-434e-96d1-234758b102e1,2509DSHPUN002465,INTRUSION,202607,,"outside, car park",,,,,whole body,already inside,,,,,true positive,in-bed detection
+ee27c955-e9fa-496c-acf2-cde68944ae2f,2509DSHPUN002792,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+ee6f5bbf-7c6c-494d-b483-3c3bbbc52071,2509DSHPUN002950,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+ee712d21-bf72-4287-8aea-c1d9a84a4e15,2509DSHPUN007424,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+ee739983-0ea3-446f-96d4-21956600dba5,2509DSHPUN007192,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,extrapolated person,person nearby,,false positive,ghost
+ee815e1c-d05d-4461-85f3-4a0ea86c5563,2509DSHPUN007560,INTRUSION,202607,,"outside, street parking",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+eec345ae-8e06-44e8-b9da-03b3056cc567,2509DSHPUN002631,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+ef75369d-8fc5-414d-8d21-984cd72ac3e0,2509DSHPUN002477,INTRUSION,202607,,"inside, industrial",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+efd32050-a3fd-4403-8fd2-3722a70fe58b,2509DSHPUN002867,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+eff93935-3e97-48b2-b7ec-80e0d5538438,2509DSHPUN007302,INTRUSION,202607,open sliding window,,,,,,,,,,,,discard,discard
+f00dbf34-ce86-444f-825f-2e570f7b545d,2509DSHPUN002811,INTRUSION,202607,,"outside, rural",,,,,whole body,already inside,,,,,true positive,in-bed detection
+f01c368e-96e4-412f-9ba3-2cfa95b5b606,2509DSHPUN007424,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+f1dd32fa-126b-4f81-8d2f-ab5a31e8a0f4,2509DSHPUN007515,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+f25a7de8-56ad-4e4e-9a0b-13bb4b3f3df0,2509DSHPUN003356,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+f26ad835-7a82-452a-a5f2-f231cba31844,2509DSHPUN007560,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+f2aeb9d1-1444-4e64-87e9-b612770ca0a2,2509DSHPUN002811,INTRUSION,202607,open sliding window,,,,,,,,,,,,discard,discard
+f307d565-5a74-47a6-bbe0-a1d6692c217f,2509DSHPUN004586,INTRUSION,202607,,"outside, residential",,,,,whole body,already inside,,extrapolated person,person nearby,,false positive,happy accident
+f3758d3c-8c97-4e0e-900d-9c40e3f63750,2509DSHPUN002867,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+f3823859-daa6-468b-a107-e46acd6bd1fd,2509DSHPUN004968,INTRUSION,202607,,"outside, car park",,,,,fingertips,over bed wall,,,,,true positive,in-bed detection
+f3e18d3f-6030-4320-b922-ae2b06d8a214,2509DSHPUN007342,INTRUSION,202607,,"outside, industrial",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+f3fe0a0e-df2e-450a-975f-dce9fd6afa85,2509DSHPUN004541,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+f44c569a-8626-44ad-9483-7ed9882d35c1,2509DSHPUN002891,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+f465cada-6b6a-49bd-a44c-6225846cf725,2509DSHPUN007560,INTRUSION,202607,,"outside, rural",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+f4ad0b0e-4bac-4abc-b412-3fe35e2cd907,2509DSHPUN007157,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,non-human object,object,,false positive,ghost
+f5044c13-bcd0-42a3-8cf3-f689a8b49dbd,2509DSHPUN007497,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+f55a2721-6fd0-4823-a6a6-ed6ab9912c42,2509DSHPUN007776,INTRUSION,202607,,"outside, residential",,,,,whole body,already inside,,,,,true positive,in-bed detection
+f59e9d81-f624-4930-852f-21f049d28dc4,2509DSHPUN004688,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+f5dbf80f-c62c-479d-a7c1-fb34f34030de,2509DSHPUN002811,INTRUSION,202607,open sliding window,,,,,,,,,,,,discard,discard
+f6f6ea03-5d31-4d50-a9be-d52b1ba517a7,2509DSHPUN007740,INTRUSION,202607,open sliding window,,,,,,,,,,,,discard,discard
+f71491c6-5104-4f4d-aea1-f87c985c7d77,2509DSHPUN007712,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+f72e1239-2fa9-422b-9257-c14ad5064c27,2509DSHPUN007514,INTRUSION,202607,,"outside, rural",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+f768e8f0-7595-4728-8969-42a52a9ce569,2509DSHPUN002868,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+f77434b5-a13d-4baa-9a7f-5c5ed7577e93,2509DSHPUN002867,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+f789fc7c-a4fb-4de7-b70e-85cb6c6b8979,2509DSHPUN002631,INTRUSION,202607,,"outside, industrial",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+f7a15196-e27d-4878-85e9-22cdf3d6f3f3,2509DSHPUN002792,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+f7d281b8-c98c-41b2-8be0-9b847885417f,2509DSHPUN007216,INTRUSION,202607,obstructed (partial),,,,,,,,,,,,discard,discard
+f81b6941-e5c9-451c-9a63-28970c12f236,2509DSHPUN002631,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+f859f26d-76ac-4fde-9342-171170f9bb1f,2509DSHPUN007505,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+f8663da1-e8d9-4d8a-aca4-d3e6009ce88c,2509DSHPUN002631,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+f8d758b9-2226-494c-812f-df09756002aa,2512DSHPUN000735,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+f90677cd-e033-413c-92ea-c69310fc3812,2509DSHPUN007171,INTRUSION,202607,,"outside, residential",,,,,fingertips,over bed wall,,,,,true positive,in-bed detection
+f926d076-9ea6-42ae-ac91-d36b25491a3b,2509DSHPUN002571,INTRUSION,202607,,"outside, industrial",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+f96c098c-2940-41d7-b43d-95dd5824f6d7,2509DSHPUN007311,INTRUSION,202607,,"outside, car park",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+f97b0a01-28a2-4a93-b4af-ae8750a40596,2509DSHPUN007514,INTRUSION,202607,,"outside, rural",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+f97b7d55-5ec3-4a6e-b24e-bf032de523ca,2509DSHPUN002805,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,lean against bed wall,,,,,,,true positive,out-of-bed detection
+f98d9c9a-dce9-404e-8e7f-183840928adb,2509DSHPUN007694,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+f9f697fa-8437-4a5e-af5c-30a179d87744,2509DSHPUN003370,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+fa775f11-d6a9-4ca3-80f1-f9246d8e1c09,2509DSHPUN002798,INTRUSION,202607,,"outside, car park",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+fa9714f4-19a1-4a08-ab67-a91f9ab7b9e3,2509DSHPUN007302,INTRUSION,202607,open sliding window,,,,,,,,,,,,discard,discard
+fac824d7-9295-433f-927d-6999a4514504,2509DSHPUN002631,INTRUSION,202607,,"outside, car park",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+fad75341-3cf0-4a71-9f1e-9229909f61f9,2509DSHPUN007505,INTRUSION,202607,,"outside, car park",,,,,fingertips,over bed wall,,,,,true positive,in-bed detection
+fafa6db8-19a9-4149-9b36-bfb2eee32a50,2509DSHPUN002873,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+fb5f612c-f5f8-4a0a-8d46-22c83aafea69,2509DSHPUN002725,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+fba26928-8c1e-4b62-8109-80c054b66cbc,2509DSHPUN007275,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+fbb5edb9-e3e8-4163-85de-32508513cff6,2509DSHPUN007188,INTRUSION,202607,,"outside, industrial",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+fbba9480-61e7-4191-a8c8-7ef2c225b18c,2509DSHPUN002792,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,hand / arm on bed wall,,,,,,,true positive,out-of-bed detection
+fc2bbe08-5b28-40f6-b145-39558366d17e,2509DSHPUN004870,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+fc3345f3-837c-4129-af9a-ae82be78d817,2509DSHPUN007674,INTRUSION,202607,open sliding window,,,,,,,,,,,,discard,discard
+fc668fae-453c-4f96-afab-1881ca842d50,2509DSHPUN007244,INTRUSION,202607,incorrectly mounted,,,,,,,,,,,,discard,discard
+fc6cf3a6-d5b9-4203-a8d6-d75d10d4a31d,2509DSHPUN002685,INTRUSION,202607,,"outside, car park",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+fc6da044-54bc-4f70-8232-1ab52981d6e7,2509DSHPUN002868,INTRUSION,202607,,"outside, car park",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+fcecaba6-9914-464d-b6a5-1bf3d0c1c6e4,2509DSHPUN007227,INTRUSION,202607,,"outside, residential",,,within reach distance,,,,,,,,true positive,out-of-bed detection
+fcff7220-44bd-414d-9571-91e3fd325264,2509DSHPUN003356,INTRUSION,202607,,"outside, car park",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+fd0c8c0d-86df-4e38-bff0-abb39cb08e06,2509DSHPUN002792,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+fd29fe77-1047-4ef6-bcf9-debdb2a8db47,2509DSHPUN004971,INTRUSION,202607,,"outside, car park",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+fd2a5dc1-128e-4f66-b9e8-c56a4f81af9b,2509DSHPUN002874,INTRUSION,202607,,"outside, car park",,,,,fingertips,over bed wall,,,,,true positive,in-bed detection
+fda1315c-8288-4b4d-9339-fd09e4ac904c,2509DSHPUN002791,INTRUSION,202607,,"inside, industrial",,,,,whole body,already inside,,,,,true positive,in-bed detection
+fdb62012-28a4-4d80-b619-63365d4364d3,2509DSHPUN002571,INTRUSION,202607,,"inside, industrial",,,interacting with vehicle,hand / arm on bed wall,,,,,,,true positive,out-of-bed detection
+fe3b9120-fcc3-464e-83bc-5dd3fda2c8d1,2509DSHPUN002867,INTRUSION,202607,,"outside, street parking",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+fe6682ee-d07c-4c98-bfab-1fe0fadceed7,2509DSHPUN004515,INTRUSION,202607,,"outside, residential",,,,,hand / arm,over bed wall,,,,,true positive,in-bed detection
+feb5156a-5cef-4438-8a95-60ec238bc6af,2509DSHPUN007557,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection
+fec1ff5b-b284-418b-be34-bc8a5101402f,2509DSHPUN007227,INTRUSION,202607,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,,true positive,out-of-bed detection
+ff2cc7ec-6b78-4b59-a7b2-fbeda4a658c1,2509DSHPUN002631,INTRUSION,202607,,"outside, car park",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+ff97856e-da69-461b-ab69-4952c0ffa880,2509DSHPUN007311,INTRUSION,202607,,"outside, residential",,,outside reach distance,,,,,,,,true positive,out-of-bed detection
+ffbc557c-5cd7-4bfd-b93e-6512e0020b57,2509DSHPUN002795,INTRUSION,202607,incorrect zone,,,,,,,,,,,,discard,discard
+ffe0a834-2765-46ec-927a-33fcf4c3a80c,2509DSHPUN002867,INTRUSION,202607,,"outside, residential",,,,,hand / arm,open tailgate,,,,,true positive,in-bed detection

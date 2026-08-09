@@ -140,7 +140,7 @@ def calculate_device_rates(valid_events, fps, num_devices_population, total_even
     }
 
 
-def print_monthly_report(current, previous=None, device_stats=None, output_file=None):
+def print_monthly_report(current, previous=None, device_stats=None, output_file=None, event_type="INTRUSION"):
     """Print comprehensive monthly analysis report."""
     
     def _print(*args, **kwargs):
@@ -150,7 +150,7 @@ def print_monthly_report(current, previous=None, device_stats=None, output_file=
             print(*args, **kwargs, file=output_file)
     
     _print("=" * 80)
-    _print(f"MONTHLY FPR ANALYSIS: {current['month']}")
+    _print(f"MONTHLY FPR ANALYSIS – {event_type} EVENTS: {current['month']}")
     _print("=" * 80)
     _print()
     
@@ -188,8 +188,12 @@ def print_monthly_report(current, previous=None, device_stats=None, output_file=
     # Level 2: PRIMARY CLASS
     _print("\n  PRIMARY CLASS")
     _print("  " + "-" * 76)
-    _print("  INTRUSION EVENT (cv detection): {:,} (100%)".format(len(current['valid'])))
-    _print("  LEARNING EVENT (no cv detection): 0 (not yet classified)")
+    if event_type == "INTRUSION":
+        _print("  INTRUSION EVENT (cv detection): {:,} (100%)".format(len(current['valid'])))
+        _print("  LEARNING EVENT (no cv detection): (not this sample)")
+    else:
+        _print("  INTRUSION EVENT (cv detection): (not this sample)")
+        _print("  LEARNING EVENT (no cv detection): {:,} (100%)".format(len(current['valid'])))
     
     # Level 3: MAJOR CLASS (under INTRUSION EVENT)
     _print("\n    MAJOR CLASS")
@@ -327,12 +331,12 @@ def print_monthly_report(current, previous=None, device_stats=None, output_file=
 
 
 # Example usage function
-def run_monthly_analysis(current_csv, previous_csv=None, 
+def run_monthly_analysis(current_csv, previous_csv=None,
                         num_devices=None, total_events=None, weeks=4,
-                        devices_with_fps=None, output_txt=None):
+                        devices_with_fps=None, output_txt=None, event_type="INTRUSION"):
     """
     Run complete monthly analysis.
-    
+
     Args:
         current_csv: Path to current month's CSV
         previous_csv: Path to previous month's CSV (optional)
@@ -341,6 +345,7 @@ def run_monthly_analysis(current_csv, previous_csv=None,
         weeks: Number of weeks in the period (typically 4)
         devices_with_fps: Number of devices with at least 1 FP (from Redshift)
         output_txt: Path to output text file (optional, defaults to outputs/reports/monthly_fpr_report.txt)
+        event_type: "INTRUSION" or "LEARNING" (default: "INTRUSION")
     """
     
     # Analyze current month
@@ -371,8 +376,8 @@ def run_monthly_analysis(current_csv, previous_csv=None,
         output_txt.parent.mkdir(parents=True, exist_ok=True)
     
     with open(output_txt, 'w') as f:
-        print_monthly_report(current, previous, device_stats, output_file=f)
-    
+        print_monthly_report(current, previous, device_stats, output_file=f, event_type=event_type)
+
     print(f"\nReport written to: {output_txt}")
 
 
@@ -392,6 +397,8 @@ if __name__ == "__main__":
                         help="Number of devices with at least one FP")
     parser.add_argument("--weeks", type=int, default=4,
                         help="Number of weeks in the analysis period (default: 4)")
+    parser.add_argument("--event-type", choices=["INTRUSION", "LEARNING"], default="INTRUSION",
+                        help="Event type being analysed (default: INTRUSION)")
     parser.add_argument("--output",
                         help="Output text file path (default: derived from --current CSV name)")
     args = parser.parse_args()
@@ -413,7 +420,7 @@ if __name__ == "__main__":
     if output_txt is None:
         base = os.path.splitext(os.path.basename(args.current))[0]
         OUTPUT_REPORTS_DIR.mkdir(parents=True, exist_ok=True)
-        output_txt = OUTPUT_REPORTS_DIR / f"{base}_fpr_report.txt"
+        output_txt = OUTPUT_REPORTS_DIR / f"{base}_{args.event_type.lower()}_fpr_report.txt"
 
     run_monthly_analysis(
         current_csv=args.current,
@@ -423,4 +430,5 @@ if __name__ == "__main__":
         weeks=args.weeks,
         devices_with_fps=args.devices_with_fps,
         output_txt=output_txt,
+        event_type=args.event_type,
     )

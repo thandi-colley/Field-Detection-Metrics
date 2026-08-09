@@ -1,0 +1,1001 @@
+event_id,serial_number,event_type,person_in_image,person_visible_in_zone,person_intruding,person_in_bbox,discard_criteria,environment,non_person_movement,out_of_snapshot_activity,body_position,interaction_type,body_part_in_bed,intruding_from,person_obstructed_by,fp_cause,fn_cause,major_class,intermediary_class
+002a354f-6160-4dba-8031-a71be1bbe8ac,2509DSHPUN002876,LEARNING,false,false,false,false,,"inside, residential",,walk-by,,,,,,,,true negative,empty
+00b55a40-d775-414f-aee9-6db7e49b4641,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+00ee0c80-d258-492d-be4c-11f60350eab4,2509DSHPUN007190,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+031448d0-ade2-4813-97df-d7351fa029d5,2509DSHPUN004586,LEARNING,true,false,false,false,,"outside, car park",,,within reach distance,,,,,,,true negative,out-of-bed presence
+034443f1-8f69-4fbb-bf3d-ed7f19c37990,2509DSHPUN007171,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+03b28637-2f02-4f62-9f43-25060b657c9a,2509DSHPUN004721,LEARNING,false,false,false,false,,"outside, street parking",,person in cabin,,,,,,,,true negative,empty
+03e6081c-b901-4912-b07e-257a8d5dc550,2509DSHPUN004667,LEARNING,true,false,false,false,,"outside, car park",,walk-by,outside reach distance,,,,,,,true negative,out-of-bed presence
+042ac020-3f09-4f9d-a1b2-9970cab87e3f,2509DSHPUN004521,LEARNING,false,false,false,false,,"inside, industrial",flag in wind,walk-by,,,,,,,,true negative,empty
+04717048-4ccd-4913-9bbb-c8e2c616f38d,2509DSHPUN002762,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+04799d4e-5757-4932-9613-c981ffe6aaa2,2509DSHPUN002770,LEARNING,true,false,false,false,,"outside, car park",,,within reach distance,,,,,,,true negative,out-of-bed presence
+04bd2c6b-a4bf-49e9-bfb5-ab7a0ff98a1f,2509DSHPUN004657,LEARNING,true,false,false,false,,"inside, car park",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+05015f6a-01fe-4f0a-adbe-99a6a484368e,2509DSHPUN007260,LEARNING,false,false,false,false,,"outside, street parking",car driveby,,,,,,,,,true negative,empty
+050191e9-d0f2-4b55-9db3-5dee34d44e93,2509DSHPUN007192,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+05593f2d-0221-4352-a493-a8611d45b932,2509DSHPUN002837,LEARNING,false,false,false,false,,"outside, residential",tree in wind,,,,,,,,,true negative,empty
+059b3cfc-00be-4a4d-92d2-dd889818ed85,2509DSHPUN004586,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+05a1acad-c632-44bb-9179-4404fe689495,2509DSHPUN007260,LEARNING,false,false,false,false,,"outside, street parking",car driveby,,,,,,,,,true negative,empty
+05bbd6e0-7acc-492e-ae2d-5acb995c1e5d,2509DSHPUN002950,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+05d76152-a9c5-46c7-b37b-d0f8e13b33ff,2509DSHPUN007190,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+05f2bcb0-a12e-4971-9241-94d6fd4d9324,2509DSHPUN004855,LEARNING,false,false,false,false,,"outside, car park",soft tonneau cover in wind,,,,,,,,,true negative,empty
+06b3c404-62c0-4184-9199-584b00663cfd,2509DSHPUN002827,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+0714d165-5db1-46d9-939d-b2a63574c629,2509DSHPUN007260,LEARNING,true,false,true,false,,"outside, street parking",,,,,hand / arm,open tailgate,tonneau cover,,,true negative,non-visible intrusion
+072409cf-6eab-48e3-830a-3dd9e6c6e5e5,2509DSHPUN002950,LEARNING,true,false,false,false,,"outside, residential",,,within reach distance,,,,,,,true negative,out-of-bed presence
+07b297d3-b4af-43ce-9e9d-174a3356ff3f,2509DSHPUN004751,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+07dd27e3-8296-4026-a84f-5902107b1d76,2509DSHPUN007304,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+07e7c73e-d853-4f18-ac20-d90a3165dc36,2509DSHPUN002891,LEARNING,false,false,false,false,,"outside, residential",car driveby; garage door opening / closing,,,,,,,,,true negative,empty
+08255f81-0999-489b-9c1d-04db06ede800,2509DSHPUN004667,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+087f5aa7-4921-45d3-907c-85a117fe3244,2509DSHPUN004586,LEARNING,false,false,false,false,,"inside, residential",,walk-by,,,,,,,,true negative,empty
+08b5775f-c944-4e97-a8d2-5cdf87d9c0f8,2509DSHPUN004586,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+08c07561-22ee-4214-98e2-317b86cb51d4,2509DSHPUN007216,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+09c38f20-83b3-4df1-90c0-d87ed0b0c71a,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+0a3341bd-57fc-4592-ae89-1103a07c0af0,2509DSHPUN002762,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+0a6b0111-9fe4-4049-937d-39eb1761f849,2509DSHPUN007260,LEARNING,true,false,true,false,,"outside, street parking",car driveby,,,,hand / arm,open tailgate,tonneau cover,,,true negative,non-visible intrusion
+0ae0b7ab-96bf-4409-bb4a-9680c86d6eff,2509DSHPUN007673,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+0b1cbd1f-ca52-45db-a791-59672a868e73,2509DSHPUN007216,LEARNING,true,false,false,false,,"outside, residential",,,within reach distance,,,,,,,true negative,out-of-bed presence
+0b3a6386-f3f3-4daa-bdd3-3dd74ec89422,2509DSHPUN002870,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+0b597eaa-faf0-434b-acc3-2c9fb761d721,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+0b6890b0-34a9-447b-b2fb-50ea2a105404,2509DSHPUN004521,LEARNING,false,false,false,false,,"outside, car park",tree in wind,,,,,,,,,true negative,empty
+0bcacc3f-56a1-4ad5-a491-6eec314be55b,2509DSHPUN004872,LEARNING,true,false,false,false,,"outside, car park",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+0c28555a-d76c-4d35-857a-ec15f46b49d5,2509DSHPUN007260,LEARNING,false,false,false,false,,"outside, street parking",car driveby,,,,,,,,,true negative,empty
+0ca123f3-1ce5-4159-bece-97d011a6e997,2509DSHPUN007260,LEARNING,false,false,false,false,,"outside, street parking",car driveby,,,,,,,,,true negative,empty
+0da11fc5-c95b-41e4-98aa-2a39ef39dd17,2509DSHPUN004855,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+0e452326-d5e4-4f58-a2ca-a020ab01b3c7,2509DSHPUN004747,LEARNING,false,false,false,false,obstructed (partial),,,,,,,,,,,discard,discard
+0e684ae6-d3d1-4e8f-a14f-48d3df2daf9e,2509DSHPUN007192,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+0e6bc3a1-336a-486e-be9d-a970178a6030,2509DSHPUN004747,LEARNING,false,false,false,false,obstructed (partial),,,,,,,,,,,discard,discard
+0f9ef566-23ed-40dc-b9b1-7811653dfb38,2509DSHPUN004521,LEARNING,false,false,false,false,,"outside, car park",tree in wind,,,,,,,,,true negative,empty
+0fd3c689-3fe3-471f-a55e-779b9a09bdd9,2509DSHPUN007673,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+0fe51b7f-36bb-439e-b96e-ed6fbe631fa8,2509DSHPUN002762,LEARNING,true,false,false,false,,"outside, car park",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+1058013b-0607-487d-bcb3-7a09e2e7a462,2509DSHPUN004668,LEARNING,true,false,false,false,,"outside, residential",,,within reach distance,,,,,,,true negative,out-of-bed presence
+10594d34-f0bc-4a89-b078-8d6d7fd44601,2509DSHPUN004657,LEARNING,true,false,false,false,,"inside, car park",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+10bf0cb3-1e75-45ec-be42-d041d51e918a,2509DSHPUN007192,LEARNING,true,false,false,false,,"outside, car park",,,within reach distance,,,,,,,true negative,out-of-bed presence
+10dcb383-db54-44df-b22c-c1c1c729af79,2509DSHPUN002870,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+10fd2909-e70a-4e0d-b0ed-30211976c3b6,2509DSHPUN004011,LEARNING,true,false,true,false,,"outside, industrial",,,,,hand / arm,open tailgate,tonneau cover,,,true negative,non-visible intrusion
+10ffa674-4161-4100-a39c-cd9fb8672543,2509DSHPUN007216,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+1136fc45-0e55-4a1f-8408-517326929d88,2509DSHPUN004521,LEARNING,false,false,false,false,,"outside, car park",tree in wind,,,,,,,,,true negative,empty
+11b3e75f-5f00-4c9a-affb-f75f7ebf39c6,2509DSHPUN002811,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+11fe4988-6621-42ff-a942-6690543b3954,2509DSHPUN007304,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+1313b667-bb29-4671-b9db-5bd5783158c5,2509DSHPUN002870,LEARNING,false,false,false,false,,"outside, car park",car driveby,,,,,,,,,true negative,empty
+13868a89-5832-466d-b3e0-a2ccffee4c85,2509DSHPUN007216,LEARNING,false,false,false,false,incorrect zone,,,,,,,,,,,discard,discard
+13ba0857-b927-4695-83c2-f8491ecb4d72,2509DSHPUN004586,LEARNING,false,false,false,false,,"inside, residential",,,,,,,,,,true negative,empty
+13e65995-1e11-4f1a-bde5-d8bd235e3fba,2509DSHPUN002876,LEARNING,false,false,false,false,,"inside, residential",,walk-by,,,,,,,,true negative,empty
+14193687-ca65-4dd0-b991-4d7243c21670,2509DSHPUN007192,LEARNING,true,false,true,false,,"outside, car park",,,,,hand / arm,open tailgate,tonneau cover,,,true negative,non-visible intrusion
+14e32edd-9b87-41c9-a2e1-f16bb22c2937,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+15b888bc-f075-4910-a532-7e5e9b48fe35,2509DSHPUN004011,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+15ee9952-73be-45ce-9dc2-6adf352d38a5,2509DSHPUN007260,LEARNING,false,false,false,false,,"outside, street parking",,,,,,,,,,true negative,empty
+1617d76b-4c0f-436b-9de2-ba6e92cf5571,2509DSHPUN004972,LEARNING,false,false,false,false,incorrectly mounted,,,,,,,,,,,discard,discard
+161efbde-0d62-4a9b-a7be-d9117b61ffb7,2509DSHPUN007192,LEARNING,true,false,true,false,,"outside, car park",,,,,hand / arm,open tailgate,tonneau cover,,,true negative,non-visible intrusion
+1632c457-d1fd-4395-a6d5-40f504352202,2509DSHPUN007171,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+1670a97f-83df-4597-81bd-e8993f91cd8a,2509DSHPUN002811,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+167e1a3a-5f09-48c6-912f-3038b14a00b5,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, car park",car driveby,,,,,,,,,true negative,empty
+16d4de04-4a43-4354-9da7-1868c63d5f84,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+17249354-3f71-4aa9-85dc-0ea28885a502,2509DSHPUN007302,LEARNING,false,false,false,false,incorrect zone,,,,,,,,,,,discard,discard
+17572f2a-74d3-4051-af74-92b71dc5f24e,2509DSHPUN004747,LEARNING,false,false,false,false,obstructed (partial),,,,,,,,,,,discard,discard
+1763224c-c4f7-4778-ac07-f6c451f3e018,2509DSHPUN004667,LEARNING,false,false,false,false,,"inside, residential",,,,,,,,,,true negative,empty
+17ce571d-24fe-45d2-a776-c380a55a6bcb,2509DSHPUN007171,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+17f15fb4-61b7-44fa-b45e-94e7efc34990,2509DSHPUN002950,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+1817102d-4d35-4ba8-b921-b3e9ac95fedd,2509DSHPUN007673,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+18579dd8-e464-4512-abc1-c8ecfab4a142,2509DSHPUN002762,LEARNING,true,false,false,false,,"outside, car park",,,within reach distance,,,,,,,true negative,out-of-bed presence
+18588f0c-f39d-40ae-b142-9ea60636af3a,2509DSHPUN004657,LEARNING,true,false,false,false,,"inside, car park",,,within reach distance,,,,,,,true negative,out-of-bed presence
+1866bb60-59bc-45c4-aba8-386541fdce86,2509DSHPUN004971,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+18d29525-734d-4885-a701-a26d4aab0ae7,2509DSHPUN007189,LEARNING,true,false,false,false,,"outside, car park",,,interacting with vehicle,hand / arm on bed wall,,,,,,true negative,out-of-bed presence
+190bd0d8-d138-4ac2-bef5-cd9e9d257fef,2509DSHPUN002827,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+1963be38-4398-4472-883b-668e6b38bd7e,2509DSHPUN004521,LEARNING,false,false,false,false,,"outside, car park",tree in wind,,,,,,,,,true negative,empty
+19bde7c6-41ab-40ce-aa58-efc6c3f29fe6,2509DSHPUN007302,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+19e8cd2f-bacc-4212-bf01-75831bd334b5,2509DSHPUN007262,LEARNING,false,false,false,false,,"outside, industrial",,person in cabin,,,,,,,,true negative,empty
+1a1c79ce-550f-48e8-9613-b2799feda926,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+1a4c812b-5c27-40b1-ad5e-ef1d9be640ab,2509DSHPUN002870,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+1aa98f6c-ab56-42d3-bf1c-39ee44c69942,2509DSHPUN004011,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+1b703a25-f2d4-428c-b562-261b5ea884e8,2509DSHPUN004918,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+1b7bf99f-88d8-4dd4-b6e8-dcb8ab53e239,2509DSHPUN007216,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+1bd2b9d7-4deb-410a-98d9-c44626184570,2509DSHPUN004011,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+1c133fde-ad39-443f-919f-69472c9f2149,2509DSHPUN007189,LEARNING,false,false,false,false,,"inside, residential",,,,,,,,,,true negative,empty
+1c2d295d-c8b6-4727-a9f6-a206e817279a,2509DSHPUN002891,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+1c30c55f-adc2-458c-8ea0-8304d2d2e2f3,2509DSHPUN007260,LEARNING,false,false,false,false,,"outside, street parking",,walk-by,,,,,,,,true negative,empty
+1c88ea44-d117-49c4-81ec-02cbcb85849d,2509DSHPUN004521,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+1c9d2a58-3518-45c8-8e1e-a196c9e9f047,2509DSHPUN004521,LEARNING,false,false,false,false,,"outside, car park",tree in wind,,,,,,,,,true negative,empty
+1d49af23-f062-4ade-a92d-67e7f66e3a55,2509DSHPUN007190,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+1d9f08b2-2011-4997-aa1b-89f76059f036,2509DSHPUN002870,LEARNING,true,false,false,false,,"outside, residential",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+1dc025c4-7b13-4cbf-8807-3e23cc31a318,2509DSHPUN002870,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+1dd3f64a-2264-4fd3-b236-0bb953b4754e,2509DSHPUN002870,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+1df2e002-eb72-436d-9e9e-3a3cbc1dafd2,2509DSHPUN004011,LEARNING,true,false,true,false,,"outside, car park",,,,,hand / arm,open tailgate,tonneau cover,,,true negative,non-visible intrusion
+1e0cb052-eea0-4c7a-a6a7-7d53575e4d15,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+1e452bc7-2017-4986-bbd9-98c9a18e87a8,2509DSHPUN007216,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+1eae3fb0-6f88-42d8-b382-e62899244c23,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, car park",car driveby,,,,,,,,,true negative,empty
+1f23653b-e512-4d29-ab12-79023adec3be,2509DSHPUN004721,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+1f277393-daba-4075-9c63-66af56812048,2509DSHPUN004872,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+1fc4e48d-cea3-4fd7-b2c2-fd1105296729,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+2016ce21-de07-4a5d-9670-7ddfcc0dae4f,2509DSHPUN007189,LEARNING,true,false,false,false,,"outside, residential",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+201ca298-6ced-49f4-94ee-047490132936,2509DSHPUN007189,LEARNING,true,false,false,false,,"outside, car park",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+202acd5e-93cf-43ac-a676-8891b1d067ad,2509DSHPUN007304,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+20a4182c-fc7f-467b-a9c0-cc88f530dd60,2509DSHPUN004971,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+20acd0e2-8432-4b07-86b2-3afe23c311b9,2509DSHPUN004972,LEARNING,false,false,false,false,incorrectly mounted,,,,,,,,,,,discard,discard
+212401bd-72fb-402c-adcf-cac41140cf80,2509DSHPUN007262,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+215aee9c-5623-4258-aa0f-8b08777b51f7,2509DSHPUN007673,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+2161b1ee-aae8-4c4b-8667-0c4d42d11ca4,2509DSHPUN002787,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+21bb6207-2329-4035-8b82-246d09d2a114,2509DSHPUN004972,LEARNING,false,false,false,false,incorrectly mounted,,,,,,,,,,,discard,discard
+21bcbe0b-0eff-41ab-b729-8148a87b0cf8,2509DSHPUN004747,LEARNING,false,false,false,false,obstructed (partial),,,,,,,,,,,discard,discard
+21e572f8-f374-4103-ae6a-948a7e1dda04,2509DSHPUN007190,LEARNING,true,false,false,false,,"outside, residential",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+221ca8d5-ca3a-4e2d-848e-7d8a517a856f,2509DSHPUN004011,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+22b14ce9-4791-41c3-b9c4-fb1a500f181d,2509DSHPUN007304,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+22d856dc-f373-469a-962d-cec6913142a5,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+22fdeebd-16de-49ae-af99-eb72b2a69eaf,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+2344fd7e-8ffd-475d-a9f3-d252f7bd7b7c,2509DSHPUN004747,LEARNING,false,false,false,false,obstructed (partial),,,,,,,,,,,discard,discard
+234c67f5-4241-4a0c-afc0-76f01e01133e,2512DSHPUN000262,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+239355f8-9d69-4302-9020-fb016608ddf5,2509DSHPUN002870,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+23c16104-46ad-4c66-a3e9-1a02adaa1b5f,2509DSHPUN002837,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+23ede042-835d-4c76-838d-9351493f5a40,2509DSHPUN007189,LEARNING,false,false,false,false,,"inside, residential",,,,,,,,,,true negative,empty
+242106d0-43e2-42d8-a58b-654818d556c8,2509DSHPUN002827,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+2432931b-1648-4c89-b091-44c095311612,2509DSHPUN004747,LEARNING,false,false,false,false,obstructed (partial),,,,,,,,,,,discard,discard
+24496308-8a3a-4479-8c4d-5c82bc191f6d,2509DSHPUN007304,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+2467ed3f-f515-49b7-8849-db3cc3842a40,2509DSHPUN007189,LEARNING,true,true,true,false,,"outside, car park",,,,,fingertips,over bed wall,,,small overlap,false negative,missed detection
+249de464-309f-4b7e-b1bb-d7c9c8fc1ff3,2509DSHPUN002811,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+25050adf-a5b4-428a-b277-7028573d2848,2509DSHPUN004855,LEARNING,false,false,false,false,,"outside, car park",car driveby,,,,,,,,,true negative,empty
+25ae962e-8d68-4987-83d9-0377d31cca59,2509DSHPUN004918,LEARNING,false,false,false,false,,"outside, street parking",,walk-by,,,,,,,,true negative,empty
+25ff72f2-6efe-4cb3-ac8c-4be408927ffc,2509DSHPUN007260,LEARNING,false,false,false,false,,"outside, street parking",,walk-by,,,,,,,,true negative,empty
+269afaf0-e95a-4913-ad58-25f6d545f042,2509DSHPUN002870,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+26f83c24-2998-42cd-a7fc-8d6b5102579f,2509DSHPUN004971,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+270a8b2c-4888-4be0-867c-22241cf96af3,2509DSHPUN004667,LEARNING,false,false,false,false,,"inside, residential",,person in cabin,,,,,,,,true negative,empty
+273b0b7c-a943-4478-8921-bc7e82152951,2509DSHPUN002837,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+275cca85-5513-4b59-95e8-8e8ae010edcd,2509DSHPUN007216,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+27b8ef9f-016b-4b4c-9b00-407f319ee40f,2509DSHPUN007189,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+27b9949e-27c6-4611-a137-b43ef557dc7b,2509DSHPUN002468,LEARNING,true,false,false,false,,"inside, car park",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+28161cc2-58cd-4b24-b36b-ba464192b52f,2509DSHPUN002787,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+2841a9c0-826a-4f41-bb84-6f1de66fcf20,2509DSHPUN007192,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+2855ae83-743d-4d6b-ae23-74276b65911c,2509DSHPUN004724,LEARNING,false,false,false,false,,"inside, residential",,,,,,,,,,true negative,empty
+288c8129-782a-4c5b-971a-e263369f1e76,2509DSHPUN002950,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+292bf321-c903-45db-9a5a-0393a77b8f9b,2509DSHPUN007171,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+29869616-340c-46d3-8631-01badb523ec1,2509DSHPUN007189,LEARNING,false,false,false,false,,"inside, residential",,,,,,,,,,true negative,empty
+298d2070-2ad3-42a1-a4e4-3be88d457a33,2509DSHPUN007673,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+29deaa38-4633-4459-bd48-78f0ac6dafec,2509DSHPUN002891,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+2a81c518-4711-481b-a7bc-1e3ecc59e345,2509DSHPUN002827,LEARNING,true,false,false,false,,"outside, residential",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+2a93b395-6b98-41b0-abf3-33807f1d9227,2509DSHPUN002827,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+2af5515f-400d-43bc-883f-01291573d4b7,2509DSHPUN007673,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+2bee6214-3d6a-4355-a96d-a3a816daa54a,2509DSHPUN007673,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+2c45b7c1-0906-435c-a2a1-d894de54e30e,2509DSHPUN007260,LEARNING,true,false,true,false,,"outside, street parking",,,,,hand / arm,open tailgate,tonneau cover,,,true negative,non-visible intrusion
+2c88b1fa-7787-4936-97d5-7c340b5756ea,2512DSHPUN000262,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+2caddf47-f634-49db-a6b7-b9902d33aa90,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+2cd4bcd8-d95c-4161-b6ae-736bac2fcfa3,2509DSHPUN004972,LEARNING,false,false,false,false,incorrectly mounted,,,,,,,,,,,discard,discard
+2ce37277-f7dc-4764-8f1b-e2d0b1f814e8,2509DSHPUN004667,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+2da3e096-cfaa-453d-9260-4851341b6866,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+2db6f043-cfac-41bc-a6e1-d94b1fa53900,2509DSHPUN004724,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+2dcfdaf3-7885-4d9a-8e77-c481f690b426,2509DSHPUN004747,LEARNING,false,false,false,false,obstructed (partial),,,,,,,,,,,discard,discard
+2e2ec141-2366-48e8-8a39-a63ae850855a,2509DSHPUN002770,LEARNING,true,false,false,false,,"outside, car park",,,within reach distance,,,,,,,true negative,out-of-bed presence
+2e72922b-434a-4967-b3ae-8e2f1c5c7725,2509DSHPUN007262,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+2e959ae4-938e-454c-86ec-d56678f6ac98,2509DSHPUN007171,LEARNING,false,false,false,false,,"outside, car park",tree in wind,,,,,,,,,true negative,empty
+2ee5a9e0-b971-4a0d-bd5b-6bad962314a7,2509DSHPUN004521,LEARNING,false,false,false,false,,"outside, car park",tree in wind,,,,,,,,,true negative,empty
+2efa6224-5876-41cc-8ad2-235ead51e3da,2509DSHPUN002468,LEARNING,false,false,false,false,,"inside, car park",,walk-by,,,,,,,,true negative,empty
+2f04796a-7891-432b-91f5-43b4bca4fe0b,2509DSHPUN002811,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+2f0e1844-6e04-472b-9597-e1ae96e3148e,2509DSHPUN002811,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+2f113c8c-913f-479c-bdac-b79d9d4a7de1,2509DSHPUN007189,LEARNING,false,false,false,false,,"inside, residential",,,,,,,,,,true negative,empty
+2f149d72-1f23-45af-a961-2a4ad1a01f00,2509DSHPUN006923,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+2f507cf4-949b-4d30-a11d-bfd9b210cb98,2509DSHPUN002811,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+2f6f93ed-bbc6-48b0-baed-fa7f66c892c4,2509DSHPUN004751,LEARNING,true,false,false,false,,"outside, car park",,,within reach distance,,,,,,,true negative,out-of-bed presence
+2fe89cc7-a100-4968-a172-236fe2fa9cf8,2509DSHPUN002827,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+3002e056-2dc9-41e9-a3dc-b41183f8ff11,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+30f7d2d7-9b70-4260-ad3e-7bc58f25c257,2509DSHPUN002468,LEARNING,false,false,false,false,,"inside, car park",,walk-by,,,,,,,,true negative,empty
+31478655-7ea0-4c4c-aab1-30a259a77e09,2509DSHPUN002827,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+31a83b5c-755a-4326-8c1a-82f68f0c4ba7,2509DSHPUN007260,LEARNING,false,false,false,false,,"outside, street parking",car driveby,,,,,,,,,true negative,empty
+31cdcd57-9ae0-4463-936d-9f536cdd847b,2509DSHPUN007260,LEARNING,false,false,false,false,,"outside, street parking",car driveby,,,,,,,,,true negative,empty
+31d7f920-d479-4f05-ba00-56067cfef4c2,2509DSHPUN007189,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+31db9cef-7525-4dfa-8850-205e130fef3f,2509DSHPUN004972,LEARNING,false,false,false,false,incorrectly mounted,,,,,,,,,,,discard,discard
+31ea8095-b10c-4e38-b0dd-b69e0786921f,2509DSHPUN007262,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+32e3fbf1-1f84-42af-8be6-e62a26cb6af9,2509DSHPUN002770,LEARNING,true,false,true,false,,"outside, car park",,,,,hand / arm,open tailgate,tonneau cover,,,true negative,non-visible intrusion
+3312b9cc-ec89-47b3-b178-386ac950d8d8,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+331389cb-930e-4b60-8a03-d3c68e9b7899,2509DSHPUN004918,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+331bfd43-c9ca-4598-bfd1-3966f7f0af99,2509DSHPUN007192,LEARNING,true,false,true,false,,"outside, industrial",,,,,hand / arm,open tailgate,tonneau cover,,,true negative,non-visible intrusion
+3361011c-7a66-4d8f-b7cc-1fc4d0533d08,2509DSHPUN007260,LEARNING,false,false,false,false,,"outside, street parking",,walk-by,,,,,,,,true negative,empty
+33691324-24b2-4fe0-990b-3b36c3bab3bd,2509DSHPUN004971,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+33d74dbb-0320-4731-bea8-648ecee353b7,2509DSHPUN007192,LEARNING,false,false,false,false,,"outside, industrial",,,,,,,,,,true negative,empty
+33d7f95d-b1ff-47d0-b39b-c899569f7313,2509DSHPUN007189,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+33de17c3-e33a-412c-9fc4-191930b1d292,2509DSHPUN004972,LEARNING,false,false,false,false,incorrectly mounted,,,,,,,,,,,discard,discard
+3490dd90-a474-49af-8107-98be8169a52e,2509DSHPUN007216,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+34b6635c-de23-4379-baae-2182e23b1618,2509DSHPUN004747,LEARNING,false,false,false,false,obstructed (partial),,,,,,,,,,,discard,discard
+34d99da6-2b87-4190-8ae3-8fa7f1444d2e,2509DSHPUN004521,LEARNING,false,false,false,false,,"outside, car park",tree in wind,,,,,,,,,true negative,empty
+34df1968-2aae-4240-83b6-8e194317b187,2509DSHPUN002811,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+357bc771-b172-457d-bf81-5398be1284a5,2509DSHPUN004521,LEARNING,false,false,false,false,,"outside, car park",tree in wind,,,,,,,,,true negative,empty
+3590b898-eb09-459b-bbc8-d0c4ff3eff8e,2509DSHPUN007189,LEARNING,false,false,false,false,,"inside, residential",,,,,,,,,,true negative,empty
+35d00863-f68f-4cab-bfaf-98a5baf7f47b,2509DSHPUN007189,LEARNING,false,false,false,false,,"inside, residential",,,,,,,,,,true negative,empty
+35f56fba-8c9c-4920-b15f-8b7c984f50d4,2509DSHPUN004586,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+360e4c96-d2c9-4088-ab7e-3c8745cd648b,2509DSHPUN007189,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+36250059-ddd8-497a-85a9-2b84cec388f4,2509DSHPUN004747,LEARNING,false,false,false,false,obstructed (partial),,,,,,,,,,,discard,discard
+36551921-a491-4ede-895e-63ef5d954611,2509DSHPUN002837,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+369c10b1-fda5-4108-8b48-e1397abc122c,2509DSHPUN004657,LEARNING,true,false,false,false,,"inside, car park",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+36cf8da6-465e-4430-b5a0-58e5c0e6cf5d,2509DSHPUN004751,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+36dc4ae7-f64f-46c8-aa56-ff86f0b56e05,2509DSHPUN007190,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+36fec183-908d-4d17-b81c-29333ee5b905,2509DSHPUN007216,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+371f3aff-4d76-4647-b396-fd78d60cbb88,2509DSHPUN002762,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+3745bab0-7442-4682-a18b-c8ca15aac609,2509DSHPUN004747,LEARNING,false,false,false,false,obstructed (partial),,,,,,,,,,,discard,discard
+37625515-f516-4e79-a2a1-64e2b996e887,2509DSHPUN004747,LEARNING,false,false,false,false,obstructed (partial),,,,,,,,,,,discard,discard
+379eeaab-ce01-4aab-930d-c3168fe1bce7,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+37db5097-f6bf-4a54-9ea5-54e5799835ec,2509DSHPUN004971,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+37e0260f-2104-467c-b014-b6c1535bc948,2509DSHPUN007260,LEARNING,false,false,false,false,,"outside, street parking",,person in cabin,,,,,,,,true negative,empty
+37f1b82d-f8ab-47a2-b2e2-fc01fab8117c,2509DSHPUN007260,LEARNING,true,false,true,false,,"outside, street parking",,,,,hand / arm,open tailgate,tonneau cover,,,true negative,non-visible intrusion
+37f8ff38-1855-41b8-a8e0-c8abe9144160,2509DSHPUN007260,LEARNING,false,false,false,false,,"outside, street parking",car driveby,,,,,,,,,true negative,empty
+386b51b7-2bde-4dfd-9040-fa983d540253,2509DSHPUN004657,LEARNING,false,false,false,false,,"inside, car park",car driveby,,,,,,,,,true negative,empty
+38df8ea9-09a5-4de4-bb52-7d3e4e7b6cc5,2509DSHPUN007189,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+392f7e13-cb6e-4f20-a5a8-72edfee90d39,2509DSHPUN007216,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+39351b33-a59b-4c9d-87bc-c6d5de95d9cc,2509DSHPUN004586,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+3a1c06b8-7e96-49fa-b38a-243eab1492e2,2509DSHPUN002827,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+3a5572f9-ca1c-41b0-839d-bb16dbdcdd2f,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+3a9e4f27-b5f5-435b-9216-d532a5638e5b,2509DSHPUN007189,LEARNING,true,false,false,false,,"outside, residential",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+3ad8cc29-bd59-41f7-83ab-fcf23ba03f9b,2512DSHPUN000174,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+3ae2a487-9630-4cd6-8670-b3309b608d97,2509DSHPUN007190,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+3b08def7-ef45-4bec-9d10-3be8400adb02,2509DSHPUN004521,LEARNING,false,false,false,false,,"outside, car park",tree in wind,,,,,,,,,true negative,empty
+3b421dbd-8255-4f25-9be1-105e004d77ce,2509DSHPUN004971,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+3b7e188e-5738-400b-aa4c-ce4e78628627,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+3b9d28ee-60ad-4083-a4ee-a116a22a9030,2509DSHPUN002827,LEARNING,true,false,false,false,,"outside, residential",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+3b9e5095-3f2f-43f1-b03d-77d1e3c57ea0,2509DSHPUN002811,LEARNING,false,false,false,false,incorrect zone,,,,,,,,,,,discard,discard
+3d421cd5-f73e-48ce-a6a1-d4d0024e35ae,2509DSHPUN002876,LEARNING,true,false,false,false,,"inside, residential",,,within reach distance,,,,,,,true negative,out-of-bed presence
+3da1820e-51e1-42b0-a0f3-b9988de5d395,2509DSHPUN004972,LEARNING,false,false,false,false,incorrectly mounted,,,,,,,,,,,discard,discard
+3da384c0-ed65-4019-b3d0-033db7bb488f,2509DSHPUN002787,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+3dd97b64-9a2c-4277-bb6f-e4f188ac9e60,2509DSHPUN002870,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+3e175854-310f-4281-ac12-71551f918a76,2509DSHPUN002770,LEARNING,true,false,false,false,,"outside, car park",,,within reach distance,,,,,,,true negative,out-of-bed presence
+3e4fb859-d69e-4ec5-a91a-619ec74f6d09,2509DSHPUN004657,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+3e70c554-1646-4dfb-b97b-fe58f4426eb3,2509DSHPUN004855,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+3e76a969-e67c-48bf-8be5-55bdd54c6c30,2509DSHPUN004751,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+3e9d215d-7f35-4b99-8248-3876e25f387a,2512DSHPUN000174,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+3ea5e581-a24b-4bf2-ae15-a3086d7e0214,2509DSHPUN004918,LEARNING,false,false,false,false,,"outside, street parking",,,,,,,,,,true negative,empty
+3f11f0b3-ee59-4328-9874-6ecbb2cf3061,2509DSHPUN007260,LEARNING,true,false,false,false,,"outside, street parking",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+3f3b8932-f849-4d10-a73f-6cd7849227fc,2509DSHPUN004667,LEARNING,false,false,false,false,,"inside, residential",garage door opening / closing,,,,,,,,,true negative,empty
+3f705194-27aa-4940-a7c1-39bcc4578d5c,2509DSHPUN007171,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+3f7e6659-88f0-4876-9ff1-0fa145c9a724,2509DSHPUN002876,LEARNING,false,false,false,false,,"outside, street parking",car driveby,,,,,,,,,true negative,empty
+3f9ce137-480c-44ba-bb71-90b3402bcb64,2509DSHPUN007189,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+3faa6d30-90f0-428a-8525-2cbf84786742,2509DSHPUN004657,LEARNING,false,false,false,false,,"inside, car park",,walk-by,,,,,,,,true negative,empty
+3fb5364c-bdc2-4427-8031-a96df13c73d5,2509DSHPUN004971,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+4038ffd9-e295-4772-8e5a-79d9a3d5901d,2509DSHPUN004667,LEARNING,false,false,false,false,,"inside, residential",,walk-by,,,,,,,,true negative,empty
+4058d3ba-fc82-49d5-bb9b-e042fd7b5166,2509DSHPUN007216,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+40c283db-292f-4908-a524-3fc6f85f159c,2509DSHPUN002787,LEARNING,false,false,false,false,,"outside, car park",car driveby,,,,,,,,,true negative,empty
+40c8b36a-21fa-406c-8782-563e389ddfd5,2509DSHPUN007673,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+413e1b67-d9ed-4025-961f-f7f5c0887049,2509DSHPUN007189,LEARNING,true,false,false,false,,"outside, car park",,,interacting with vehicle,hand / arm on bed wall,,,,,,true negative,out-of-bed presence
+41dd07cb-febe-402a-b76a-16b5cfb302bd,2509DSHPUN007262,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+41fc2a5f-f2ef-43c8-aa8f-2d9496b8640e,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+4298cb5b-0705-4f10-99c0-58578a070f5b,2509DSHPUN004747,LEARNING,false,false,false,false,obstructed (partial),,,,,,,,,,,discard,discard
+42e845c8-0faf-4d9d-b258-57ea75d64543,2509DSHPUN007304,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+430c1225-6eb1-497f-95d3-45362feae203,2509DSHPUN004668,LEARNING,false,false,false,false,,"outside, street parking",,person in cabin,,,,,,,,true negative,empty
+4325bd6b-8085-458d-a450-dbbbb6bc8e8c,2509DSHPUN007189,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+433ef502-f4e2-4db3-b406-63b4850304e5,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+4340e4e9-eb68-4567-8a72-b0691886705e,2509DSHPUN002870,LEARNING,true,false,false,false,,"outside, car park",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+4406f35f-71fa-4b80-9fce-c2bc1ddba575,2509DSHPUN004747,LEARNING,false,false,false,false,obstructed (partial),,,,,,,,,,,discard,discard
+440d85da-99af-4276-836a-be83888068ef,2509DSHPUN002770,LEARNING,true,true,true,false,,"outside, car park",,,,,whole body,open tailgate,,,small overlap,false negative,missed detection
+44125142-4f19-4b52-a70a-2dccf8a4a361,2509DSHPUN007190,LEARNING,true,false,false,false,,"outside, residential",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+444eee2f-7853-41c7-b8bd-6042d273cf50,2509DSHPUN002468,LEARNING,true,false,false,false,,"inside, car park",,,within reach distance,,,,,,,true negative,out-of-bed presence
+450100aa-beca-41cf-88b2-5483dd3fbb87,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+456d2e8c-d0d5-4422-a702-c612510dba25,2509DSHPUN002837,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+45914798-79b3-49af-927e-998c0f60422e,2509DSHPUN002891,LEARNING,false,false,false,false,,"outside, residential",car driveby; garage door opening / closing,,,,,,,,,true negative,empty
+46504e03-f52a-483d-b534-49938dd84992,2509DSHPUN004011,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+466970b6-5a1e-4c0b-80a8-86dcb137e3b3,2509DSHPUN004667,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+469df3b9-5597-4d0d-abf8-8d1463e86e5b,2509DSHPUN007190,LEARNING,true,false,true,false,,"outside, residential",,,,,hand / arm,open tailgate,tonneau cover,,,true negative,non-visible intrusion
+46e33b2f-39d4-43c4-b0fb-1a9e926cdb40,2509DSHPUN004667,LEARNING,false,false,false,false,,"inside, residential",,walk-by,,,,,,,,true negative,empty
+4707330b-9503-4465-94ae-590458522e2f,2509DSHPUN007171,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+47083cf0-07b4-4628-a345-6be98591a389,2509DSHPUN004855,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+470d9b99-d1d0-4aa1-ba7d-c8fdc502bade,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+472a1175-2828-49a3-bb88-65f0b1c0d3d6,2509DSHPUN004657,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+47c723e8-3355-4038-8372-9df90d6b2cc5,2509DSHPUN004724,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+4811b0a4-0a40-4fc1-8acf-e1477861b9b6,2509DSHPUN002827,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+4836e362-4abb-4a1a-b25d-3421b31590a6,2509DSHPUN002787,LEARNING,true,false,false,false,,"outside, residential",,,within reach distance,,,,,,,true negative,out-of-bed presence
+484ec5a5-f7f2-461b-b5b1-dec1a34a166f,2509DSHPUN002950,LEARNING,true,false,false,false,,"outside, residential",,,within reach distance,,,,,,,true negative,out-of-bed presence
+48866316-05ad-4f74-998f-5689522221dc,2509DSHPUN006923,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+48ae6620-e670-4b96-8bf8-18e082fa3781,2509DSHPUN002837,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+49800775-0412-4804-97cc-9029b0f10c24,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+49afb0c6-dc32-4a62-98ce-39b76ca5d25c,2509DSHPUN007216,LEARNING,true,false,false,false,,"outside, car park",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+4a154a10-06d6-448a-abdb-0f6c2e172209,2509DSHPUN007189,LEARNING,true,false,false,false,,"outside, car park",,,interacting with vehicle,hand / arm on bed wall,,,,,,true negative,out-of-bed presence
+4a41d576-c794-416c-a7ba-76d14f081b2e,2509DSHPUN004918,LEARNING,true,false,false,false,,"outside, residential",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+4a64df56-06ce-4321-aaab-1dcdfc0e2e8d,2509DSHPUN002762,LEARNING,true,false,false,false,,"outside, car park",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+4ae1bb34-e0a3-4518-a42c-9c7fe038e402,2509DSHPUN004724,LEARNING,false,false,false,false,,"inside, residential",,walk-by,,,,,,,,true negative,empty
+4b4e0fa3-06a0-4c67-b30a-c8c46972ec28,2509DSHPUN004751,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+4b5b23d2-5b3e-48da-9dcc-e38b82a5c9b0,2509DSHPUN002827,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+4b5c3274-2495-4ef6-98c6-c8e67a88cda9,2509DSHPUN007302,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+4b78b01a-9420-41b5-bc66-b5aa286b87d1,2509DSHPUN007216,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+4bb79ee0-bd09-4d85-b631-99c045675582,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+4bcb761a-31fe-4fc3-b9bb-ad01bfe33a70,2509DSHPUN007304,LEARNING,true,false,false,false,,"outside, residential",,,within reach distance,,,,,,,true negative,out-of-bed presence
+4c469ddf-e52c-4620-8ca4-c8bfa9248b15,2509DSHPUN007192,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+4cbfde76-77d4-46bb-9252-9837f33b4da1,2509DSHPUN004972,LEARNING,false,false,false,false,incorrectly mounted,,,,,,,,,,,discard,discard
+4d308395-bc71-4c6f-b227-aee49ad2c2c8,2509DSHPUN004971,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+4d3354ac-6464-4ec3-b94d-2eec2bceca26,2509DSHPUN004971,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+4d69a723-5d92-4b6a-9404-608c4deb0c97,2509DSHPUN007189,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+4e2b357f-5588-4c4c-a733-7c5367b04b35,2509DSHPUN006923,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+4e340014-1a52-4548-8cd9-b03e6f13b772,2509DSHPUN007189,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+4eb19a5e-7526-4d40-aa1b-6d6dd13c99ae,2509DSHPUN004971,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+4f8cab98-7735-4507-8bde-8aa057300600,2509DSHPUN007190,LEARNING,true,false,true,false,,"outside, residential",,,,,hand / arm,open tailgate,tonneau cover,,,true negative,non-visible intrusion
+4fa59521-c221-4289-9e02-d46add57ce94,2509DSHPUN004747,LEARNING,false,false,false,false,obstructed (partial),,,,,,,,,,,discard,discard
+4fb02848-6c39-4a61-95c5-1df0a69110ea,2509DSHPUN002876,LEARNING,false,false,false,false,,"outside, street parking",car driveby,,,,,,,,,true negative,empty
+4fb3e4e3-f425-4b65-95de-79cba53bf330,2509DSHPUN004724,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+5096868d-ee93-4366-935e-39ed6cb815bb,2509DSHPUN004855,LEARNING,true,false,false,false,,"outside, car park",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+51a994c9-79f5-426e-8eaa-31ddaf922d23,2509DSHPUN002762,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+5205a60a-3a64-4ea6-909c-8efbffc949c1,2509DSHPUN004747,LEARNING,false,false,false,false,obstructed (partial),,,,,,,,,,,discard,discard
+5271acfd-89d5-4069-ba9e-018460803894,2509DSHPUN004521,LEARNING,false,false,false,false,,"outside, car park",tree in wind,,,,,,,,,true negative,empty
+52cfb27e-0950-4e0d-afc5-ca74558d33e7,2509DSHPUN007304,LEARNING,true,false,false,false,,"outside, residential",,,within reach distance,,,,,,,true negative,out-of-bed presence
+52d3f9ca-b51d-4211-9f2d-1ef273f01616,2509DSHPUN007262,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+52f32eed-0a62-4a87-baa9-cbe22fa8eb91,2509DSHPUN007189,LEARNING,true,false,false,false,,"outside, car park",,,interacting with vehicle,hand / arm on bed wall,,,,,,true negative,out-of-bed presence
+52f45f8e-cc23-4320-ad5f-17b692b091c7,2509DSHPUN007673,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+53266ef9-6fec-4201-baa6-8f23537eab4f,2509DSHPUN007216,LEARNING,false,false,false,false,incorrect zone,,,,,,,,,,,discard,discard
+536522b5-8916-4f2b-835e-bb4982b88316,2509DSHPUN002870,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+53c36a99-1f02-42f3-8d4a-d3dc39e671bf,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+53ec8bab-3ad5-459a-bd52-eb3f8fc84c38,2509DSHPUN002950,LEARNING,false,false,false,false,,"outside, street parking",tree in wind,,,,,,,,,true negative,empty
+54195379-780e-4af6-988c-f20fbdae49db,2509DSHPUN002827,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+541b26ae-0385-4398-8110-a513f1b96d5e,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+542fcfa7-3459-40f2-a11e-1bcdcb0674a1,2509DSHPUN002891,LEARNING,false,false,false,false,,"outside, residential",car driveby,,,,,,,,,true negative,empty
+547b0e34-f8b7-40f4-90b6-4b8f24266c8f,2509DSHPUN007190,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+54904ff5-98a2-40b8-84cf-dd79659eb0dd,2509DSHPUN002468,LEARNING,true,false,false,false,,"inside, car park",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+54a472f2-3c1d-404d-9e10-5712c3c4fdbf,2509DSHPUN004521,LEARNING,true,false,false,false,,"inside, industrial",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+554d6a46-5a75-4832-ad84-fcfe88cb86d5,2509DSHPUN002950,LEARNING,true,false,false,false,,"outside, car park",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+55a5748b-5063-4a81-bb1a-1758b47167d0,2509DSHPUN002876,LEARNING,true,false,false,false,,"inside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,true negative,out-of-bed presence
+55f9fa87-6594-491b-a498-f811c4fc2537,2509DSHPUN007260,LEARNING,false,false,false,false,,"outside, street parking",car driveby,,,,,,,,,true negative,empty
+5660325e-3152-4c1c-8bb6-923d76eae47f,2509DSHPUN004971,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+567ce0f8-a4be-4e59-aea1-933291203a20,2509DSHPUN002891,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+56ea211e-26f2-434f-90bd-dc50c685c6b2,2509DSHPUN002876,LEARNING,false,false,false,false,,"outside, street parking",car driveby,,,,,,,,,true negative,empty
+56fab6b4-b945-4204-a19f-9d53c76272e0,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+57093ae0-3771-441d-aba4-a4efab387c08,2509DSHPUN002827,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+58150859-90cc-4f24-b729-c13df831385a,2509DSHPUN004721,LEARNING,false,false,false,false,,"outside, street parking",,walk-by,,,,,,,,true negative,empty
+581b445b-018a-4897-aca6-6e33355084d7,2509DSHPUN002891,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+58508df9-0a11-49b9-94be-5791cdaf0335,2509DSHPUN007304,LEARNING,false,false,false,false,extreme low light,,,,,,,,,,,discard,discard
+58586bff-41d8-42fe-abe8-0eb695533cbe,2509DSHPUN002891,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+587ba136-34e0-4e31-a020-b1db64f8b8d3,2509DSHPUN004972,LEARNING,false,false,false,false,incorrectly mounted,,,,,,,,,,,discard,discard
+58a0d009-6345-4f4b-ae76-ec88bc08b734,2509DSHPUN007190,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+58db220f-a0f4-4907-a5c7-f24e23306f09,2509DSHPUN004971,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+59023725-c6ee-4bc7-8c3a-cf1257f1ef24,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+593019fd-e3de-4f64-ad1d-a8519edc5f0a,2509DSHPUN002837,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+59d3166f-f012-4b89-8355-76d254473f51,2509DSHPUN002827,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+59eaadb7-a58d-4732-9438-66f6c0143bde,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+5a01ba95-9f20-4d59-88a8-fd6376a2d59a,2509DSHPUN004657,LEARNING,false,false,false,false,,"inside, car park",,walk-by,,,,,,,,true negative,empty
+5a28fe30-6f46-43d3-bd03-419349b448cf,2509DSHPUN004971,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+5a30ab38-ce16-465e-91d3-5c0e7b63abaf,2509DSHPUN002837,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+5a344053-906e-4f3e-a771-3620b5b4030a,2509DSHPUN007192,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+5a409c43-43bd-4d78-ae76-a77edfc79369,2509DSHPUN004657,LEARNING,true,false,false,false,,"inside, car park",,,within reach distance,,,,,,,true negative,out-of-bed presence
+5a9b01f3-5975-42a7-b8a1-1c6273e73912,2509DSHPUN004657,LEARNING,false,false,false,false,,"inside, car park",,walk-by,,,,,,,,true negative,empty
+5affc4b0-996a-48f1-b4f6-cf5ea0288dbf,2509DSHPUN004918,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+5ba74f55-f3b0-44db-af7e-16622b6970e2,2509DSHPUN004971,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+5bcbc230-dd3c-467e-86c7-cdffb87fa53d,2509DSHPUN004657,LEARNING,false,false,false,false,,"inside, car park",,walk-by,,,,,,,,true negative,empty
+5bebefac-15fd-4b14-99c8-86193b229020,2509DSHPUN007260,LEARNING,false,false,false,false,,"outside, street parking",,walk-by,,,,,,,,true negative,empty
+5c2acaa9-fcc0-420b-9d0b-1b36b030ad9c,2509DSHPUN004586,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+5c46663e-8c63-493d-a303-3c9533b2972d,2509DSHPUN004855,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+5c7cd4a3-9790-4017-a8d0-066f6d80906d,2509DSHPUN002811,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+5cdf2d92-fec0-45d2-8e4a-04427e81d05d,2509DSHPUN002787,LEARNING,true,false,false,false,,"outside, residential",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+5cf3a054-2d77-41f6-8779-6b9b76401719,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, car park",car driveby,,,,,,,,,true negative,empty
+5d3a8d85-95b0-40ee-8f7a-a4fb65aefd34,2509DSHPUN004855,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+5dad1dff-bb87-4844-8d4b-93c06018c9c8,2512DSHPUN000262,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+5dc56f64-7b26-4f9a-b36e-374c84351456,2509DSHPUN002950,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+5dc609d1-fa87-4454-ab3d-04f599266abb,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+5e20e7c6-5a09-4bd4-8326-5f8bfd163229,2509DSHPUN007304,LEARNING,false,false,false,false,extreme low light,,,,,,,,,,,discard,discard
+5e2beb75-5b8f-4dbd-b56b-8708fab27c99,2512DSHPUN000262,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+5e33df21-e3eb-4dfd-8dea-f07b69f0e99d,2509DSHPUN007260,LEARNING,true,false,false,false,,"outside, street parking",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+5e582051-0311-4736-8e93-1d61572f217d,2509DSHPUN002468,LEARNING,false,false,false,false,,"inside, car park",,walk-by,,,,,,,,true negative,empty
+5f265dab-5541-45cb-a8ed-a5cb78210ea7,2509DSHPUN004667,LEARNING,true,false,false,false,,"inside, residential",,,within reach distance,,,,,,,true negative,out-of-bed presence
+5f94da25-4678-4a74-be86-469f0e9f4f51,2509DSHPUN007190,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+5fed9fdc-3a90-4d33-9633-220e8aa75b06,2509DSHPUN002837,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+60381df9-2513-44b6-bb23-c44097ec0778,2509DSHPUN002950,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+606d71ce-905a-4d94-ae6c-97607f23e019,2509DSHPUN002827,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+60a5b0eb-67f4-429f-998e-64afb4099bff,2509DSHPUN002827,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+60b9b246-63dc-427c-a0ae-0a71ef11bacf,2512DSHPUN000262,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+60e8f4c2-e278-4058-bf0f-479b9f72cc42,2509DSHPUN002762,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+613432db-c422-49dc-889e-d2dc8a51e658,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+613a6af6-236d-4338-a895-417700b1e86b,2509DSHPUN002762,LEARNING,true,false,false,false,,"outside, car park",,,within reach distance,,,,,,,true negative,out-of-bed presence
+617a63ff-afff-4c8f-afb0-b1c73362312e,2509DSHPUN002891,LEARNING,false,false,false,false,,"outside, residential",garage door opening / closing,,,,,,,,,true negative,empty
+61ed3462-4428-49da-af1a-154d1eb37c76,2509DSHPUN004657,LEARNING,true,false,false,false,,"inside, car park",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+621a2a12-dc9e-4f25-b328-60bc4ef2bdbb,2509DSHPUN004657,LEARNING,false,false,false,false,,"inside, car park",,walk-by,,,,,,,,true negative,empty
+622aa1a8-94aa-4fd7-ab74-ab551d009854,2509DSHPUN004855,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+6235e3b6-1f11-41a0-a9ad-d1bfddd16ff8,2509DSHPUN004657,LEARNING,false,false,false,false,,"inside, car park",,walk-by,,,,,,,,true negative,empty
+62a0f56f-5769-46a1-b5a7-086b208747a8,2509DSHPUN002837,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+633e2999-d26a-4103-8d46-23b5f18dca0e,2512DSHPUN000262,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+637174da-2b71-466d-b20c-7faa4d2bf042,2509DSHPUN004724,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+63ca5326-ee22-4842-97ad-0d0266b3b708,2509DSHPUN007304,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+641ed7d5-5d36-464a-9cdd-aa9db92914ff,2509DSHPUN002891,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+64925dc5-59e7-4a86-8a26-3b8bfc3c7018,2509DSHPUN004855,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+64ec1eea-bb5b-4ca9-a8bc-162c7eab34a2,2509DSHPUN002876,LEARNING,false,false,false,false,,"outside, street parking",,,,,,,,,,true negative,empty
+65522e61-26a3-4336-a34e-35786b067ac9,2509DSHPUN002827,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+65a98b5c-5139-4db3-9460-8759bdd1e587,2512DSHPUN000174,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+65dab71b-265e-4682-aed6-dd5ccb61d096,2509DSHPUN004011,LEARNING,true,false,true,false,,"outside, residential",,,,,hand / arm,open tailgate,tonneau cover,,,true negative,non-visible intrusion
+66a4e6c0-9dbf-4851-8fa6-ef9dd3d5b15e,2509DSHPUN002837,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+66bb032e-9575-43bf-b019-f3560870d9cb,2509DSHPUN004751,LEARNING,true,false,true,false,,"outside, car park",,,,,hand / arm,open tailgate,tonneau cover,,,true negative,non-visible intrusion
+66c7c881-e830-4bdc-ace7-8eb974ffe542,2512DSHPUN000174,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+670832c4-14ba-4c6e-821f-d077cb960e4f,2509DSHPUN004918,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+6715ca18-7116-48ca-8164-e31612186ae0,2509DSHPUN007192,LEARNING,true,false,false,false,,"inside, industrial",,,interacting with vehicle,interaction with tailgate,,,,,,true negative,out-of-bed presence
+673f005a-42b7-48fb-a9d6-f0aaa037e2b0,2509DSHPUN004872,LEARNING,false,false,false,false,,"outside, car park",car driveby,,,,,,,,,true negative,empty
+67424d2c-e946-4643-8394-7098afddcf97,2509DSHPUN004747,LEARNING,false,false,false,false,obstructed (partial),,,,,,,,,,,discard,discard
+676ee1e4-d981-4f5a-b6e5-82161703675f,2509DSHPUN002811,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+678fbe2a-106c-40dd-bc0e-df89679dd8a2,2509DSHPUN002837,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+6822ede3-1e2f-4481-be7e-656116de484f,2509DSHPUN007262,LEARNING,false,false,false,false,,"outside, industrial",car driveby,,,,,,,,,true negative,empty
+684ab7f4-d19f-4dec-b6f5-c3a27b04fc39,2509DSHPUN007189,LEARNING,true,false,false,false,,"outside, car park",,,interacting with vehicle,hand / arm on bed wall,,,,,,true negative,out-of-bed presence
+688c23a8-1cb5-44a5-8ad1-4a0be04e8dcc,2509DSHPUN007673,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+69162e3e-0812-4fbb-a6d7-d7069517e1d9,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+69a9df75-e1c4-418e-9384-07b1f60ba442,2509DSHPUN002811,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+69d8123a-b6f3-45e6-bcae-dd42f7acdda6,2509DSHPUN004586,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+6a7d8896-24d5-4551-a982-d5a9ce467515,2509DSHPUN007189,LEARNING,true,false,false,false,,"outside, car park",,,interacting with vehicle,hand / arm on bed wall,,,,,,true negative,out-of-bed presence
+6a7e0905-39d0-4650-b75e-368f7be002ba,2509DSHPUN007304,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+6a97b68a-b213-4a77-be42-fd903f3a0452,2509DSHPUN004586,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+6aaa6f75-319c-4af9-8769-96144b16620b,2509DSHPUN004521,LEARNING,false,false,false,false,,"outside, car park",tree in wind,,,,,,,,,true negative,empty
+6b81aa68-e987-4261-9e38-dc0f904e1aed,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, residential",car driveby,,,,,,,,,true negative,empty
+6bb1f134-7856-4b01-b40c-278e94edc665,2509DSHPUN004747,LEARNING,false,false,false,false,obstructed (partial),,,,,,,,,,,discard,discard
+6bdecac8-2bb2-4902-915a-0e42975b0097,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+6be65748-3823-43ed-9141-086e46ccc2d9,2509DSHPUN007192,LEARNING,true,false,true,false,,"outside, car park",,,,,hand / arm,open tailgate,tonneau cover,,,true negative,non-visible intrusion
+6c3c7cf7-7f87-45ee-8eb7-239c8d4d403e,2509DSHPUN004918,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+6c476908-5f7e-4a0d-9f41-09e26671abfd,2509DSHPUN007190,LEARNING,true,false,false,false,,"outside, residential",,,within reach distance,,,,,,,true negative,out-of-bed presence
+6c8fa9b1-5264-4dd8-9c27-a7f5321310a8,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+6ca34062-c4cd-47ca-858c-f1fe1334743d,2509DSHPUN007189,LEARNING,true,false,false,false,,"outside, car park",,,interacting with vehicle,hand / arm on bed wall,,,,,,true negative,out-of-bed presence
+6d1e6fdd-b440-4cca-824c-8a0044f454c3,2509DSHPUN002837,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+6d302bfc-d260-4f21-b661-f47783ab1faa,2509DSHPUN004721,LEARNING,true,false,false,false,,"outside, residential",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+6d64a877-d909-417c-9aa2-12fe3a8a7bf8,2509DSHPUN004971,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+6dda97aa-0609-4f15-9c51-5888cfa78382,2509DSHPUN002950,LEARNING,false,false,false,false,,"outside, industrial",,walk-by,,,,,,,,true negative,empty
+6f29f59b-b842-4185-a359-09a80af8cd93,2509DSHPUN007190,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+6f89042a-2d9b-4bb3-ad5a-612c15c0b428,2509DSHPUN007260,LEARNING,false,false,false,false,,"outside, street parking",,walk-by,,,,,,,,true negative,empty
+6f8e48e3-0f52-419a-b103-e5126f15d253,2509DSHPUN004586,LEARNING,false,false,false,false,,"outside, car park",car driveby,,,,,,,,,true negative,empty
+6fda1f73-9f67-401f-ac34-cbc8f43fb332,2509DSHPUN002762,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+6fe55502-d334-4376-b2d0-c172b6629ee3,2509DSHPUN002787,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+70405196-9b9b-4919-858d-d309eb00d485,2509DSHPUN004972,LEARNING,false,false,false,false,incorrectly mounted,,,,,,,,,,,discard,discard
+704375b6-b908-4c0d-a548-12b5dcc27cc1,2509DSHPUN002950,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+70442562-b03d-411a-993e-4a30ac91403a,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+70883dbf-a7f9-4155-96ff-d5b0810d0e47,2509DSHPUN002770,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+70c9b759-d1e4-4c83-b30f-85b46bebe374,2512DSHPUN000174,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+7101f2f4-6bd7-4f93-9ba7-167c58ab60a3,2509DSHPUN002811,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+71314005-1a72-4874-9347-df70c5729d59,2509DSHPUN007302,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+71ca7e5e-d36f-4a79-8e3e-472b84bbc790,2509DSHPUN004971,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+71ced9b4-2c68-45ac-a89e-3d5d7b525011,2509DSHPUN004657,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+724285cb-ca08-4ceb-a215-a94fe7ac9d8e,2509DSHPUN004657,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+7261b419-b864-4f06-abec-365001a17f9f,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+7268811a-7318-44c8-a0c3-33b67c8e72b8,2512DSHPUN000262,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+732aae73-3bc9-4227-a2bd-56acad03ac24,2509DSHPUN004657,LEARNING,true,false,false,false,,"inside, car park",,,within reach distance,,,,,,,true negative,out-of-bed presence
+734313ac-74ed-4589-abfa-f88ce8272aa1,2509DSHPUN004721,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+7367ad4c-663e-407e-96b2-9ef08725082e,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+739ed7c3-2e1b-4fd2-aacd-50818b43f3dc,2509DSHPUN004521,LEARNING,false,false,false,false,,"outside, car park",tree in wind,,,,,,,,,true negative,empty
+73cbcd86-fb17-4262-a487-e3831a5be6a3,2509DSHPUN002770,LEARNING,true,false,true,false,,"outside, car park",,,,,hand / arm,open tailgate,tonneau cover,,,true negative,non-visible intrusion
+73fc1a9a-16f9-4260-9b41-f9ca42156ab5,2509DSHPUN007189,LEARNING,false,false,false,false,,"inside, residential",car driveby,,,,,,,,,true negative,empty
+741eb43e-a6de-4d7a-8467-57c2b74a3745,2509DSHPUN004668,LEARNING,true,false,false,false,,"outside, residential",,,within reach distance,,,,,,,true negative,out-of-bed presence
+74648215-75aa-455e-b87f-436f0b567a43,2509DSHPUN004521,LEARNING,false,false,false,false,,"outside, car park",tree in wind,,,,,,,,,true negative,empty
+74fc84ec-1dbf-4ed1-b362-43abcc642f2c,2509DSHPUN004747,LEARNING,false,false,false,false,obstructed (partial),,,,,,,,,,,discard,discard
+756a8d65-9075-4bec-a657-fab84e5c8404,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, residential",car driveby,,,,,,,,,true negative,empty
+758d76f5-de72-4581-9d2b-17a629e4f500,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+75f32ff9-e19d-419a-b70e-98bf969f0680,2509DSHPUN002837,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+7645c0e6-cb3b-4b99-9208-6aaef16d0ddc,2509DSHPUN004918,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+76c96de9-23fa-405d-95e0-e2e2a01fa9b4,2509DSHPUN002811,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+77575803-7df1-494f-9bd3-6c98fd71a044,2509DSHPUN007189,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+77667ff7-b91a-4c30-9ab1-f1c1617a7dbe,2509DSHPUN004971,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+776b71cd-ac1f-45af-af87-528d15073e85,2512DSHPUN000174,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+779e07dd-4e27-4115-855a-55b2d4ae13f5,2509DSHPUN004971,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+77aeaa11-efa3-4a70-8655-045b45599686,2509DSHPUN004972,LEARNING,false,false,false,false,incorrectly mounted,,,,,,,,,,,discard,discard
+77dcdccc-d35c-493c-bc45-8ee488249420,2509DSHPUN007189,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+77f2af81-1b49-413d-a9b2-31d4067180ed,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+78dd44bd-f240-4413-b4ce-46fbb0b7e61b,2509DSHPUN004586,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+78fba483-2636-4810-b332-221aefc95ca0,2512DSHPUN000174,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+791d64d7-0548-46ae-a795-fa9289d44689,2509DSHPUN004855,LEARNING,false,false,false,false,,"outside, car park",soft tonneau cover in wind,,,,,,,,,true negative,empty
+7a38f62f-603e-426e-a597-ecc66eada8ca,2509DSHPUN004586,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+7a7159f7-0f78-4dc3-9853-3af47c7be55f,2509DSHPUN002827,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+7ab955af-9f9f-4e9b-b55d-41c9bed927f7,2509DSHPUN004668,LEARNING,true,false,false,false,,"outside, residential",,,within reach distance,,,,,,,true negative,out-of-bed presence
+7ac14245-5752-4c7d-8ee3-044a9b58fee7,2509DSHPUN004521,LEARNING,false,false,false,false,,"inside, industrial",,person in cabin,,,,,,,,true negative,empty
+7b749312-be74-473f-b011-9fdcc013e390,2509DSHPUN007171,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+7bb3fd0a-9de2-467b-988c-f88afa8925da,2509DSHPUN007171,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+7bda09eb-31cf-4c32-b186-1507d22548fe,2509DSHPUN002837,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+7c321a6b-0fc9-4720-808b-1093cbf526d4,2509DSHPUN007262,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+7c3643de-f916-4a75-a5b1-de3959f5aaad,2509DSHPUN004747,LEARNING,false,false,false,false,obstructed (partial),,,,,,,,,,,discard,discard
+7c820ff4-f357-48e2-b68c-558bf8e87416,2512DSHPUN000262,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+7d3c305c-322e-460f-b091-ca642c138ed3,2509DSHPUN002811,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+7dd051e7-63bc-48ed-a57b-e746c6d32e12,2509DSHPUN004667,LEARNING,false,false,false,false,,"inside, residential",,,,,,,,,,true negative,empty
+7e045e92-e62c-463f-9c7a-68d75c2bc7e3,2509DSHPUN002950,LEARNING,true,false,false,false,,"inside, industrial",,,within reach distance,,,,,,,true negative,out-of-bed presence
+7ed1069b-312e-43e0-811e-b899682faae2,2509DSHPUN004747,LEARNING,false,false,false,false,obstructed (partial),,,,,,,,,,,discard,discard
+7f4a11c8-7e1d-48ad-9a80-19d79c16f74f,2509DSHPUN002762,LEARNING,true,false,false,false,,"outside, car park",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+7f791057-dad1-4aa4-af7d-c4f0ca740bb8,2509DSHPUN004521,LEARNING,false,false,false,false,,"outside, car park",tree in wind,,,,,,,,,true negative,empty
+7f9dafcf-423f-4c36-9955-873ce1553ccb,2509DSHPUN004751,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+80188b7e-8419-44b1-bc9d-cb882891be83,2509DSHPUN004751,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+8063c638-55aa-41f5-beac-80d2d8973294,2512DSHPUN000262,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+8077274f-ea7e-456f-8468-4fd748c52247,2509DSHPUN004521,LEARNING,false,false,false,false,,"outside, car park",tree in wind,,,,,,,,,true negative,empty
+808d2111-1cb1-4a97-a5ff-d0f3cb7ef9a9,2512DSHPUN000174,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+80922199-7b16-48f6-9d88-eb9099232adf,2509DSHPUN007216,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+80a538cc-d70b-4aac-b711-3ec3abfb64df,2509DSHPUN004747,LEARNING,false,false,false,false,obstructed (partial),,,,,,,,,,,discard,discard
+810a8c05-7168-4701-a20a-a2842fabf093,2509DSHPUN007216,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+81749e1d-3710-4556-8116-b707f3a0e62d,2509DSHPUN004521,LEARNING,false,false,false,false,,"outside, car park",tree in wind,,,,,,,,,true negative,empty
+818ecb24-ebc7-4b80-bd19-471a13fab366,2509DSHPUN002762,LEARNING,true,false,false,false,,"outside, car park",,,interacting with vehicle,hand / arm on bed wall,,,,,,true negative,out-of-bed presence
+81be41eb-ea93-4d0a-b88d-55c0ffc55380,2509DSHPUN007262,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+81d92818-0158-459e-98d1-8941d581b92f,2509DSHPUN007189,LEARNING,true,false,false,false,,"outside, car park",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+81e4e762-ad03-4d33-b970-187d12459fe6,2509DSHPUN004667,LEARNING,false,false,false,false,,"inside, residential",,,,,,,,,,true negative,empty
+81f53d87-45ed-4737-9e49-df9fc55d5f1a,2509DSHPUN004586,LEARNING,false,false,false,false,,"inside, residential",,walk-by,,,,,,,,true negative,empty
+825f4a1b-a65b-43e5-9050-c9caf913a128,2509DSHPUN002891,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+8263d717-0800-4731-99fe-02ee491c12eb,2509DSHPUN007189,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+82a7e574-affd-4b37-ae44-5f02bf801b12,2509DSHPUN004724,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+82c09208-8427-452f-80ca-227ddd69614a,2509DSHPUN002811,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+83bfd614-b33e-4aff-b908-eb6e49f7c0de,2509DSHPUN007192,LEARNING,true,false,false,false,,"outside, car park",,,within reach distance,,,,,,,true negative,out-of-bed presence
+845bfb67-50cd-491f-9469-23bbec248e13,2509DSHPUN007189,LEARNING,false,false,false,false,,"inside, residential",,,,,,,,,,true negative,empty
+8471139f-4901-4c05-bd51-45d93517c829,2509DSHPUN004011,LEARNING,true,false,true,false,,"inside, industrial",,,,,hand / arm,open tailgate,tonneau cover,,,true negative,non-visible intrusion
+848088de-ea31-4987-8fe4-503a6f935053,2509DSHPUN007192,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+848e995d-6327-4d96-b342-8e034ebd263c,2509DSHPUN007189,LEARNING,false,false,false,false,,"inside, residential",,walk-by,,,,,,,,true negative,empty
+84cd6e2b-a558-4f51-88f4-eb865eaa4b5c,2509DSHPUN004668,LEARNING,false,false,false,false,,"inside, residential",,,,,,,,,,true negative,empty
+84dd0036-26e5-401b-83f0-cd9f09a2f506,2509DSHPUN002827,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+85056d8e-e835-405d-8e46-8434c15af7cb,2509DSHPUN004586,LEARNING,false,false,false,false,,"inside, residential",,walk-by,,,,,,,,true negative,empty
+851e1a8c-a082-4900-a132-26643348014e,2509DSHPUN002770,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+85280880-42ad-4ba3-981a-0eb6e7fabd8f,2509DSHPUN007189,LEARNING,false,false,false,false,,"inside, residential",,,,,,,,,,true negative,empty
+8563024f-178f-483a-ad54-3245f4b9846f,2509DSHPUN004855,LEARNING,false,false,false,false,,"outside, car park",soft tonneau cover in wind,,,,,,,,,true negative,empty
+8570c16f-f33c-476b-9103-a01cb1add7c6,2509DSHPUN002770,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+858bef87-cbf6-4699-8ced-8c14a99dce65,2509DSHPUN004751,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+85bcce02-39ab-4501-ba86-a476e8070fdb,2509DSHPUN007304,LEARNING,true,false,false,false,,"outside, car park",,,within reach distance,,,,,,,true negative,out-of-bed presence
+85cd54a5-dec5-4751-ad2c-9e99558d9143,2509DSHPUN004667,LEARNING,false,false,false,false,,"inside, residential",,,,,,,,,,true negative,empty
+85f5817c-124f-4663-8d94-8d1fdfae828d,2509DSHPUN004855,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+860943ac-6d7f-4f56-8dae-bf5c05ea40bc,2509DSHPUN002891,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+86252863-c22f-4235-8913-a759b9aca9de,2509DSHPUN007304,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+8633ce33-83f7-433a-935d-22564bf73215,2509DSHPUN007189,LEARNING,true,true,true,false,,"inside, car park",,,,,fingertips,over bed wall,,,small overlap,false negative,missed detection
+8665d14f-6292-4631-8468-f3cd9288ced0,2509DSHPUN002762,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+8667efa6-0225-4e54-b375-394877d01d36,2509DSHPUN004657,LEARNING,true,false,false,false,,"inside, car park",,,within reach distance,,,,,,,true negative,out-of-bed presence
+86aa9ddb-861b-42aa-a744-e4ea39135204,2509DSHPUN007189,LEARNING,false,false,false,false,,"inside, residential",,,,,,,,,,true negative,empty
+86dfab76-3750-41d8-a199-cc7983436ecc,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+872b7299-0dcd-442d-8ebd-e5442a52eed5,2509DSHPUN004972,LEARNING,false,false,false,false,incorrectly mounted,,,,,,,,,,,discard,discard
+875d2903-02b1-44cd-a9e9-77c27aeab723,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+87d0152e-7675-4f3a-a4dc-e128159f14df,2509DSHPUN002787,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+887831b8-8bf9-4778-a051-a74a81757f0e,2509DSHPUN007262,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+88a36ff7-dec3-46a3-8394-a8936e6ebde1,2509DSHPUN002827,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+88f1c6b1-3cf4-4a7c-9900-ea13a30b62cf,2509DSHPUN007262,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+88fd131a-5ffb-49c1-9252-2b0b6910197b,2509DSHPUN004011,LEARNING,false,false,false,false,,"outside, industrial",,walk-by,,,,,,,,true negative,empty
+893254fc-5431-4fed-9c5e-739f30bf21b8,2509DSHPUN004751,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+897f5bfd-0a62-4b2d-8a53-b283a18a6911,2509DSHPUN004521,LEARNING,false,false,false,false,,"inside, industrial",,,,,,,,,,true negative,empty
+899e8936-5dac-40cb-a0ca-4d4858cbb144,2509DSHPUN004872,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+89bf9c70-16e4-445d-8e3b-1cbcfe8997fe,2509DSHPUN004721,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+89dd8e91-8d10-41fa-849c-852f831d158e,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+8a2fd0ac-475a-4ca5-a408-d088707d393d,2509DSHPUN002837,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+8aa266c9-0ea2-4a5e-8253-83e6d6bc661b,2509DSHPUN002827,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+8ae1c62e-6d85-4bb3-afb9-2e6a23bf1a10,2509DSHPUN004855,LEARNING,false,false,false,false,,"outside, car park",soft tonneau cover in wind,,,,,,,,,true negative,empty
+8b71e566-569e-4603-94e1-e9fcf8a818ea,2509DSHPUN002827,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+8bab6c2d-f4b8-411b-97d6-6d1e1f2b725c,2509DSHPUN007189,LEARNING,true,false,false,false,,"outside, car park",,,interacting with vehicle,hand / arm on bed wall,,,,,,true negative,out-of-bed presence
+8c26d89c-837f-4781-b333-007b1cff4acc,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+8c2a611a-5c64-47eb-a1c9-692eb3b381fe,2509DSHPUN002787,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+8c6cbfac-4c42-44c9-87a3-ee2ef78c8ee0,2509DSHPUN004972,LEARNING,false,false,false,false,incorrectly mounted,,,,,,,,,,,discard,discard
+8c88d40a-7636-4ba6-abcb-88af14bcfa0a,2509DSHPUN004855,LEARNING,false,false,false,false,,"outside, car park",soft tonneau cover in wind,,,,,,,,,true negative,empty
+8cc724aa-4bfc-4a51-ba14-180f3f41191e,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+8ce4201a-f771-43e8-9ee1-ef284d76a686,2509DSHPUN004855,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+8d1b1c9a-003f-4af9-80e7-08ad53674295,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+8d94e340-b448-46ef-a9c2-3278850744e7,2509DSHPUN004521,LEARNING,false,false,false,false,,"outside, car park",tree in wind,,,,,,,,,true negative,empty
+8e12c374-e769-42d3-be2e-1c02ac4d4daa,2509DSHPUN004971,LEARNING,true,true,true,false,,"outside, residential",,,,,hand / arm,over bed wall,,,TDL threshold not met,false negative,missed detection
+8eaa3783-5812-48a2-87a4-219af5803f87,2509DSHPUN007673,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+8ead7c18-98fb-4a12-b03e-b8bda788586b,2509DSHPUN004855,LEARNING,false,false,false,false,,"outside, car park",soft tonneau cover in wind,,,,,,,,,true negative,empty
+905bf852-ba0e-4f2f-b806-be3c038edfc6,2509DSHPUN004872,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+90a24e62-cf8d-418f-9769-bf451b381406,2509DSHPUN002827,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+911b990a-ae94-4824-85bf-6894129bfef1,2509DSHPUN007216,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+91424a49-0446-4f74-87d1-b76dd0b5d4a5,2509DSHPUN007190,LEARNING,true,false,false,false,,"outside, residential",,,interacting with vehicle,interaction with tailgate,,,,,,true negative,out-of-bed presence
+91eae62c-9d92-4148-abf8-02056de28f54,2509DSHPUN004971,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+9213e53a-890f-4a4a-bedf-90d518bdcbc2,2509DSHPUN004667,LEARNING,false,false,false,false,,"inside, residential",,,,,,,,,,true negative,empty
+9237b960-bdfc-4967-a058-da6e7c6a7e40,2509DSHPUN002770,LEARNING,true,false,false,false,,"outside, car park",,person in cabin,within reach distance,,,,,,,true negative,out-of-bed presence
+92691b92-e5cc-45fe-8628-02bda4dc3afa,2509DSHPUN007673,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+9269f7fd-652d-4cb4-8c6a-2af317262d86,2509DSHPUN004011,LEARNING,true,false,false,false,,"outside, car park",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+92a085df-7a7e-4430-8ca7-9303a9fad0e3,2509DSHPUN007189,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+92cd4cbb-f07a-4ec7-b590-6bfc646974d7,2509DSHPUN007304,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+92d50c86-801a-4118-bc0e-68693ac53215,2509DSHPUN004724,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+92ebf9ec-fd63-4749-8ec6-0c28058a0f15,2509DSHPUN004724,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+92f13c3b-1b1b-4818-a1c2-76875b13bbf2,2509DSHPUN004657,LEARNING,true,false,false,false,,"inside, car park",,,within reach distance,,,,,,,true negative,out-of-bed presence
+931859df-8d06-4fe1-8754-7c07d0d5a2b1,2509DSHPUN004724,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+9332ef80-3c7b-48bb-9700-a2abf5dac8ea,2509DSHPUN004918,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+933ae8cf-d4e8-480e-acca-2f49b673469b,2509DSHPUN007189,LEARNING,false,false,false,false,,"inside, residential",,,,,,,,,,true negative,empty
+934296bb-ad20-4ac0-98a8-b069a53aac83,2509DSHPUN002891,LEARNING,false,false,false,false,,"outside, residential",garage door opening / closing,,,,,,,,,true negative,empty
+93a3ea84-67fc-4bdc-852d-69f74a459c5e,2512DSHPUN000174,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+93f46726-035a-4927-97c3-18a5a28e0035,2509DSHPUN004855,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+947f6d49-5a35-4a87-aea8-feb93af55c8e,2509DSHPUN007189,LEARNING,false,false,false,false,,"inside, residential",,,,,,,,,,true negative,empty
+94bc38b9-bd0e-405b-b735-4064125d9f12,2509DSHPUN002876,LEARNING,false,false,false,false,,"outside, street parking",,,,,,,,,,true negative,empty
+94c95e4f-b433-4614-a4be-54aa32b6948a,2509DSHPUN002811,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+955848ed-4153-4fec-90c8-3e674cd86406,2509DSHPUN004721,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+95746322-fb3c-4e27-adec-d5806205bd34,2509DSHPUN007302,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+96053c54-5938-4fd2-86c0-9c523e54e6f9,2509DSHPUN002811,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+962620c5-fa6a-42fb-842f-b7e0b379097b,2509DSHPUN002837,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+966617fd-bcd5-4e8e-a8de-24956952a5d0,2509DSHPUN004011,LEARNING,false,false,false,false,,"outside, industrial",,walk-by,,,,,,,,true negative,empty
+9695841c-c23e-4b07-9f26-c0894edeedc0,2509DSHPUN004971,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+9695c896-8773-45e2-91ac-fd6890e49917,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+96f51f24-1e22-4a74-9b3b-ea1e8a8c4aa2,2509DSHPUN002876,LEARNING,false,false,false,false,,"inside, residential",,person in cabin,,,,,,,,true negative,empty
+9706a7c0-c92c-4fb4-a935-4062e3e5498f,2509DSHPUN004668,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+97171882-6a73-4cf2-91cb-15b7ced3d6ad,2512DSHPUN000262,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+975407f4-9042-4f5d-94a0-ebab25b613bc,2509DSHPUN004521,LEARNING,false,false,false,false,,"outside, car park",tree in wind,,,,,,,,,true negative,empty
+976e7087-4262-4239-8350-1319952e40eb,2509DSHPUN002787,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+976ece88-b97f-4958-8588-0c0ea222222f,2509DSHPUN007260,LEARNING,false,false,false,false,,"outside, street parking",car driveby,,,,,,,,,true negative,empty
+9784092a-c322-4856-92ae-46da68c27273,2509DSHPUN002891,LEARNING,false,false,false,false,,"outside, residential",garage door opening / closing,,,,,,,,,true negative,empty
+979218fa-dc09-45c3-bba4-f47d1ce0475d,2509DSHPUN004918,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+97f19bc8-7907-442b-bb0a-9fec6ddd627a,2509DSHPUN007216,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+983a05cf-968d-474a-8a13-9e7f09eee6ac,2509DSHPUN007216,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+98918c27-ae53-4d2b-9792-45a5f50c19f5,2509DSHPUN007192,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+98dba6d4-1be3-48c8-93db-687c6417cda4,2509DSHPUN002770,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+990159ba-a25d-44f5-9ad2-5e42a5f4c953,2509DSHPUN004011,LEARNING,false,false,false,false,,"outside, industrial",,walk-by,,,,,,,,true negative,empty
+99237e98-720a-4805-b368-94b3ac3fdf5f,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+999398e1-101f-4ae8-878b-74f22c80454e,2509DSHPUN007216,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+99971c94-0236-400d-be10-2c9dc089bff5,2509DSHPUN007189,LEARNING,false,false,false,false,,"inside, residential",,person in cabin,,,,,,,,true negative,empty
+99cb1b11-1620-4e3a-bb46-c87094d3c186,2509DSHPUN007304,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+99f0db4b-f6d3-4cb3-972c-1336cb264537,2509DSHPUN004521,LEARNING,false,false,false,false,,"outside, car park",tree in wind,,,,,,,,,true negative,empty
+9ac47f74-e409-492a-a8ba-085324f114bb,2509DSHPUN007190,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+9b97ca6a-2569-4caa-8da8-5776e7ecf4af,2509DSHPUN004657,LEARNING,false,false,false,false,,"inside, car park",,walk-by,,,,,,,,true negative,empty
+9b9b198d-a38b-4121-add1-b3ab46e60c66,2512DSHPUN000262,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+9be29749-814f-44c6-94f1-e45c751d354e,2509DSHPUN004971,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+9c38c4d6-a904-444c-8d9b-1f238331eaab,2509DSHPUN004668,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+9c67664f-d2c0-462a-a061-5d9cdff0e358,2509DSHPUN002837,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+9cfe71e8-1c13-4f1a-ad3c-0e3164d5a2f1,2509DSHPUN002811,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+9d37a31d-866a-4764-be2a-416288ed6184,2509DSHPUN004521,LEARNING,false,false,false,false,,"outside, car park",tree in wind,,,,,,,,,true negative,empty
+9d387968-1c35-439a-9cbd-fda06c822684,2509DSHPUN004011,LEARNING,false,false,false,false,,"outside, industrial",,,,,,,,,,true negative,empty
+9d8fda99-b548-45a9-9fab-7f1bebefb220,2509DSHPUN002811,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+9db1df92-55d3-4e8b-8743-075edcd4b1d1,2509DSHPUN004972,LEARNING,false,false,false,false,incorrectly mounted,,,,,,,,,,,discard,discard
+9dc214e7-cbe9-476a-9abb-f6423563f432,2509DSHPUN007260,LEARNING,true,false,true,false,,"outside, street parking",,,,,hand / arm,open tailgate,tonneau cover,,,true negative,non-visible intrusion
+9dc8cbbc-8c90-4603-8c08-ac2cfceaed03,2509DSHPUN004657,LEARNING,false,false,false,false,,"inside, car park",car driveby,,,,,,,,,true negative,empty
+9dcd64f2-b993-486b-b46f-bf937e09d537,2509DSHPUN004918,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+9e077abf-dc88-4d9a-b850-70a3b1811581,2509DSHPUN007189,LEARNING,true,false,false,false,,"outside, residential",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+9e126cdb-8da1-41cd-a280-25149f85acc9,2509DSHPUN007262,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+9ee727fb-1230-4e79-8ea6-0c9cf467ea4c,2509DSHPUN004855,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+9f24a153-7b23-4ea2-a2ce-50e056401665,2509DSHPUN004747,LEARNING,false,false,false,false,obstructed (partial),,,,,,,,,,,discard,discard
+9f3272ab-789b-4ef7-809e-1d577e3fef4b,2509DSHPUN004521,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+9f660743-0d74-45b8-99b7-e06aa472f597,2509DSHPUN002870,LEARNING,false,false,false,false,,"inside, residential",,,,,,,,,,true negative,empty
+9fb2e13f-e13d-4b2e-91d2-ffcf1e0e8e7b,2509DSHPUN004667,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+9fc45dc6-be7b-402c-bfea-6092765f34dd,2509DSHPUN004657,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+9feec780-001a-4e7b-b52d-59f70903eb37,2509DSHPUN007216,LEARNING,false,false,false,false,,"outside, residential",tree in wind,,,,,,,,,true negative,empty
+a0751b67-7e95-4d0e-b796-3a6231ef9860,2509DSHPUN004668,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+a0cba852-7327-4f25-98c1-959c2b6935c1,2509DSHPUN002891,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+a1113d6d-d056-4c17-91f4-3a88a23ad138,2512DSHPUN000262,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+a164c71a-661b-4d40-a22b-163b30835f65,2509DSHPUN002827,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+a19cbf15-e6df-4e72-b657-bd9d996ccc93,2509DSHPUN004724,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+a1e64b1d-7a80-44cb-8cc6-3aa1ff51f2a1,2509DSHPUN002787,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+a1fdf715-664f-4ed1-9bd0-17869539b900,2509DSHPUN004721,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+a21273d5-c81a-424d-a205-1b6fd4029aca,2509DSHPUN004724,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+a21b5c79-d460-47aa-9bbe-3c3673391c46,2509DSHPUN007304,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+a284f26b-96c2-4061-b316-25089a9cb793,2509DSHPUN002950,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+a2ab04c4-149e-41cf-b61c-fba83542aa08,2509DSHPUN004751,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+a2afdb3d-19cf-4d38-bc21-e22b1f1f7763,2509DSHPUN002870,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+a337b29c-f99f-4176-a4f3-532d101a0375,2509DSHPUN002770,LEARNING,true,false,false,false,,"outside, car park",,,within reach distance,,,,,,,true negative,out-of-bed presence
+a34c6da9-5646-4f95-983f-c074c07916c1,2509DSHPUN007189,LEARNING,false,false,false,false,,"inside, residential",,,,,,,,,,true negative,empty
+a3a2115a-441f-4d07-b8f7-186de01f6320,2509DSHPUN004855,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+a3bf54ed-fda4-4597-b1c2-b8f7ea47c331,2509DSHPUN004521,LEARNING,false,false,false,false,,"outside, car park",tree in wind,,,,,,,,,true negative,empty
+a3da9f12-e882-481f-b70e-8d74574cd761,2509DSHPUN007216,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+a4468b66-b00c-4e19-b7c9-fef2e4072057,2509DSHPUN002876,LEARNING,false,false,false,false,,"inside, residential",,,,,,,,,,true negative,empty
+a4f676da-e2c9-48c6-b259-12fcc2da73b6,2509DSHPUN007190,LEARNING,true,false,true,false,,"outside, residential",,,,,hand / arm,open tailgate,tonneau cover,,,true negative,non-visible intrusion
+a595ed0e-0786-42e9-b4bc-4e94a320dba4,2509DSHPUN007171,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+a5c626aa-5aa4-4273-980d-59c8947488b8,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+a5d6bac7-11d8-47e0-b2f7-93561a49f3d3,2509DSHPUN002870,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+a5dc5448-b587-4851-965c-04a8e4bd971c,2509DSHPUN004747,LEARNING,false,false,false,false,obstructed (partial),,,,,,,,,,,discard,discard
+a5e4731c-1a84-4dfd-b6e6-4a79c6a3ba59,2509DSHPUN004918,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+a5fb4dad-0e08-43e2-b294-e51328b2cd79,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+a64970c3-baa6-4111-8a58-0617bc5ac6b8,2509DSHPUN004668,LEARNING,true,false,false,false,,"outside, residential",,,within reach distance,,,,,,,true negative,out-of-bed presence
+a6ce67d0-6b21-42fe-938c-766ce848a206,2509DSHPUN002837,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+a6f6a312-2f28-4fc7-85c6-0a90b2064e9e,2509DSHPUN002811,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+a75d19e3-7388-48d9-820e-4fc8a6d4fc06,2509DSHPUN007190,LEARNING,true,false,true,false,,"outside, residential",,,,,hand / arm,open tailgate,tonneau cover,,,true negative,non-visible intrusion
+a7634d71-6a51-420f-8e77-1c71fdf51b39,2509DSHPUN007304,LEARNING,true,false,false,false,,"outside, car park",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+a7643f27-d175-485e-ab92-357a95ed6432,2509DSHPUN004971,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+a7be077a-f1f8-45ea-bb20-af5c55339088,2509DSHPUN002770,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+a806f921-1c12-4959-b506-61c16bd01533,2509DSHPUN002837,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+a83063aa-cb27-450f-8dc1-8140ea6e899c,2512DSHPUN000174,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+a846ae5f-efc1-415b-9a03-a27fef86053b,2509DSHPUN002870,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+a8491d0a-2892-482b-be40-c3dc021722a0,2509DSHPUN002762,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+a84b5293-2d31-411b-b784-134ff9483360,2509DSHPUN004521,LEARNING,false,false,false,false,,"inside, industrial",,person in cabin,,,,,,,,true negative,empty
+a852937e-fc01-42ca-832d-84ac6771313b,2509DSHPUN002950,LEARNING,true,false,false,false,,"outside, residential",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+a946f486-df18-4262-b1b8-5225bd56f871,2509DSHPUN007673,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+a9564c6e-88a7-4569-927b-6cb7e4d14f8c,2509DSHPUN002870,LEARNING,false,false,false,false,,"outside, industrial",,person in cabin,,,,,,,,true negative,empty
+a9f24b0b-8da3-42de-890d-1f39c0c50bc9,2509DSHPUN004971,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+aa30e2fb-73a5-4754-b333-71740d340b00,2509DSHPUN002950,LEARNING,true,false,false,false,,"outside, car park",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+ab2e8c92-2262-466b-986f-e7a64324427c,2509DSHPUN007189,LEARNING,false,false,false,false,,"inside, residential",,,,,,,,,,true negative,empty
+ab6ad14b-a8d4-4573-a157-3c0eb15c2f0d,2509DSHPUN004971,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+ab80207c-5a2e-4e88-b44e-04650ddd92e6,2509DSHPUN007189,LEARNING,false,false,false,false,,"inside, residential",,walk-by,,,,,,,,true negative,empty
+abf3857d-85ee-42eb-812a-178481b85e0e,2509DSHPUN007260,LEARNING,true,false,true,false,,"outside, street parking",,,,,hand / arm,open tailgate,tonneau cover,,,true negative,non-visible intrusion
+ac73da3e-4ea2-46b1-9ff4-945e031d4e98,2509DSHPUN002811,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+aca5e255-3304-4ad2-9a63-602ff6e776a2,2509DSHPUN004972,LEARNING,false,false,false,false,incorrectly mounted,,,,,,,,,,,discard,discard
+ad0199c9-120d-4403-91e9-7284a3ad93b2,2509DSHPUN004011,LEARNING,false,false,false,false,,"outside, industrial",,walk-by,,,,,,,,true negative,empty
+ad064e21-4456-41f4-8169-0cdffaed16b8,2509DSHPUN004657,LEARNING,false,false,false,false,,"inside, car park",,walk-by,,,,,,,,true negative,empty
+ad7e1cfa-980b-4875-99fe-45c15049c60a,2509DSHPUN007304,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+ada5423a-d7fe-4d61-a0ab-968f74f6a331,2509DSHPUN004011,LEARNING,true,false,true,false,,"outside, industrial",,,,,hand / arm,open tailgate,tonneau cover,,,true negative,non-visible intrusion
+adafbed6-dd7e-4c06-9b75-a7a5fd85e077,2509DSHPUN007673,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+adc1a74d-364d-43bb-a751-595610467e87,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, residential",car driveby,,,,,,,,,true negative,empty
+adde5aad-350c-474a-8295-8dce21ed628e,2509DSHPUN004657,LEARNING,true,false,false,false,,"inside, car park",,,within reach distance,,,,,,,true negative,out-of-bed presence
+ae9b3716-2b91-4041-b349-8d3873ae8464,2509DSHPUN007673,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+aed03566-57f4-46cd-8055-c9908daa2ca5,2509DSHPUN007262,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+af6387c3-3e28-4ae0-85ec-65785831b28c,2509DSHPUN004747,LEARNING,false,false,false,false,obstructed (partial),,,,,,,,,,,discard,discard
+afb0d69c-73c7-40a8-a81d-beefbc015951,2509DSHPUN007171,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+b0176b37-56ef-4652-bc22-77068cc0f8d2,2509DSHPUN004972,LEARNING,false,false,false,false,incorrectly mounted,,,,,,,,,,,discard,discard
+b0496766-6f27-41d7-8d2b-22371b08ea1b,2509DSHPUN007189,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+b077b0e7-c512-4933-8254-fb17b9632eb1,2509DSHPUN002787,LEARNING,true,false,false,false,,"outside, residential",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+b092a165-7dea-44a7-90fb-8184380a8d43,2509DSHPUN007216,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+b098c10e-afaa-4a28-8b6d-5aa981944b0e,2509DSHPUN004872,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+b0b64e22-a85e-421d-935f-ebe0fcb16fc3,2509DSHPUN004011,LEARNING,false,false,false,false,,"outside, industrial",,walk-by,,,,,,,,true negative,empty
+b161587b-4f53-4176-8108-1174eda99688,2512DSHPUN000262,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+b16b336c-35a7-4fac-93d0-62929eb8e32f,2509DSHPUN004971,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+b19d4a1d-9f0c-4eae-88f4-b6cb9330a005,2509DSHPUN004668,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+b1f18d59-981a-49fe-93a4-ebc1c24bb414,2509DSHPUN007216,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+b21de627-7384-4dce-a48c-d09d44b93246,2509DSHPUN004586,LEARNING,false,false,false,false,,"inside, residential",,person in cabin,,,,,,,,true negative,empty
+b2453595-f417-41be-bdbc-addc0f1456cb,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+b2500281-c1d8-48b6-af02-e4912762afce,2509DSHPUN004668,LEARNING,true,false,false,false,,"outside, residential",,,within reach distance,,,,,,,true negative,out-of-bed presence
+b2ccc6d8-7eb1-4f8a-8ccb-e791d486e301,2509DSHPUN004657,LEARNING,false,false,false,false,,"inside, car park",,walk-by,,,,,,,,true negative,empty
+b2cebf83-47fb-4376-8137-b7a9701b66a1,2509DSHPUN002811,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+b2e43fae-6465-477a-a293-99204a1f0b39,2509DSHPUN004657,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+b327e862-838b-405a-a259-f0482955e7c5,2509DSHPUN007216,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+b32eedb5-8c98-4ee2-ae06-7ac36bb18e43,2509DSHPUN002787,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+b33e96f3-827e-40e4-8ee0-7a860f93fb1f,2509DSHPUN004668,LEARNING,true,false,false,false,,"outside, residential",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+b385e9c0-ac3b-4232-a4eb-20e56e673d04,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+b3efbcd2-2c3b-409a-b807-28ed57520627,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+b43632d3-f09f-4f3b-86d0-4f2c09c76d87,2509DSHPUN002950,LEARNING,true,false,false,false,,"outside, residential",,,within reach distance,,,,,,,true negative,out-of-bed presence
+b4c397a2-f5ab-4faf-ba61-2f7f4f5f4e96,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+b53da0d3-8722-497e-9273-42b549588d83,2509DSHPUN004747,LEARNING,false,false,false,false,obstructed (partial),,,,,,,,,,,discard,discard
+b5648e81-8497-4653-a80b-6c78712fe2bd,2509DSHPUN004521,LEARNING,false,false,false,false,,"outside, car park",tree in wind,,,,,,,,,true negative,empty
+b569266a-b6d8-45ad-ba5b-b04a1a85004f,2509DSHPUN007189,LEARNING,true,false,false,false,,"outside, car park",,,interacting with vehicle,hand / arm on bed wall,,,,,,true negative,out-of-bed presence
+b5846da7-8662-41c7-9c31-91e7a08b4045,2509DSHPUN007192,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+b5fac1c7-d54b-4f4e-9293-60c0d5c27bba,2509DSHPUN002770,LEARNING,true,false,true,false,,"outside, car park",,,,,hand / arm,open tailgate,tonneau cover,,,true negative,non-visible intrusion
+b60d1522-35f1-49ab-991e-c89406f36d63,2509DSHPUN007304,LEARNING,true,false,false,false,,"outside, residential",,,within reach distance,,,,,,,true negative,out-of-bed presence
+b6c067d3-6147-4aad-a5a8-7cb998265e9a,2509DSHPUN004855,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+b6c4a40e-9c4c-4b1a-ab9a-1120dab8e8cc,2509DSHPUN004972,LEARNING,false,false,false,false,incorrectly mounted,,,,,,,,,,,discard,discard
+b723ac4a-9464-4a5a-91bb-d80e5c8fa3c4,2509DSHPUN004657,LEARNING,true,false,false,false,,"inside, car park",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+b726a626-4d8a-4af4-8292-c3eba5d5f399,2509DSHPUN007192,LEARNING,true,false,false,false,,"outside, industrial",,,within reach distance,,,,,,,true negative,out-of-bed presence
+b7491990-b49a-47c2-ac4e-d8e128c1c392,2509DSHPUN007260,LEARNING,false,false,false,false,,"outside, street parking",car driveby,,,,,,,,,true negative,empty
+b76c8629-7748-4bec-8f94-48a676e16ffc,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+b776758d-ffa2-4671-9558-ea69b42f16fe,2509DSHPUN002827,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+b788bb1f-705b-4600-a7a8-ac6558da0703,2509DSHPUN004011,LEARNING,true,false,true,false,,"outside, industrial",,,,,hand / arm,open tailgate,tonneau cover,,,true negative,non-visible intrusion
+b78ba2c7-50e0-4bd3-bcee-922cffe2ad52,2509DSHPUN002770,LEARNING,true,false,false,false,,"outside, car park",,,within reach distance,,,,,,,true negative,out-of-bed presence
+b78cfb75-f8bd-414e-ac52-bfce7f7ad483,2509DSHPUN004721,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+b78f004a-5566-42e9-abd9-f536443d1e52,2509DSHPUN004668,LEARNING,true,false,false,false,,"outside, residential",,,within reach distance,,,,,,,true negative,out-of-bed presence
+b79ad647-0090-46c8-bb05-0be30d3b2036,2509DSHPUN007189,LEARNING,true,false,false,false,,"outside, car park",,,interacting with vehicle,hand / arm on bed wall,,,,,,true negative,out-of-bed presence
+b7a57e31-14ed-4f23-a6d4-255fbf8b780d,2509DSHPUN007260,LEARNING,false,false,false,false,,"outside, street parking",car driveby,,,,,,,,,true negative,empty
+b7a8478d-d22b-4377-a995-808f03c1fa89,2509DSHPUN002762,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+b7bcaafb-2e1a-42b5-84d7-d10b6eeb600f,2509DSHPUN007304,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+b83ae0a0-fe61-4240-98d0-55af2b894198,2509DSHPUN007304,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+b858656d-c1dd-49f5-93af-1bd3af2787ba,2509DSHPUN007302,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+b8cdbfa7-7926-498e-a6f6-0af460645c1b,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+b93e0a41-4b22-4f76-8427-48048e4d8ba3,2509DSHPUN004971,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+b9821e42-4ee1-40ef-8345-0122295e041a,2509DSHPUN004747,LEARNING,false,false,false,false,obstructed (partial),,,,,,,,,,,discard,discard
+b983ee87-3749-4fb0-a434-e375fbebcbe0,2509DSHPUN007260,LEARNING,true,false,false,false,,"outside, street parking",,,interacting with vehicle,interaction with tailgate,,,,,,true negative,out-of-bed presence
+b989a1dd-c2f0-4677-9b2a-b64d8495f3bf,2509DSHPUN007171,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+b9a8ca42-7870-41c9-bcae-7d374d3aa4c0,2509DSHPUN002811,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+b9b0da0a-892f-4f2b-9a3e-198b4cf46958,2509DSHPUN002468,LEARNING,false,false,false,false,,"inside, car park",,walk-by,,,,,,,,true negative,empty
+b9c24055-7abe-470a-9150-8e29054dd0b1,2509DSHPUN004751,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+ba20a8ca-a4c8-4315-8e2a-9a945209c06e,2509DSHPUN002876,LEARNING,true,false,false,false,,"inside, residential",,,within reach distance,,,,,,,true negative,out-of-bed presence
+ba27abe5-0c2d-4fcf-bcde-ca6eecfa248c,2509DSHPUN004747,LEARNING,false,false,false,false,obstructed (partial),,,,,,,,,,,discard,discard
+ba38b7c1-ccf4-47fa-b861-e40ffa72c558,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+ba397cbf-6137-4956-9058-8a901c72ad1a,2509DSHPUN004918,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+ba588623-8555-4f78-ba88-3551fb96e496,2509DSHPUN007189,LEARNING,true,false,false,false,,"outside, residential",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+ba646191-379d-4c56-a9f3-9a9a3d605516,2509DSHPUN007171,LEARNING,false,false,false,false,,"outside, car park",tree in wind,,,,,,,,,true negative,empty
+ba9f2b4d-c87d-485e-a158-de9d0428f854,2512DSHPUN000174,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+bac25489-e61c-4851-8570-9501764d37b1,2509DSHPUN002870,LEARNING,true,false,false,false,,"outside, car park",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+bac35154-297e-47d4-add0-ea656c46dd2d,2509DSHPUN004724,LEARNING,false,false,false,false,,"inside, residential",,,,,,,,,,true negative,empty
+bacdf4ee-423e-46c0-a6de-83027a2e5ece,2509DSHPUN004855,LEARNING,false,false,false,false,,"outside, car park",soft tonneau cover in wind,,,,,,,,,true negative,empty
+bad9b077-fc4c-40ad-bec3-aeec9a28f33b,2509DSHPUN004872,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+bb3f27d9-8fba-4d68-b895-88caf77b8504,2509DSHPUN007192,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+bb56e6f9-6d89-41ab-a888-37e3430c5382,2509DSHPUN004667,LEARNING,false,false,false,false,,"inside, residential",,,,,,,,,,true negative,empty
+bb98c217-4e8f-4473-a8b3-d7deede1c2aa,2509DSHPUN007171,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+bbcd82be-106f-4453-8e09-47e9907b7abc,2509DSHPUN004521,LEARNING,false,false,false,false,,"inside, industrial",,walk-by,,,,,,,,true negative,empty
+bc67e91b-a1df-4541-a91e-fa1bfbb21f97,2509DSHPUN002770,LEARNING,true,false,false,false,,"outside, car park",,,interacting with vehicle,interaction with overhanging object,,,,,,true negative,out-of-bed presence
+bc963f39-6770-440a-8ae7-155ccde519da,2512DSHPUN000262,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+bd5a624f-2dbb-4016-b9eb-6e21dc289c12,2509DSHPUN004668,LEARNING,true,false,false,false,,"outside, residential",,,within reach distance,,,,,,,true negative,out-of-bed presence
+be2e4293-bebf-40cc-85fd-13c34b20aa9a,2509DSHPUN002870,LEARNING,false,false,false,false,,"outside, residential",thunderstorm,,,,,,,,,true negative,empty
+be34b9e4-4cb7-4f06-83ea-9b51b7198f7f,2509DSHPUN004872,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+bee3eb42-48ec-4e5e-be3a-34d8037d6a86,2509DSHPUN002876,LEARNING,true,false,false,false,,"inside, residential",,,within reach distance,,,,,,,true negative,out-of-bed presence
+beeef920-5fdd-4859-8e59-8a9a8c8ddb97,2509DSHPUN004855,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+bf231f49-af4f-46b0-bfdd-cb935d44232a,2512DSHPUN000720,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+bf7dcb76-1823-4a41-8b74-71b59566f39c,2509DSHPUN004668,LEARNING,true,false,false,false,,"outside, residential",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+bfec644a-08f1-4e90-a72a-acf5a3b48617,2509DSHPUN004751,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+c007b079-9cd8-4050-a72f-09ff34752f06,2509DSHPUN002811,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+c09cc89b-b8fd-411d-9132-c7b00cf2dc41,2509DSHPUN002787,LEARNING,false,false,false,false,,"outside, residential",pet / animal,,,,,,,,,true negative,empty
+c0afa605-5326-4116-aa4a-7e35b32184f2,2509DSHPUN004971,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+c0fbb0a7-a753-4817-b936-57b1a5913a86,2509DSHPUN004747,LEARNING,false,false,false,false,obstructed (partial),,,,,,,,,,,discard,discard
+c1cbcc9b-acc9-4520-8bce-912a05717e9e,2509DSHPUN007260,LEARNING,true,false,false,false,,"outside, street parking",,,within reach distance,,,,,,,true negative,out-of-bed presence
+c1d05a3d-18fd-4059-870b-4fb0b18261ec,2509DSHPUN002827,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+c236f187-651d-486b-b8a2-de6e2ec421bd,2509DSHPUN004747,LEARNING,false,false,false,false,obstructed (partial),,,,,,,,,,,discard,discard
+c23aad28-dc99-4156-9251-18bc45745d09,2509DSHPUN004971,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+c242c4d7-39fb-46a6-a343-c68b07bbae60,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+c2bf6452-910b-429f-9d84-3b0c91e29f34,2509DSHPUN007260,LEARNING,false,false,false,false,,"outside, street parking",car driveby,,,,,,,,,true negative,empty
+c2c5bb33-a871-41c3-b815-bcf9c7b9c127,2509DSHPUN002876,LEARNING,false,false,false,false,,"outside, street parking",car driveby,,,,,,,,,true negative,empty
+c3120210-b423-4901-814a-ff76ff764f69,2509DSHPUN007189,LEARNING,false,false,false,false,,"inside, residential",,,,,,,,,,true negative,empty
+c317365f-4b40-4cea-aacc-6cabc38c1c20,2509DSHPUN004667,LEARNING,false,false,false,false,,"inside, residential",,person in cabin,,,,,,,,true negative,empty
+c3559f6a-ba48-46db-8c2f-6f254d453675,2509DSHPUN002950,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+c41be10b-43a1-4afe-95d7-7edd7c0bce78,2509DSHPUN007189,LEARNING,false,false,false,false,,"inside, residential",,,,,,,,,,true negative,empty
+c452855f-c86b-4a43-bd91-fcbca0fffabb,2509DSHPUN007262,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+c47d5da9-2e55-4d3c-b51e-6d54c3fb3464,2509DSHPUN004668,LEARNING,true,false,false,false,,"outside, residential",,,within reach distance,,,,,,,true negative,out-of-bed presence
+c4d3f6ed-ed6c-46de-acf3-69a0f48b4ce6,2509DSHPUN004011,LEARNING,false,false,false,false,,"outside, industrial",,,,,,,,,,true negative,empty
+c50dc89c-5d79-4613-bf1e-f8e4486c600b,2509DSHPUN007260,LEARNING,false,false,false,false,,"outside, street parking",car driveby,,,,,,,,,true negative,empty
+c5522926-5355-4a34-81a8-ffef55e15cbb,2509DSHPUN002770,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+c595cf12-9793-42a3-aff0-eef2ddd62e5e,2509DSHPUN002837,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+c5979470-d895-4a71-bbf9-3bb9e552ed8b,2509DSHPUN004667,LEARNING,false,false,false,false,,"inside, residential",,,,,,,,,,true negative,empty
+c5ca8a07-6f4a-4066-aa1b-bdb59dc5feec,2509DSHPUN007189,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+c627694b-781f-4117-ad73-cce773061173,2509DSHPUN007192,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+c70e7843-ce8b-4ac4-8483-6306158c9f04,2509DSHPUN007302,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+c710b067-92ca-4f50-a02c-afe9b324829b,2509DSHPUN002837,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+c71fa005-2ad7-41f4-8d05-f22761b2d25e,2509DSHPUN007260,LEARNING,false,false,false,false,,"outside, street parking",car driveby,,,,,,,,,true negative,empty
+c73d8d6c-7a42-4dfa-a296-9b50f59d5f72,2509DSHPUN002891,LEARNING,false,false,false,false,,"outside, residential",car driveby,,,,,,,,,true negative,empty
+c73fe362-a009-44ae-afea-f0275e4143b6,2509DSHPUN004971,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+c79cbe4b-019b-4028-b755-5d7a1c8f268d,2509DSHPUN007673,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+c7b0b103-e948-4350-87a9-01155b48e98a,2509DSHPUN004011,LEARNING,true,false,false,false,,"outside, industrial",,,within reach distance,,,,,,,true negative,out-of-bed presence
+c7b98176-1a8e-4d4b-be72-3dceb94d82b4,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+c83b1346-c694-4f75-b5fe-37c6f323e7cb,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+c92e5321-9c7b-4bc4-a522-8372b4d57d64,2509DSHPUN002762,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+c9a46b5e-72c2-48ef-a317-6d3245fe1362,2509DSHPUN007190,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+c9b7e1bf-a55f-421f-b00e-bdf0fb478d6f,2509DSHPUN007190,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+ca37193c-57c5-4312-aaa8-4454ae1d113e,2509DSHPUN002891,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+ca4075a2-f8b6-41f8-8979-f8ad3258966b,2509DSHPUN002762,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+ca89390a-307b-4ca7-b525-72b6c363fc74,2509DSHPUN007262,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+ca9cdb2c-9426-41e8-ae55-d4135d7c247a,2509DSHPUN004747,LEARNING,false,false,false,false,obstructed (partial),,,,,,,,,,,discard,discard
+caadcc18-8915-4b9a-bd4a-cc3fc7f19a1e,2509DSHPUN007190,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+cae9bf2e-84e0-43e9-ac8d-13604354eea6,2509DSHPUN004011,LEARNING,true,false,false,false,,"outside, industrial",,,within reach distance,,,,,,,true negative,out-of-bed presence
+cafa3b3e-4e1a-44b8-8cbd-60ae16ce42fd,2509DSHPUN002876,LEARNING,true,false,false,false,,"inside, residential",,,within reach distance,,,,,,,true negative,out-of-bed presence
+cb769736-c27a-44c4-9b6a-9b2693d71ea4,2509DSHPUN004724,LEARNING,false,false,false,false,,"outside, industrial",,walk-by,,,,,,,,true negative,empty
+cbedceb7-3c5f-47d0-985a-4b1098d47a55,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+cc3f7879-f4b2-47b5-8ff4-d9b5da77eb46,2509DSHPUN002876,LEARNING,true,false,false,false,,"inside, residential",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+cc519f8b-4431-42a8-ab07-17dc4938363a,2509DSHPUN004971,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+cc59e9f6-f91e-4541-a408-d904b67ba536,2509DSHPUN004521,LEARNING,true,false,false,false,,"inside, industrial",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+cd025802-d29c-4d21-b783-668767fdc7df,2509DSHPUN004872,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+cd06b0d5-d933-497b-a3dd-faa8ba36cb96,2509DSHPUN007302,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+cd37c7a6-cd69-491b-89cf-71ca52319cbd,2509DSHPUN004972,LEARNING,false,false,false,false,incorrectly mounted,,,,,,,,,,,discard,discard
+cd7816fa-8d48-40df-be65-62a8872a393f,2509DSHPUN004586,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+cda2b53c-cf7b-4c34-b258-5b5841fa9b94,2509DSHPUN007171,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+cda675ed-1695-42b5-a296-bf49cc4cd0db,2509DSHPUN007189,LEARNING,true,false,false,false,,"outside, car park",,,interacting with vehicle,hand / arm on bed wall,,,,,,true negative,out-of-bed presence
+cdae4974-bd9f-46cc-b768-53e31a51f898,2509DSHPUN004747,LEARNING,false,false,false,false,obstructed (partial),,,,,,,,,,,discard,discard
+cdf2751b-3501-460e-b3b5-9e176db33a6d,2509DSHPUN004724,LEARNING,true,false,false,false,,"outside, industrial",,,within reach distance,,,,,,,true negative,out-of-bed presence
+cef2361d-358b-48e0-9aed-58653e3cbb41,2509DSHPUN004521,LEARNING,false,false,false,false,,"outside, car park",tree in wind,,,,,,,,,true negative,empty
+cfb6c888-2560-4668-b86d-7feb3a83ec67,2509DSHPUN007260,LEARNING,true,false,true,false,,"outside, street parking",,,,,hand / arm,open tailgate,tonneau cover,,,true negative,non-visible intrusion
+cfb8b6c0-f4ef-4ddc-8ae6-faf979a7429f,2509DSHPUN002770,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+cfdd8ace-7015-415c-b448-c115b19299ee,2509DSHPUN004657,LEARNING,true,false,false,false,,"outside, car park",,,within reach distance,,,,,,,true negative,out-of-bed presence
+cfdef24d-eed2-4859-a570-dbc3ec512e95,2509DSHPUN007262,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+cfe091ac-8bac-4ead-94bd-6c3e88c9427e,2509DSHPUN007192,LEARNING,true,false,false,false,,"outside, industrial",,,interacting with vehicle,interaction with tailgate,,,,,,true negative,out-of-bed presence
+d123272b-3ef6-46f7-bc40-bd807d38719b,2509DSHPUN007304,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+d140e1c6-4edc-4434-bbd9-30d1d7705062,2509DSHPUN004855,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+d17d8807-688a-4cd7-a281-1f5b2b9cc622,2509DSHPUN002827,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+d19bb08f-f904-4c2c-88c4-93c93f4fc03e,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+d1eae3f0-5e14-464d-a008-d00ec4a8fa39,2509DSHPUN004971,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+d26ed374-2dc3-4deb-95ca-e418e78864dd,2509DSHPUN007260,LEARNING,false,false,false,false,,"outside, street parking",car driveby,,,,,,,,,true negative,empty
+d26f2fcb-6d62-4984-84c9-819b89dc82a2,2509DSHPUN007171,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+d296ac97-e650-49fb-b6d1-51d8342fc468,2509DSHPUN002811,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+d2c36235-6759-4406-b689-989c2d7cdd28,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+d2cee029-6d48-48ee-8bc9-1152b0e13ceb,2509DSHPUN002876,LEARNING,false,false,false,false,,"outside, street parking",car driveby,,,,,,,,,true negative,empty
+d393146e-3e17-4074-9fe1-184f67977db9,2509DSHPUN007190,LEARNING,true,false,false,false,,"outside, residential",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+d3aefc07-7096-44c0-b56d-ed9d3e970154,2512DSHPUN000262,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+d3b25ca9-5fdc-449d-9c20-f81fa68badf4,2509DSHPUN004011,LEARNING,true,false,true,false,,"outside, industrial",,,,,hand / arm,open tailgate,tonneau cover,,,true negative,non-visible intrusion
+d40f7f30-290f-4b0e-9816-8d43eb435a0b,2509DSHPUN004855,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+d44b2278-dfba-4623-ac57-cab6a21d5a40,2509DSHPUN007260,LEARNING,false,false,false,false,,"outside, street parking",car driveby,,,,,,,,,true negative,empty
+d458a70d-f9f2-4220-ba5b-a613ab5ea918,2509DSHPUN004521,LEARNING,false,false,false,false,,"outside, car park",tree in wind,,,,,,,,,true negative,empty
+d46effd1-ef20-445a-9c8f-5d93927f1fbb,2509DSHPUN002876,LEARNING,true,false,false,false,,"outside, street parking",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+d4a4ddfd-825f-4070-b3d7-ce2efa0d8ac3,2509DSHPUN007189,LEARNING,true,true,true,false,,"outside, car park",,,,,fingertips,over bed wall,,,small overlap,false negative,missed detection
+d4abbcfb-5382-4d52-8088-9431a67e39ed,2509DSHPUN002762,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+d5160c83-4c69-4146-b62c-058fb5d309f7,2512DSHPUN000174,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+d547dfa5-e459-4623-8351-6df3300f4c2b,2509DSHPUN004971,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+d5a2e5b4-f696-485b-b3c3-b0c403135fb3,2509DSHPUN004011,LEARNING,false,false,false,false,,"outside, industrial",,walk-by,,,,,,,,true negative,empty
+d5e4b66b-39a5-4ae7-9fe6-8d10a2bfc66c,2512DSHPUN000174,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+d61ca9b7-6bc6-4b72-8eaf-715ae645c3b2,2509DSHPUN004724,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+d65b573a-e9da-4ed0-bc03-1dba62ce8394,2509DSHPUN004667,LEARNING,false,false,false,false,,"inside, residential",,walk-by,,,,,,,,true negative,empty
+d667b061-9126-4250-abf2-a70a73a73e44,2509DSHPUN004855,LEARNING,false,false,false,false,,"outside, car park",soft tonneau cover in wind,,,,,,,,,true negative,empty
+d682a28c-2d02-4ab2-a439-5278a463fc84,2509DSHPUN007189,LEARNING,true,false,false,false,,"outside, car park",,,interacting with vehicle,hand / arm on bed wall,,,,,,true negative,out-of-bed presence
+d6dd0555-2aeb-4c8f-906e-b295a3629523,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+d70cce21-15ad-42a0-a80a-f714eb22a215,2512DSHPUN000720,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+d7142b3c-2242-4e04-b32a-8f43491dc7fb,2509DSHPUN004011,LEARNING,true,false,false,false,,"outside, industrial",,,within reach distance,,,,,,,true negative,out-of-bed presence
+d74545a7-47f1-4dbe-b24b-058423dea200,2509DSHPUN002787,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+d7bb398c-9326-4e41-917c-26d708804f67,2512DSHPUN000174,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+d7dd78dc-c8de-4652-8c3c-4b3406e9308f,2509DSHPUN002762,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+d7e51032-af72-4450-aef7-3df1a40e00b4,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+d81bc769-93d8-4b80-b38a-fb3288382af0,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+d89fa925-6511-4ef6-bbed-f5cab6e624be,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+d8ae5306-ddb3-44e7-92ce-1b137f5f94c1,2509DSHPUN004721,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+d8aeff1b-c69d-404d-8a9f-07c9265a3490,2509DSHPUN002770,LEARNING,true,false,true,false,,"outside, car park",,,,,hand / arm,open tailgate,tonneau cover,,,true negative,non-visible intrusion
+d8ec9b4f-face-430c-81b5-ec0488a37e71,2509DSHPUN004011,LEARNING,true,false,false,false,,"outside, residential",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+d8efb452-55ef-4457-be4c-827e6bc3e8c3,2509DSHPUN004724,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+d91fbf0c-569f-46e6-ac7d-d1ea8bd1a6d9,2509DSHPUN007189,LEARNING,true,false,false,false,,"outside, car park",,,within reach distance,,,,,,,true negative,out-of-bed presence
+d9cbda39-7004-4fa3-bd6b-1bbffcbde118,2509DSHPUN007216,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+da23ef45-0803-4232-a08f-093395d5b525,2509DSHPUN007192,LEARNING,false,false,false,false,,"outside, industrial",,,,,,,,,,true negative,empty
+da322f8e-cad0-46eb-a355-54b3289cda8e,2509DSHPUN004011,LEARNING,true,false,true,false,,"outside, industrial",,,,,hand / arm,open tailgate,tonneau cover,,,true negative,non-visible intrusion
+da3e1325-cd08-4cef-a944-b84796baeebc,2509DSHPUN004668,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+dace5648-e7c5-4d60-8d01-2f62f41971b6,2509DSHPUN007171,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+daf39f20-20ad-4df8-9e7a-202c8940f4a4,2509DSHPUN007192,LEARNING,false,false,false,false,,"outside, industrial",,person in cabin,,,,,,,,true negative,empty
+dafc6f9c-68db-4f7e-b1b5-cd120744b627,2509DSHPUN004747,LEARNING,false,false,false,false,obstructed (partial),,,,,,,,,,,discard,discard
+db2a6c87-9a54-4f1d-8022-08ccf76040d3,2509DSHPUN004521,LEARNING,false,false,false,false,,"inside, industrial",,,,,,,,,,true negative,empty
+db337551-ca0d-4452-a960-b7f0f302b8b7,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+db56f192-dd87-4755-8632-75836084ac2d,2509DSHPUN007190,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+dbdc9558-71f8-4e97-bcd3-c986ee908f27,2509DSHPUN007260,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+dc1838c5-cfa5-473f-b4b2-59d48809f6f9,2509DSHPUN002827,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+dc28acb7-62cc-463f-93c4-b59c4d803d2f,2512DSHPUN000720,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+dcae1dce-1c65-4086-b58e-30fabcde2043,2509DSHPUN007260,LEARNING,false,false,false,false,,"outside, street parking",car driveby,,,,,,,,,true negative,empty
+dd554dbc-60e9-4416-bad3-7c372f208670,2509DSHPUN004751,LEARNING,true,false,false,false,,"outside, residential",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+dd86cc68-2a79-4b4b-9e72-01041563dba8,2509DSHPUN004521,LEARNING,false,false,false,false,,"inside, industrial",,person in cabin,,,,,,,,true negative,empty
+ddd642f8-e59f-4c0e-afcf-67b70026bcee,2509DSHPUN004747,LEARNING,false,false,false,false,obstructed (partial),,,,,,,,,,,discard,discard
+de44494f-bbd6-4053-bdfa-6bd7d5cbba26,2512DSHPUN000262,LEARNING,true,false,false,false,,"outside, residential",,person in cabin,within reach distance,,,,,,,true negative,out-of-bed presence
+dece89f4-d16a-438c-8c60-401857b72f5c,2509DSHPUN007190,LEARNING,true,false,false,false,,"outside, residential",,,within reach distance,,,,,,,true negative,out-of-bed presence
+df3668f1-d789-482d-b20f-f3abe8ee8bf3,2509DSHPUN004011,LEARNING,true,false,false,false,,"outside, industrial",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+df4e4b92-ac94-41ee-8a11-e3d71464b319,2509DSHPUN007189,LEARNING,false,false,false,false,,"inside, residential",,,,,,,,,,true negative,empty
+df7c8810-d97f-4093-9fba-d62e91831163,2509DSHPUN004721,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+dfc0b4ea-578e-403e-af95-db6ec83ca1d8,2509DSHPUN002827,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+e00b5013-e5a8-4d41-b93d-e93c4de15508,2509DSHPUN004971,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+e0207365-fe02-450e-a309-721a6a046be7,2509DSHPUN004872,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+e04c849b-9dc1-4022-b565-222dc18425d5,2509DSHPUN004011,LEARNING,false,false,false,false,,"outside, industrial",,walk-by,,,,,,,,true negative,empty
+e056906a-1ee6-4409-b6d5-c59b2f636c4c,2509DSHPUN007216,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+e1053efb-9f84-482e-a121-60edda29d9d4,2509DSHPUN007262,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+e1ab1471-028b-4639-82df-0b81cbd359b6,2509DSHPUN004667,LEARNING,false,false,false,false,,"inside, residential",,,,,,,,,,true negative,empty
+e1b9167b-347b-42ec-bd3f-7eb8f379cfc5,2509DSHPUN002770,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+e1c36d93-5be6-458f-af35-2d1cc5362b1b,2509DSHPUN007190,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+e1c62e56-82f2-4c47-a791-b60e971a870f,2512DSHPUN000262,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+e24b57ea-a5d8-4413-b333-9154c7c76538,2509DSHPUN007216,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+e2611462-cd84-4e46-aee6-1bd7cc5f9600,2509DSHPUN002787,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+e27d4fac-234c-4eb8-90c1-5c8643e040d3,2509DSHPUN002827,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+e287e42a-5f2b-457b-b880-fffb14bb4860,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+e29f51a2-bb0f-46ee-915a-943ea9329e3a,2509DSHPUN007189,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+e2be7bd2-c224-4471-8d66-4c09becda903,2509DSHPUN004918,LEARNING,true,false,false,false,,"outside, car park",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+e2d4c522-0e37-4732-9a88-63cb1cdee078,2509DSHPUN007304,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+e3072ccf-fca0-4dbb-84ef-dfabc93cee54,2509DSHPUN007190,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+e36d35cc-ae04-4e3d-9a6d-7f8a7929393f,2509DSHPUN002837,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+e379f3e8-6959-436e-b2ba-ad882a51512d,2509DSHPUN007189,LEARNING,true,false,false,false,,"outside, car park",,,interacting with vehicle,hand / arm on bed wall,,,,,,true negative,out-of-bed presence
+e3cc94e8-7144-4043-9888-2fe5fb16ba22,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+e3e8028c-80ca-4416-9671-343a3749abc9,2509DSHPUN007260,LEARNING,true,false,true,false,,"outside, street parking",,,,,hand / arm,open tailgate,tonneau cover,,,true negative,non-visible intrusion
+e40ffbb0-ce4b-4265-927e-db32be4c2ca3,2509DSHPUN002762,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+e529efba-a017-4da3-83b4-fd100855a15a,2509DSHPUN002770,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+e5894a65-7dad-496d-9b78-f9a20b07588f,2509DSHPUN002811,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+e5be4927-b29c-4d6d-9127-7bfc7a475fcb,2509DSHPUN004521,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+e5da7b22-9743-41bd-88d0-fcef450aa07e,2509DSHPUN004667,LEARNING,true,false,false,false,,"inside, residential",,person in cabin,interacting with vehicle,interaction with tailgate,,,,,,true negative,out-of-bed presence
+e6284800-42e1-4bba-8dc3-a9d5ed58e9de,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+e6464e5f-353c-4f84-a4d3-5baf8f15b24e,2509DSHPUN007192,LEARNING,false,false,false,false,,"outside, industrial",,,,,,,,,,true negative,empty
+e66e36aa-0860-4253-a5dd-fd88e737245c,2509DSHPUN004971,LEARNING,true,false,false,false,,"outside, residential",,,within reach distance,,,,,,,true negative,out-of-bed presence
+e67f87ef-8794-45f0-acf8-1bf1de1f10b2,2509DSHPUN004668,LEARNING,true,false,false,false,,"outside, residential",,,within reach distance,,,,,,,true negative,out-of-bed presence
+e6fbc52e-8746-47f6-b0a1-06bb53ab5b8f,2509DSHPUN002876,LEARNING,false,false,false,false,,"outside, street parking",,,,,,,,,,true negative,empty
+e7103e7c-17cb-47f2-a81e-0818cffb9185,2509DSHPUN004971,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+e7e90d8e-4cce-4367-a55e-5c24dd1e8651,2509DSHPUN004521,LEARNING,false,false,false,false,,"outside, car park",tree in wind,,,,,,,,,true negative,empty
+e8061119-3c5a-4769-956e-37c2a61b1917,2509DSHPUN004521,LEARNING,false,false,false,false,,"inside, industrial",,walk-by,,,,,,,,true negative,empty
+e839e6b3-bffe-43cc-8cf8-d60293fb4afd,2509DSHPUN007304,LEARNING,false,false,false,false,extreme low light,,,,,,,,,,,discard,discard
+e83b0578-efbd-4ac7-8f92-45015d6f933a,2509DSHPUN002762,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+e85983d0-909e-4541-84e9-902cdcb83a27,2509DSHPUN004721,LEARNING,false,false,false,false,,"inside, residential",,person in cabin,,,,,,,,true negative,empty
+e8bfaa3c-d819-4a31-8409-37d1228c957b,2509DSHPUN007189,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+e8cc5124-de3c-4d9a-bcd8-4b1883706311,2509DSHPUN007189,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+e8d6b5f3-38e4-4bfb-a647-aeb84c4c0d30,2509DSHPUN004721,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+e9143645-b6e3-4458-985b-780b839b7e36,2509DSHPUN004657,LEARNING,false,false,false,false,,"inside, car park",,walk-by,,,,,,,,true negative,empty
+e9235aca-19cf-4866-948f-a38c77ac738b,2509DSHPUN007302,LEARNING,true,false,false,false,,"outside, car park",,,within reach distance,,,,,,,true negative,out-of-bed presence
+e924692e-a749-4fbf-a277-3902a06dc658,2512DSHPUN000174,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+e96ce8e4-2e5b-4028-9a19-aa294e5e83eb,2509DSHPUN002950,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+e99bec70-3793-4fd4-b79e-f25985e4789e,2509DSHPUN004657,LEARNING,true,false,false,false,,"inside, car park",,,within reach distance,,,,,,,true negative,out-of-bed presence
+ea06e6ca-d0d8-4912-bdf9-784804df3496,2509DSHPUN007260,LEARNING,true,false,true,false,,"outside, street parking",,,,,hand / arm,open tailgate,tonneau cover,,,true negative,non-visible intrusion
+ea0a3fb8-a9fd-4bcb-9f1f-629b78253df5,2509DSHPUN007304,LEARNING,false,false,false,false,extreme low light,,,,,,,,,,,discard,discard
+ea75789b-ce36-4cfa-a8d2-3279bd3148fe,2509DSHPUN004657,LEARNING,false,false,false,false,,"inside, car park",,walk-by,,,,,,,,true negative,empty
+ea7c9b8a-f62d-42ff-9581-9f83913ec11d,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+ea892525-73fe-46ff-999e-e10b1090c12f,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+ebb6f93c-e8d9-40e9-beb3-96ad8ea6f3a4,2509DSHPUN004724,LEARNING,false,false,false,false,,"inside, residential",,,,,,,,,,true negative,empty
+ebcaf61e-8db2-418b-a339-8aa052122a11,2509DSHPUN002876,LEARNING,true,false,false,false,,"inside, residential",,,within reach distance,,,,,,,true negative,out-of-bed presence
+ebd9486c-6823-41dd-a041-e4d6851bc01b,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+ebeb7688-b00f-4c4f-9243-741fbc3efe6f,2509DSHPUN007189,LEARNING,false,false,false,false,,"inside, residential",,,,,,,,,,true negative,empty
+ec5f98ab-228d-4308-b70f-c4f8bcaa6eef,2512DSHPUN000262,LEARNING,true,false,false,false,,"outside, residential",,,within reach distance,,,,,,,true negative,out-of-bed presence
+ec6ae535-8a11-423a-a9eb-7545f28907af,2509DSHPUN004586,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+eccafe45-8f63-48f8-9a7c-ccfd86e5bf61,2509DSHPUN004751,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+ed2be444-c740-4ad1-8bc0-c058464cdf31,2509DSHPUN007260,LEARNING,true,false,true,false,,"outside, street parking",,,,,hand / arm,open tailgate,tonneau cover,,,true negative,non-visible intrusion
+edbcd5b9-f532-4828-85a1-8f9fd823b845,2512DSHPUN000262,LEARNING,true,false,false,false,,"outside, residential",,,within reach distance,,,,,,,true negative,out-of-bed presence
+edfa7929-b1f9-44f5-9f44-cd41e52e7714,2509DSHPUN004521,LEARNING,false,false,false,false,,"inside, industrial",,,,,,,,,,true negative,empty
+ee4f101b-d437-4bd3-9c1a-7193b430e2e9,2509DSHPUN007302,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+eea733dc-6f36-4757-9a76-819ba82637bc,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+eeba6785-476e-4909-9cc4-9a8b4dd6fe5d,2509DSHPUN007304,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+eec081a2-8290-4574-a1f5-753e7c10d12d,2509DSHPUN004657,LEARNING,true,false,false,false,,"inside, car park",,,within reach distance,,,,,,,true negative,out-of-bed presence
+eef8629f-7290-4c9c-85ba-2280caa0f626,2509DSHPUN007171,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+ef96fe29-50e2-4a66-bf12-9f28491f6f2d,2509DSHPUN007171,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+efbdab85-2452-446b-8522-929e25b8f673,2509DSHPUN007189,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+efe26b13-4beb-49be-b35d-f4fef5e3f17d,2509DSHPUN004668,LEARNING,true,false,false,false,,"outside, residential",,,within reach distance,,,,,,,true negative,out-of-bed presence
+eff40777-b4bb-4c13-8337-aee2eca18635,2509DSHPUN002837,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+f058e029-d93e-4769-a477-d257f44e92d0,2509DSHPUN007189,LEARNING,true,false,false,false,,"outside, car park",,,within reach distance,,,,,,,true negative,out-of-bed presence
+f093b4ee-bee1-4aae-a016-11707bf50549,2509DSHPUN004011,LEARNING,false,false,false,false,,"outside, industrial",,walk-by,,,,,,,,true negative,empty
+f1649fcd-f54a-4d7a-a9d3-fb8e9fde2358,2509DSHPUN004668,LEARNING,true,false,false,false,,"outside, residential",,,within reach distance,,,,,,,true negative,out-of-bed presence
+f1840bda-618d-4659-870f-1164122acc20,2509DSHPUN002950,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+f1970ca8-bc3e-4ee6-b974-2943a1d5a5ae,2509DSHPUN002876,LEARNING,false,false,false,false,,"outside, street parking",car driveby,,,,,,,,,true negative,empty
+f1edc8ef-0e3b-4673-9a20-deeb162c6a03,2509DSHPUN007171,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+f1fffd9c-6035-4034-bd14-6b9cb5093cc6,2509DSHPUN004747,LEARNING,false,false,false,false,obstructed (partial),,,,,,,,,,,discard,discard
+f216b513-1f6c-4521-9f4c-0134e7868f7c,2509DSHPUN007216,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+f219e4e3-785d-4dcb-9a1a-24ea4e775472,2509DSHPUN002870,LEARNING,false,false,false,false,,"outside, car park",car driveby,,,,,,,,,true negative,empty
+f239f561-8d0e-4f3a-b573-eaacf0647c67,2509DSHPUN007304,LEARNING,false,false,false,false,extreme low light,,,,,,,,,,,discard,discard
+f23be83c-ce93-4fb1-8e81-4c1b040bbddf,2509DSHPUN002876,LEARNING,false,false,false,false,,"outside, street parking",car driveby,,,,,,,,,true negative,empty
+f25f7b32-ca90-4702-8b89-a92a76e066d7,2509DSHPUN002762,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+f3158fd9-6223-41e1-9ed0-42d7a7ed5c73,2509DSHPUN004011,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+f41d4ff2-92aa-412f-b42c-e4e346816bab,2509DSHPUN002950,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+f4454005-27bc-4656-8a41-201bb5ddf12a,2509DSHPUN004586,LEARNING,true,false,false,false,,"inside, residential",,,within reach distance,,,,,,,true negative,out-of-bed presence
+f448c9a5-3f7e-4bfb-b0aa-3238640f56eb,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+f47015a5-4c30-4f0d-a5c9-63ed3c3a214e,2509DSHPUN004971,LEARNING,false,false,false,false,,"outside, residential",,person in cabin,,,,,,,,true negative,empty
+f48bd11c-5ee4-45b8-b627-7326ccc37b17,2509DSHPUN004872,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+f523809d-9313-434f-a9e9-7b0fe538d45f,2509DSHPUN004918,LEARNING,false,false,false,false,,"outside, street parking",,walk-by,,,,,,,,true negative,empty
+f529304d-fb16-4ce2-bdcc-cc29217ebc44,2509DSHPUN004011,LEARNING,false,false,false,false,,"outside, industrial",,,,,,,,,,true negative,empty
+f5986d3f-8609-4cec-a07a-68866560aafa,2509DSHPUN004586,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+f5bdfd60-a1e6-41fe-8a3a-469d1d3ed80a,2509DSHPUN002950,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+f5ef184f-6ae9-4b62-877f-7b973d626ec3,2509DSHPUN004667,LEARNING,false,false,false,false,,"inside, residential",,,,,,,,,,true negative,empty
+f61a6a22-a8fc-4290-8aa0-6f1978957ba4,2509DSHPUN002950,LEARNING,true,false,false,false,,"outside, residential",,,within reach distance,,,,,,,true negative,out-of-bed presence
+f629d696-bfd5-467e-aa73-1a509c4142c1,2509DSHPUN002876,LEARNING,true,false,false,false,,"inside, residential",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+f63ea2c2-86ee-45a9-bb68-9f7063dd5d45,2509DSHPUN007189,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+f66258b2-ed8f-4ce1-aaea-17c5a25b6eab,2509DSHPUN004855,LEARNING,false,false,false,false,,"outside, car park",car driveby,,,,,,,,,true negative,empty
+f6b96a85-068c-46f7-83ca-18c6dd177925,2509DSHPUN004747,LEARNING,false,false,false,false,obstructed (partial),,,,,,,,,,,discard,discard
+f6d04416-2a3c-4f5d-8f2e-069fdfd48fb9,2509DSHPUN004586,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+f6f1b91a-c59b-4f1a-bae0-bf9d9d77b36a,2509DSHPUN002837,LEARNING,false,false,false,false,open sliding window,,,,,,,,,,,discard,discard
+f731a3fc-b35b-4c95-a488-6f2fe95d1cd7,2509DSHPUN004586,LEARNING,true,false,false,false,,"inside, residential",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+f7c47292-5187-4e6e-a5ac-9a284ab8e830,2509DSHPUN004657,LEARNING,true,false,false,false,,"outside, car park",,,within reach distance,,,,,,,true negative,out-of-bed presence
+f7f9199e-4bb6-47b6-8edc-f0e5cfbc18ca,2512DSHPUN000174,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+f82bb357-0211-45cc-b6b8-9ef042f6fb6c,2509DSHPUN007190,LEARNING,false,false,false,false,,"outside, residential",,walk-by,,,,,,,,true negative,empty
+f9b21321-9df2-48a6-bd89-474797207370,2509DSHPUN002762,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+fa049499-6967-4681-afe6-d5508c9655bc,2509DSHPUN004521,LEARNING,false,false,false,false,,"outside, car park",tree in wind,,,,,,,,,true negative,empty
+fa2dc708-a015-4724-853f-9d17d578583c,2509DSHPUN007189,LEARNING,false,false,false,false,,"inside, residential",,,,,,,,,,true negative,empty
+fa57df69-af8b-497e-9421-8a5cfb1700bd,2509DSHPUN002762,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+fa83c88f-fac9-444d-bc07-c08bd7e138d3,2509DSHPUN002811,LEARNING,false,false,false,false,,"outside, residential",,,,,,,,,,true negative,empty
+fa9dc6d2-a04e-4c0b-b8e2-cc4d654a2bf5,2509DSHPUN007190,LEARNING,true,false,false,false,,"outside, residential",,,outside reach distance,,,,,,,true negative,out-of-bed presence
+fb1496c0-dd34-4f40-acc6-b1b583a1ba01,2509DSHPUN007302,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+fbc78459-4d2b-43f2-8cb4-08b1cab9407f,2509DSHPUN004721,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+fbf227f3-12e0-4568-8814-ef810ce04998,2509DSHPUN004521,LEARNING,false,false,false,false,,"outside, car park",tree in wind,,,,,,,,,true negative,empty
+fc09cc91-2417-4212-ac8c-08738377f462,2509DSHPUN002827,LEARNING,false,false,false,false,,"outside, car park",,person in cabin,,,,,,,,true negative,empty
+fc6b3a63-5b41-4df6-ab6c-cadc12b401d8,2509DSHPUN007171,LEARNING,false,false,false,false,,"outside, car park",,,,,,,,,,true negative,empty
+fcd7a000-3e6f-46ac-a6b2-9fa64d988cd2,2509DSHPUN004972,LEARNING,false,false,false,false,incorrectly mounted,,,,,,,,,,,discard,discard
+fce44791-cc85-4bfe-89d0-b502a0e973da,2509DSHPUN004668,LEARNING,true,false,false,false,,"outside, residential",,,within reach distance,,,,,,,true negative,out-of-bed presence
+fd30e55f-e9ef-487f-bd81-379751f98a21,2509DSHPUN002827,LEARNING,false,false,false,false,,"outside, residential",raining,,,,,,,,,true negative,empty
+fd33e5f9-f4de-457b-b1b0-bb87c32e83b1,2509DSHPUN004721,LEARNING,false,false,false,false,,"inside, residential",garage door opening / closing,,,,,,,,,true negative,empty
+fe67e097-db50-474b-8736-2c52fe613161,2509DSHPUN002950,LEARNING,false,false,false,false,,"outside, car park",car driveby,,,,,,,,,true negative,empty
+ffb5e694-1cfd-4174-ba98-79e5f2893ebe,2509DSHPUN002787,LEARNING,false,false,false,false,,"outside, car park",,walk-by,,,,,,,,true negative,empty
+fff61072-568f-41d5-8ecd-c7c7d0acbc27,2509DSHPUN007171,LEARNING,true,false,false,false,,"outside, car park",,,outside reach distance,,,,,,,true negative,out-of-bed presence
