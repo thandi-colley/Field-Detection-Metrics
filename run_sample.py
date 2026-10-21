@@ -85,7 +85,7 @@ def main():
     parser = argparse.ArgumentParser(description="Sample intrusion events for monthly FPR analysis")
     parser.add_argument("--year", type=int, required=True, help="Year (e.g. 2026)")
     parser.add_argument("--month", type=int, required=True, help="Month number (1–12)")
-    parser.add_argument("--start-day", type=int, default=None, help="First day of range (default: 1)")
+    parser.add_argument("--start-day", type=int, default=None, help="First day of range (default: last 28 days of month)")
     parser.add_argument("--end-day", type=int, default=None, help="Last day of range inclusive (default: last day of month)")
     parser.add_argument("--sample-size", type=int, default=1000, help="Target sample size (default: 1000)")
     parser.add_argument("--dataset", default="prod_intrusion_event_datalake_anonymized",
@@ -102,8 +102,8 @@ def main():
     args = parser.parse_args()
 
     last_day_of_month = calendar.monthrange(args.year, args.month)[1]
-    start_day = args.start_day if args.start_day is not None else 1
     end_day = args.end_day if args.end_day is not None else last_day_of_month
+    start_day = args.start_day if args.start_day is not None else max(1, end_day - 27)
 
     start_time = dt.datetime(args.year, args.month, start_day)
     end_time = dt.datetime(args.year, args.month, end_day) + dt.timedelta(days=1)  # exclusive upper bound

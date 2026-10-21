@@ -48,16 +48,17 @@ SECURITY EVENT
 
       - EMPTY
         (no person in image)
-      
+
       - OUT-OF-BED PRESENCE
-        (person in image, but not in truck bed)
+        (person in image, NOT visible in zone, NOT intruding)
 
         - INTERACTING WITH VEHICLE
         - WITHIN REACH DISTANCE
         - OUTSIDE REACH DISTANCE
 
       - NON-VISIBLE INTRUSION
-        (person obstructed)
+        (person obstructed; NOT visible in zone, IS intruding per observer)
+        (stays TN: CV has no visible signal, so non-detection is in scope)
 
         - BY TONNEAU COVER
         - BY BED CONTENTS
@@ -66,7 +67,15 @@ SECURITY EVENT
       (person visible but not detected)
 
       - MISSED DETECTION
+        (person visible in zone AND intruding, but not detected)
 
         - SMALL OVERLAP
         – LOW LIGHT
         – OTHER
+
+      - OUT-OF-BED PRESENCE
+        (person visible in zone, NOT intruding, and not detected)
+
+        - INTERACTING WITH VEHICLE
+        - WITHIN REACH DISTANCE
+        - OUTSIDE REACH DISTANCE

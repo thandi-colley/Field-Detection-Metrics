@@ -15,6 +15,7 @@ import argparse
 import csv
 import os
 import time
+from concurrent.futures import ThreadPoolExecutor, TimeoutError as FuturesTimeoutError, as_completed
 from pathlib import Path
 
 # Load credentials from .env BEFORE importing fiftyone
@@ -142,6 +143,36 @@ def main():
             "proxy round-trips (one per field when chunk covers all samples)."
         ),
     )
+    parser.add_argument(
+        "--workers",
+        type=int,
+        default=4,
+        help=(
+            "Number of fields to write concurrently via parallel proxy calls "
+            "(default: 4). Higher values reduce wall-clock time proportionally "
+            "as long as the Teams API can handle concurrent writes."
+        ),
+    )
+    parser.add_argument(
+        "--settle-seconds",
+        type=int,
+        default=30,
+        help=(
+            "Seconds to sleep after `add_samples` before writing annotation "
+            "fields (default: 30). Only applied when new samples were added. "
+            "Avoids hanging proxy writes on freshly inserted docs."
+        ),
+    )
+    parser.add_argument(
+        "--field-timeout",
+        type=int,
+        default=120,
+        help=(
+            "Wall-clock seconds to wait for a single field write to complete "
+            "(default: 120). Hung fields are abandoned and reported at the end "
+            "so you can retry them with --update-existing."
+        ),
+    )
     args = parser.parse_args()
     csv_files = resolve_csv_paths(args.csv_files)
 
@@ -190,10 +221,27 @@ def main():
     print(f"\n{len(new_ids)} new samples to add, {len(found_ids & existing_ids)} already present")
 
     if new_ids:
-        new_view = source.match(F("event_id").is_in(list(new_ids)))
-        new_samples = [s.copy() for s in new_view.iter_samples(progress=True)]
-        target.add_samples(new_samples, expand_schema=True)
-        print(f"Added {len(new_samples)} new samples into '{TARGET_DATASET}'")
+        # Copy image + video slices in bulk so the Teams UI can render both.
+        # `add_collection` preserves source group.id, which links image + video
+        # into the same group in target. Video may be absent for older events.
+        source.group_slice = "image"
+        img_view = source.select_group_slices("image").match(F("event_id").is_in(list(new_ids)))
+        vid_view = source.select_group_slices("video").match(F("event_id").is_in(list(new_ids)))
+        n_img = img_view.count()
+        n_vid = vid_view.count()
+
+        target.group_slice = "image"
+        target.add_collection(img_view, new_ids=True)
+        target.group_slice = "video"
+        target.add_collection(vid_view, new_ids=True)
+        print(
+            f"Added {n_img} image + {n_vid} video slice sample(s) into '{TARGET_DATASET}'"
+        )
+        # Freshly-inserted docs need time to settle before parallel set_values,
+        # otherwise the Teams proxy hangs (connections drop to CLOSE_WAIT).
+        if args.settle_seconds > 0:
+            print(f"Waiting {args.settle_seconds}s for new samples to settle...")
+            time.sleep(args.settle_seconds)
 
     # ── Step 5: Write annotation fields (set_values per field) ───────────────
     # Each set_values call is one proxy round-trip. With chunk_size >= total,
@@ -205,6 +253,8 @@ def main():
         label = "all found" if args.update_existing else "newly added"
         print(f"\nWriting annotation fields on {len(ids_to_annotate)} {label} samples...")
 
+        # Annotations describe the image; only write to the image slice.
+        target.group_slice = "image"
         annotation_view = target.match(F("event_id").is_in(list(ids_to_annotate)))
         field_schema = target.get_field_schema()
 
@@ -228,29 +278,80 @@ def main():
             f"  {total} samples, chunk_size={chunk_size} → "
             f"{len(all_fields)} fields × {n_chunks} chunk(s) = {len(all_fields) * n_chunks} proxy call(s)"
         )
+        n_workers = max(1, args.workers)
         t_start = time.monotonic()
+        print(f"  Writing {len(all_fields)} fields with {n_workers} parallel worker(s)...")
+        lock = __import__("threading").Lock()
+        completed: list[str] = []
 
-        for i, field in enumerate(all_fields, 1):
-            field_start = time.monotonic()
+        def write_field(field: str, field_index: int) -> str:
             for chunk_start in range(0, total, chunk_size):
                 chunk_ids = ordered_event_ids[chunk_start:chunk_start + chunk_size]
                 chunk_values = {eid: field_values[field][eid] for eid in chunk_ids}
                 chunk_view = target.match(F("event_id").is_in(chunk_ids))
-
-                t0 = time.monotonic()
                 chunk_view.set_values(field, chunk_values, key_field="event_id")
-                dt = time.monotonic() - t0
+            return field
 
-                done = min(chunk_start + chunk_size, total)
-                rate = done / max(1e-6, time.monotonic() - field_start)
-                eta = (total - done) / rate if rate > 0 else float("inf")
-                print(
-                    f"  [{i}/{len(all_fields)}] '{field}' {done}/{total}  "
-                    f"(chunk {dt:.1f}s, ETA {eta:.0f}s)",
-                    flush=True,
-                )
+        failed: list[str] = []
+        field_timeout = max(1, args.field_timeout)
+        # Wall-clock budget covers the pipelined batch: with n_workers writing
+        # concurrently, N_fields split into ceil(N/workers) rounds, each round
+        # capped at field_timeout. Prevents as_completed() blocking forever if
+        # every future is hung.
+        rounds = (len(all_fields) + n_workers - 1) // n_workers
+        wall_budget = field_timeout * rounds
+        executor = ThreadPoolExecutor(max_workers=n_workers)
+        try:
+            futures = {
+                executor.submit(write_field, field, i): (i, field)
+                for i, field in enumerate(all_fields, 1)
+            }
+            try:
+                for future in as_completed(futures, timeout=wall_budget):
+                    i, field = futures[future]
+                    try:
+                        future.result(timeout=field_timeout)
+                        with lock:
+                            completed.append(field)
+                            elapsed = time.monotonic() - t_start
+                            print(
+                                f"  [{len(completed)}/{len(all_fields)}] '{field}' done "
+                                f"({elapsed:.0f}s elapsed)",
+                                flush=True,
+                            )
+                    except FuturesTimeoutError:
+                        with lock:
+                            failed.append(field)
+                            print(
+                                f"  TIMEOUT writing '{field}' after {field_timeout}s "
+                                "— will retry via --update-existing",
+                                flush=True,
+                            )
+                    except Exception as exc:
+                        with lock:
+                            failed.append(field)
+                            print(f"  ERROR writing '{field}': {exc}", flush=True)
+            except FuturesTimeoutError:
+                # Whole batch exceeded wall_budget — mark any un-finished field as failed.
+                for future, (i, field) in futures.items():
+                    if not future.done():
+                        with lock:
+                            failed.append(field)
+                            print(
+                                f"  TIMEOUT: '{field}' never completed within "
+                                f"wall budget ({wall_budget}s) — will retry via --update-existing",
+                                flush=True,
+                            )
+        finally:
+            # Don't wait for hung futures on shutdown — they may never return.
+            executor.shutdown(wait=False, cancel_futures=True)
 
         print(f"  Done. {total} samples annotated in {time.monotonic() - t_start:.0f}s")
+        if failed:
+            print(f"\n  {len(failed)} field(s) failed/timed out: {failed}")
+            print("  Retry with:")
+            csv_flags = " ".join(f"--csv {p}" for p in args.csv_files)
+            print(f"    python3 {Path(__file__).name} {csv_flags} --update-existing")
 
     # ── Summary ───────────────────────────────────────────────────────────────
     print(f"\n{'─' * 50}")

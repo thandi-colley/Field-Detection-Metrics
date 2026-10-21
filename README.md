@@ -44,6 +44,7 @@ The intended operating flow is:
    .venv312/bin/python run_sample.py --year 2026 --month 4 --event-type INTRUSION
    .venv312/bin/python run_sample.py --year 2026 --month 4 --event-type LEARNING
    ```
+  By default, sampling covers the final 28 days of the specified month. Use `--start-day` and `--end-day` to override the range.
 2. Classify them in the classification interface (see [Classification interface](#classification-interface))
 3. (Optional) Add `serial_number` to the CSV via `add_serial_numbers.py` (see [Annotation Import Workflow](#annotation-import-workflow))
 4. Import the resulting CSV annotations with `import_annotations_to_fieldevents01.py`

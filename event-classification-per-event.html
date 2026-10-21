@@ -169,6 +169,23 @@
 <div id="eventNavigator" class="hidden" style="margin: 15px 0;">
   <button id="prevEventBtn">Previous Event</button>
   <button id="nextEventBtn">Next Event</button>
+
+  <details id="shiftPanel" style="margin-top: 12px; border: 1px solid #ccc; border-radius: 4px; padding: 8px;">
+    <summary style="cursor: pointer; font-weight: bold;">Fix offset (bulk shift annotations)</summary>
+    <p style="font-size: 13px; margin: 8px 0;">
+      Navigate to the first event where the annotations went wrong, then shift it and every annotated event after it.<br />
+      Branch event: <strong id="shiftBranchLabel"></strong>
+    </p>
+    <label style="margin-top: 0; font-weight: normal;">
+      Through event #
+      <input type="number" id="shiftEndInput" min="1" style="width: 90px;" placeholder="last annotated" />
+    </label>
+    <div style="margin-top: 8px;">
+      <button id="shiftPrevBtn">Annotations belong to PREVIOUS event id</button>
+      <button id="shiftNextBtn">Annotations belong to NEXT event id</button>
+      <button id="shiftUndoBtn" disabled>Undo last shift</button>
+    </div>
+  </details>
 </div>
 
 <button id="exportCsvBtn" style="margin-top: 10px;">Export CSV</button>
@@ -231,7 +248,7 @@ const conditionalDropdowns = {
     'intruding_from': ['open tailgate', 'over bed wall', 'already inside']
   },
   'person_visible_in_zone==false && person_intruding==true': {
-    'person_obstructed_by': ['tonneau cover', 'bed contents']
+    'person_obstructed_by': ['tonneau cover', 'bed contents', 'low light']
   },
   'person_in_bbox==false': {
     'fp_cause': [ 'non-human object', 'windscreen: raindrops', 'windscreen: soap', 
@@ -816,6 +833,79 @@ function renderForm() {
   const nextBtn = document.getElementById('nextEventBtn');
   nextBtn.disabled = !validateRequiredFields();
 
+  document.getElementById('shiftBranchLabel').textContent = `${currentIndex + 1} of ${eventIds.length} (${id})`;
+}
+
+let shiftUndoSnapshot = null;
+
+function isClassified(id) {
+  const d = eventData[id];
+  return !!(d && (d.environment || d.discard_criteria));
+}
+
+function setOrDelete(id, value) {
+  if (value === undefined) delete eventData[id];
+  else eventData[id] = value;
+}
+
+// direction -1: annotations belong to the previous event id; +1: the next event id.
+function shiftAnnotations(direction) {
+  const start = currentIndex;
+  const input = document.getElementById('shiftEndInput').value.trim();
+  let end;
+  if (input === '') {
+    end = -1;
+    for (let i = eventIds.length - 1; i >= 0; i--) {
+      if (isClassified(eventIds[i])) { end = i; break; }
+    }
+  } else {
+    end = parseInt(input, 10) - 1;
+  }
+
+  if (!Number.isInteger(end) || end < start || end >= eventIds.length) {
+    alert(`"Through event #" must be between ${start + 1} and ${eventIds.length}.`);
+    return;
+  }
+  if (direction < 0 && start === 0) {
+    alert('There is no previous event to shift onto.');
+    return;
+  }
+  if (direction > 0 && end === eventIds.length - 1) {
+    alert('The last annotation would fall off the end of the list. Lower "Through event #".');
+    return;
+  }
+
+  const overwrittenId = direction < 0 ? eventIds[start - 1] : eventIds[end + 1];
+  const clearedId = direction < 0 ? eventIds[end] : eventIds[start];
+  const count = end - start + 1;
+  const dirText = direction < 0 ? 'PREVIOUS' : 'NEXT';
+  let msg = `Shift annotations for events ${start + 1}-${end + 1} (${count}) onto the ${dirText} event id?\n\n` +
+        `Event ${eventIds.indexOf(clearedId) + 1} will be left blank.`;
+  if (isClassified(overwrittenId)) {
+    msg += `\nEvent ${eventIds.indexOf(overwrittenId) + 1} already has an annotation and will be overwritten.`;
+  }
+  msg += '\n\nYou can undo this once.';
+  if (!confirm(msg)) return;
+
+  shiftUndoSnapshot = JSON.stringify(eventData);
+  const src = eventIds.slice(start, end + 1).map(id => eventData[id]);
+  const offset = direction < 0 ? start - 1 : start + 1;
+  src.forEach((value, k) => setOrDelete(eventIds[offset + k], value));
+  delete eventData[clearedId];
+
+  document.getElementById('shiftUndoBtn').disabled = false;
+  document.getElementById('shiftEndInput').value = '';
+  saveToLocalStorage();
+  renderForm();
+}
+
+function undoShift() {
+  if (!shiftUndoSnapshot) return;
+  eventData = JSON.parse(shiftUndoSnapshot);
+  shiftUndoSnapshot = null;
+  document.getElementById('shiftUndoBtn').disabled = true;
+  saveToLocalStorage();
+  renderForm();
 }
 
 document.getElementById('loadEventsBtn').onclick = () => {
@@ -866,6 +956,10 @@ document.getElementById('nextEventBtn').onclick = () => {
     updateInferredDisplay();
   }
 };
+
+document.getElementById('shiftPrevBtn').onclick = () => shiftAnnotations(-1);
+document.getElementById('shiftNextBtn').onclick = () => shiftAnnotations(1);
+document.getElementById('shiftUndoBtn').onclick = undoShift;
 
 document.getElementById('exportCsvBtn').onclick = exportCsv;
 
